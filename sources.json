@@ -2,7 +2,18 @@
   {"name":"Heidelberg Marketing","url":"https://visit.heidelberg.de/veranstaltungen","city":"heidelberg"},
   {"name":"Heidelberg official event calendar","url":"https://www.heidelberg.de/HD/Leben/veranstaltungskalender.html","city":"heidelberg","kind":"heidelberg-calendar"},
   {"name":"Rausgegangen Heidelberg","url":"https://rausgegangen.de/heidelberg/","city":"heidelberg"},
+  {"name":"Rausgegangen Mannheim","url":"https://rausgegangen.de/mannheim/","city":"mannheim"},
+  {"name":"Karlstorkino Heidelberg","url":"https://www.karlstorkino.de/","city":"heidelberg","kind":"karlstorkino"},
+  {"name":"Gloria, Gloriette & Kamera Heidelberg","url":"https://www.gloria-kamera-kinos.de/de/programm","city":"heidelberg"},
+  {"name":"Luxor Filmpalast Heidelberg","url":"https://heidelberg.luxor-kino.de/","city":"heidelberg"},
   {"name":"Mannheim.de","url":"https://www.mannheim.de/de/veranstaltungen","city":"mannheim"},
+  {"name":"Cineplex Mannheim","url":"https://www.cineplex.de/mannheim/programm","city":"mannheim"},
+  {"name":"Atlantis & Odeon Mannheim","url":"https://www.atlantis-kino.de/programm","city":"mannheim"},
+  {"name":"Cinema Quadrat Mannheim","url":"https://cinema-quadrat.de/","city":"mannheim"},
+  {"name":"Café Colibri Mannheim","url":"https://www.mannheim.de/de/bildung-staerken/stadtbibliothek/colibri-das-interkulturelle-angebot","city":"mannheim"},
+  {"name":"DAI Heidelberg conversation clubs","url":"https://dai-heidelberg.de/en/language-school/lifelong-learners/conversation-clubs-de-en-es-it/","city":"heidelberg"},
+  {"name":"Studierendenwerk Heidelberg language café","url":"https://www.stw.uni-heidelberg.de/veranstaltung/international-language-cafe/","city":"heidelberg"},
+  {"name":"Café Tostado Heidelberg","url":"https://www.mgh-heidelberg.de/veranstaltungen/regemaesige-veranstaltungen/cafe-tostado/","city":"heidelberg"},
   {"name":"Rosengarten Mannheim","url":"https://www.rosengarten-mannheim.de/veranstaltungen","city":"mannheim"},
   {"name":"Maimarktgelände Mannheim","url":"https://www.maimarktgelaende-mannheim.de/fuer-besucher/veranstaltungen","city":"mannheim"}
 ]

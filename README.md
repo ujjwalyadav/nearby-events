@@ -25,6 +25,12 @@ The refresh script preserves reviewed listings and uses optional, authorised int
 
 Add those as GitHub Actions secrets to enable them. Official city/venue source URLs live in `sources.json`. Heidelberg's main Veranstaltungskalender has a public JSON endpoint; the refresh job directly queries that endpoint with the current 60-day date range and paginates through the results. Other sites are collected through public JSON-LD Event entries. Each imported item keeps its source URL.
 
+## Cinema and recurring events
+
+`Film` is a dedicated category. Karlstorkino's programme is imported directly; the programme pages for Gloria/Gloriette/Kamera, Luxor, Cineplex Mannheim, Atlantis/Odeon, and Cinema Quadrat are also tracked for public structured screening and special-event listings. Cinema programmes are normally published only about one week ahead, so the app cannot responsibly promise ordinary screening times two months in advance. Karlstorkino entries use a clearly labelled estimated two-hour end only to make overlap hints useful.
+
+Recurring language/community sources include DAI Heidelberg Conversation Clubs, Studierendenwerk Heidelberg's International Language Café, Café Tostado, and Mannheim library's Café Colibri. The app expands a listed recurrence into each date in the active two-month window and keeps the organiser link on every card.
+
 ## Important scope
 
 No aggregator can promise *every* local event: organisers can update, cancel, or omit events, and Instagram does not offer a public general-event search. The UI therefore says "listings" rather than claiming complete coverage, always exposes source links, and marks recurring dates that still require confirmation.

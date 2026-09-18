@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-09-18T13:21:17.912Z",
+  "generatedAt": "2026-09-18T13:43:12.559Z",
   "window": {
-    "start": "2026-09-18",
-    "end": "2026-11-17"
+    "start": "2026-09-17",
+    "end": "2026-11-16"
   },
   "events": [
     {
@@ -123,6 +123,20 @@
       "source": "http://www.natuerlich.heidelberg.de/",
       "sourceName": "Heidelberg official event calendar",
       "officialEventId": "28586737"
+    },
+    {
+      "id": "recurring-ma-colibri-advanced",
+      "title": "Café Colibri für Fortgeschrittene",
+      "city": "mannheim",
+      "category": "community",
+      "start": "2026-09-18T14:00",
+      "end": "2026-09-18T15:00",
+      "venue": "Zentralbibliothek, Stadthaus N 1 · 1. OG",
+      "description": "Free German conversation café for B1 level and above.",
+      "source": "https://www.mannheim.de/de/bildung-staerken/stadtbibliothek/colibri-das-interkulturelle-angebot",
+      "sourceName": "Mannheim City Library",
+      "recurrence": "Every Friday · 14:00–15:00",
+      "recurrenceRule": "FREQ=WEEKLY;BYDAY=FR"
     },
     {
       "id": "heidelberg-29785905",
@@ -985,6 +999,35 @@
       "recurrenceRule": "FREQ=WEEKLY;BYDAY=TU"
     },
     {
+      "id": "recurring-hd-dai-english-grammar",
+      "title": "DAI English Conversation / Grammar",
+      "city": "heidelberg",
+      "category": "community",
+      "start": "2026-09-22T17:00",
+      "end": "2026-09-22T18:00",
+      "venue": "Deutsch-Amerikanisches Institut Heidelberg",
+      "description": "Instructor-led English conversation and grammar club. Paid course; late entry is possible according to the DAI.",
+      "source": "https://dai-heidelberg.de/en/language-school/lifelong-learners/conversation-clubs-de-en-es-it/",
+      "sourceName": "DAI Heidelberg",
+      "recurrence": "Tuesdays · 17:00–18:00 · through 15 Dec",
+      "recurrenceRule": "FREQ=WEEKLY;BYDAY=TU",
+      "recurrenceUntil": "2026-12-15"
+    },
+    {
+      "id": "recurring-ma-colibri-online",
+      "title": "Café Colibri online",
+      "city": "mannheim",
+      "category": "community",
+      "start": "2026-09-22T18:00",
+      "end": "2026-09-22T19:00",
+      "venue": "Online · registration required",
+      "description": "Free online German conversation café. Register with Mannheim City Library for the access link.",
+      "source": "https://www.mannheim.de/de/bildung-staerken/stadtbibliothek/colibri-das-interkulturelle-angebot/cafe-colibri-online",
+      "sourceName": "Mannheim City Library",
+      "recurrence": "Every Tuesday · 18:00–19:00",
+      "recurrenceRule": "FREQ=WEEKLY;BYDAY=TU"
+    },
+    {
       "id": "heidelberg-30867907",
       "title": "Es war einmal in Heidelberg | KINOLEBEN – Über das Tübinger Arsenal und andere Programmkinos",
       "city": "heidelberg",
@@ -1246,6 +1289,20 @@
       "officialEventId": "30614700"
     },
     {
+      "id": "recurring-ma-colibri-central",
+      "title": "Café Colibri — Deutsch sprechen",
+      "city": "mannheim",
+      "category": "community",
+      "start": "2026-09-24T17:00",
+      "end": "2026-09-24T18:00",
+      "venue": "Zentralbibliothek, Stadthaus N 1 · 1. OG",
+      "description": "Free, no-registration German conversation café for people from different cultural backgrounds.",
+      "source": "https://www.mannheim.de/de/bildung-staerken/stadtbibliothek/colibri-das-interkulturelle-angebot/cafe-colibri-das-sprachcafe-der-stadtbibliothek-mannheim",
+      "sourceName": "Mannheim City Library",
+      "recurrence": "Every Thursday · 17:00–18:00",
+      "recurrenceRule": "FREQ=WEEKLY;BYDAY=TH"
+    },
+    {
       "id": "heidelberg-30789215",
       "title": "Everytime",
       "city": "heidelberg",
@@ -1399,6 +1456,21 @@
       "source": "http://www.hdkv.de",
       "sourceName": "Heidelberg official event calendar",
       "officialEventId": "30889364"
+    },
+    {
+      "id": "recurring-hd-dai-english-conversation",
+      "title": "DAI English Conversation",
+      "city": "heidelberg",
+      "category": "community",
+      "start": "2026-09-25T12:45",
+      "end": "2026-09-25T14:15",
+      "venue": "Deutsch-Amerikanisches Institut Heidelberg",
+      "description": "Instructor-led English conversation club. Paid course; late entry is possible according to the DAI.",
+      "source": "https://dai-heidelberg.de/en/language-school/lifelong-learners/conversation-clubs-de-en-es-it/",
+      "sourceName": "DAI Heidelberg",
+      "recurrence": "Fridays · 12:45–14:15 · through 18 Dec",
+      "recurrenceRule": "FREQ=WEEKLY;BYDAY=FR",
+      "recurrenceUntil": "2026-12-18"
     },
     {
       "id": "heidelberg-28631987",

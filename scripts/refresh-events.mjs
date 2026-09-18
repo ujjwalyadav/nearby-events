@@ -12,7 +12,7 @@ const end = new Date(start); end.setDate(end.getDate() + 60);
 const toLocal = value => new Date(value).toISOString().slice(0,16);
 const slug = value => value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 const cityFor = (text, fallback) => /mannheim/i.test(text) ? 'mannheim' : /heidelberg/i.test(text) ? 'heidelberg' : fallback;
-const categoryFor = text => /concert|music|jazz|musik/i.test(text) ? 'music' : /food|wein|wine|market/i.test(text) ? 'food' : /walk|nature|wander|outdoor/i.test(text) ? 'outdoors' : /theater|theatre|museum|film|art|ausstellung/i.test(text) ? 'culture' : 'community';
+const categoryFor = text => /concert|music|jazz|musik/i.test(text) ? 'music' : /kino|cinema|film|movie|screening|vorf[uü]hrung/i.test(text) ? 'film' : /food|wein|wine|market/i.test(text) ? 'food' : /walk|nature|wander|outdoor/i.test(text) ? 'outdoors' : /theater|theatre|museum|art|ausstellung/i.test(text) ? 'culture' : 'community';
 const stripHtml = value => (value || '').replace(/<[^>]*>/g,'').replace(/\s+/g,' ').trim();
 function flattenLd(value){
   if(Array.isArray(value)) return value.flatMap(flattenLd);
@@ -57,6 +57,20 @@ async function collectHeidelbergCalendar(source){
   }
   return found;
 }
+async function collectKarlstorkino(source){
+  const response=await fetch(source.url,{headers:{'user-agent':'Rheinplan weekly event collector/1.0 (+calendar source link)'}});
+  if(!response.ok) throw new Error(`${response.status} Karlstorkino`);
+  const html=await response.text(), found=[], currentYear=start.getFullYear();
+  const pattern=/(?:Mo|Di|Mi|Do|Fr|Sa|So)\.?\s*(\d{1,2})\.(\d{1,2})\.?\s*\/?\s*(\d{1,2}:\d{2})\s*Uhr\s*\/([\s\S]*?)(?=(?:Mo|Di|Mi|Do|Fr|Sa|So)\.?\s*\d{1,2}\.\d{1,2}\.?\s*\/|$)/gi;
+  for(const match of html.matchAll(pattern)){
+    let year=currentYear, date=new Date(year,Number(match[2])-1,Number(match[1]),12); if(date<new Date(start.getFullYear(),start.getMonth()-1,1)) { year++; date=new Date(year,Number(match[2])-1,Number(match[1]),12); }
+    const links=[...match[4].matchAll(/<a[^>]+href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)].map(link=>({url:link[1],title:stripHtml(link[2])})).filter(link=>link.title && !/^\[\]$/.test(link.title));
+    const listing=links.at(-1), day=date.toISOString().slice(0,10), title=listing?.title; if(!title || date<start || date>end) continue;
+    const [hour,minute]=match[3].split(':').map(Number), begins=new Date(`${day}T${String(hour).padStart(2,'0')}:${String(minute).padStart(2,'0')}`), ends=new Date(+begins+120*60*1000);
+    found.push({id:`karlstorkino-${day}-${String(hour).padStart(2,'0')}${String(minute).padStart(2,'0')}-${slug(title)}`,title,city:'heidelberg',category:'film',start:toLocal(begins),end:toLocal(ends),approximateEnd:true,venue:'Karlstorkino (Südstadt)',description:'Film screening from the Karlstorkino programme. The programme publishes the start time but not a common end time; the end shown here is an approximate two hours for overlap planning.',source:new URL(listing.url,source.url).href,sourceName:source.name});
+  }
+  return found;
+}
 async function collectJsonLd(source){
   const response = await fetch(source.url, {headers:{'user-agent':'Rheinplan weekly event collector/1.0 (+calendar source link)'}});
   if(!response.ok) throw new Error(`${response.status} ${source.url}`);
@@ -79,8 +93,8 @@ async function collectTicketmaster(){
     }
   } return found;
 }
-const structuredSources=sources.filter(source=>source.kind!=='heidelberg-calendar');
-const settled = await Promise.allSettled([...structuredSources.map(collectJsonLd), ...sources.filter(source=>source.kind==='heidelberg-calendar').map(collectHeidelbergCalendar)]);
+const structuredSources=sources.filter(source=>!['heidelberg-calendar','karlstorkino'].includes(source.kind));
+const settled = await Promise.allSettled([...structuredSources.map(collectJsonLd), ...sources.filter(source=>source.kind==='heidelberg-calendar').map(collectHeidelbergCalendar), ...sources.filter(source=>source.kind==='karlstorkino').map(collectKarlstorkino)]);
 for(const result of settled) if(result.status==='rejected') console.warn(`Source skipped: ${result.reason.message}`);
 const publicEvents = settled.flatMap(result => result.status==='fulfilled' ? result.value : []);
 const imported = [...publicEvents, ...(await collectTicketmaster())];
