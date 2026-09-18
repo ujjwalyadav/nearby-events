@@ -6,6 +6,14 @@ A lightweight, source-aware two-month event calendar for Heidelberg and Mannheim
 
 Open `index.html` through a static web server (for example VS Code Live Server). The app fetches `events.json` and needs HTTP rather than opening the file directly in some browsers.
 
+## Publish with GitHub Pages
+
+1. Push this folder to the repository's `main` branch.
+2. In GitHub, open **Settings → Pages** and set **Source** to **GitHub Actions**.
+3. Open **Actions → Deploy Rheinplan → Run workflow**. The completed job shows the public site URL.
+
+The deploy workflow runs on every `main` push. The weekly refresh workflow also deploys immediately after updating `events.json`, so scheduled listings become visible without a separate manual deployment.
+
 ## Weekly refresh
 
 The GitHub workflow in `.github/workflows/weekly-refresh.yml` runs each Monday at 08:15 Europe/Berlin time (06:15 UTC during CEST). It calls `scripts/refresh-events.mjs`, updates `events.json`, and commits only if the data changed.
