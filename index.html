@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#10221e" />
+    <title>Rheinplan — Heidelberg & Mannheim events</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grain"></div>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Rheinplan home"><span class="brand-mark">R</span><span>rheinplan</span></a>
+      <div class="header-meta"><span class="live-dot"></span><span id="refresh-label">Weekly refresh ready</span></div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <p class="eyebrow">Rhein-neckar culture, in one clear view</p>
+        <h1>Make room for<br /><em>good plans.</em></h1>
+        <p class="intro">A two-month event calendar for Heidelberg and Mannheim. See overlaps before you commit, then choose the night that feels right.</p>
+      </section>
+
+      <section class="controls" aria-label="Calendar controls">
+        <div class="city-switch" role="group" aria-label="Choose a city view">
+          <button class="city-button active" data-city="both">Together <span>HD + MA</span></button>
+          <button class="city-button" data-city="heidelberg">Heidelberg</button>
+          <button class="city-button" data-city="mannheim">Mannheim</button>
+        </div>
+        <div class="view-switch" role="group" aria-label="Choose a calendar view">
+          <button class="icon-button active" data-view="calendar" aria-label="Calendar view">▦</button>
+          <button class="icon-button" data-view="agenda" aria-label="Agenda view">☷</button>
+        </div>
+      </section>
+
+      <section class="utility-row">
+        <div class="filter-wrap">
+          <button class="filter-button active" data-category="all">Everything</button>
+          <button class="filter-button" data-category="music">Music</button>
+          <button class="filter-button" data-category="culture">Culture</button>
+          <button class="filter-button" data-category="food">Food & drink</button>
+          <button class="filter-button" data-category="outdoors">Outdoors</button>
+          <button class="filter-button" data-category="community">Community</button>
+        </div>
+        <label class="search"><span>⌕</span><input id="search-input" type="search" placeholder="Search events" /></label>
+      </section>
+
+      <section class="calendar-layout">
+        <div class="calendar-panel">
+          <div class="calendar-head">
+            <div><p class="eyebrow">The next 60 days</p><h2 id="month-title">September — November 2026</h2></div>
+            <p id="event-count" class="event-count"></p>
+          </div>
+          <div id="calendar-view" class="calendar-view"></div>
+          <div id="agenda-view" class="agenda-view hidden"></div>
+        </div>
+        <aside class="side-panel">
+          <div class="side-section">
+            <div class="side-heading"><p class="eyebrow">Same time, same choice</p><span id="conflict-count" class="count-badge">0</span></div>
+            <p class="small-copy">Events that overlap in time, so choosing is effortless.</p>
+            <div id="conflict-list" class="conflict-list"></div>
+          </div>
+          <div class="side-section recurring-section">
+            <div class="side-heading"><p class="eyebrow">On repeat</p><span>↻</span></div>
+            <div id="recurring-list" class="recurring-list"></div>
+          </div>
+          <div class="source-note">
+            <span class="live-dot"></span>
+            <p><strong>Source-aware.</strong> Every listing links back to the organiser. Reviewed and refreshed weekly.</p>
+          </div>
+        </aside>
+      </section>
+
+      <section class="footer-note">
+        <p>Results are collected from official city and venue calendars. Social listings are included only where a public, authorised feed is connected.</p>
+        <button id="sources-button">About sources & refresh</button>
+      </section>
+    </main>
+
+    <dialog id="event-dialog" class="event-dialog">
+      <button class="dialog-close" aria-label="Close">×</button>
+      <div id="dialog-content"></div>
+    </dialog>
+    <dialog id="sources-dialog" class="event-dialog sources-dialog">
+      <button class="dialog-close" aria-label="Close">×</button>
+      <p class="eyebrow">How Rheinplan stays useful</p>
+      <h2>Small print, clearly said.</h2>
+      <p>This calendar starts with organiser-published listings. A scheduled weekly job checks the configured official pages, accepts Ticketmaster results when an API key is set, and can ingest Instagram events through the account owner’s approved Meta access token.</p>
+      <p>It never claims completeness: event sites change, and Instagram does not permit reliable public scraping. Each card keeps its source link so you can confirm details before heading out.</p>
+      <a class="source-link" href="README.md">See the setup guide →</a>
+    </dialog>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>

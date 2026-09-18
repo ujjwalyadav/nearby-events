@@ -1,0 +1,8 @@
+[
+  {"name":"Heidelberg Marketing","url":"https://visit.heidelberg.de/veranstaltungen","city":"heidelberg"},
+  {"name":"Heidelberg official event calendar","url":"https://www.heidelberg.de/HD/Leben/veranstaltungskalender.html","city":"heidelberg","kind":"heidelberg-calendar"},
+  {"name":"Rausgegangen Heidelberg","url":"https://rausgegangen.de/heidelberg/","city":"heidelberg"},
+  {"name":"Mannheim.de","url":"https://www.mannheim.de/de/veranstaltungen","city":"mannheim"},
+  {"name":"Rosengarten Mannheim","url":"https://www.rosengarten-mannheim.de/veranstaltungen","city":"mannheim"},
+  {"name":"Maimarktgelände Mannheim","url":"https://www.maimarktgelaende-mannheim.de/fuer-besucher/veranstaltungen","city":"mannheim"}
+]

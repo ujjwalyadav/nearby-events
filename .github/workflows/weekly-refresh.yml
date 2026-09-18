@@ -1,0 +1,26 @@
+name: Refresh Rheinplan events
+
+on:
+  schedule:
+    # 08:15 CEST (UTC+2); adjust to 07:15 UTC after the autumn clock change if desired.
+    - cron: '15 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/refresh-events.mjs
+        env:
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: weekly event refresh'
+          file_pattern: events.json
