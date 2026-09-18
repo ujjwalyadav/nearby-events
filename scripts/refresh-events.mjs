@@ -12,7 +12,7 @@ const end = new Date(start); end.setDate(end.getDate() + 60);
 const toLocal = value => new Date(value).toISOString().slice(0,16);
 const slug = value => value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 const cityFor = (text, fallback) => /mannheim/i.test(text) ? 'mannheim' : /heidelberg/i.test(text) ? 'heidelberg' : fallback;
-const categoryFor = text => /concert|music|jazz|musik/i.test(text) ? 'music' : /kino|cinema|film|movie|screening|vorf[uü]hrung/i.test(text) ? 'film' : /food|wein|wine|market/i.test(text) ? 'food' : /walk|nature|wander|outdoor/i.test(text) ? 'outdoors' : /theater|theatre|museum|art|ausstellung/i.test(text) ? 'culture' : 'community';
+const categoryFor = text => /kino|cinema|film|movie|screening|vorf[uü]hrung/i.test(text) ? 'film' : /concert|music|jazz|musik/i.test(text) ? 'music' : /party|club|dj\b|disco|rave|nachtleben|nightlife/i.test(text) ? 'nightlife' : /sport|adler mannheim|rhein-neckar l[oö]wen|\bdel\b|\bhbl\b|\bchl\b|eishockey|handball|basketball|lauf|running|fitness/i.test(text) ? 'sports' : /buch|book|literatur|lesung|reading|lecture|vortrag|talk|colloqu|workshop|seminar|university|universit[aä]t|wissenschaft/i.test(text) ? 'learning' : /food|wein|wine|market/i.test(text) ? 'food' : /walk|nature|wander|outdoor/i.test(text) ? 'outdoors' : /theater|theatre|museum|art|ausstellung|tanz/i.test(text) ? 'culture' : 'community';
 const stripHtml = value => (value || '').replace(/<[^>]*>/g,'').replace(/\s+/g,' ').trim();
 function flattenLd(value){
   if(Array.isArray(value)) return value.flatMap(flattenLd);
@@ -71,6 +71,19 @@ async function collectKarlstorkino(source){
   }
   return found;
 }
+async function collectSapArena(source){
+  const response=await fetch(source.url,{headers:{'user-agent':'Rheinplan weekly event collector/1.0 (+calendar source link)'}});
+  if(!response.ok) throw new Error(`${response.status} SAP Arena`);
+  const html=await response.text(), found=[];
+  for(const block of html.matchAll(/<li class=["']event["'][^>]*>([\s\S]*?)<\/li>/gi)){
+    const content=block[1], date=content.match(/<p>\s*(\d{2}\.\d{2}\.\d{4})\s*<\/p>/i)?.[1], clock=content.match(/<p>\s*(\d{1,2}:\d{2})\s*Uhr\s*<\/p>/i)?.[1], link=content.match(/<a href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/i);
+    if(!date || !clock || !link) continue;
+    const day=germanDate(date), [hour,minute]=clock.split(':').map(Number), begins=new Date(`${day}T${String(hour).padStart(2,'0')}:${String(minute).padStart(2,'0')}`); if(begins<start||begins>end) continue;
+    const title=stripHtml(link[2]), category=stripHtml(content.match(/event-category-link[^>]*>([\s\S]*?)<\/a>/i)?.[1]||'');
+    found.push({id:`sap-arena-${slug(title)}-${day}-${clock.replace(':','')}`,title,city:'mannheim',category:categoryFor(`${title} ${category}`),start:toLocal(begins),end:toLocal(new Date(+begins+150*60*1000)),approximateEnd:true,venue:'SAP Arena Mannheim',description:`${category || 'Event'} at SAP Arena. The advertised start time is exact; the end is estimated only for overlap planning.`,source:new URL(link[1],source.url).href,sourceName:source.name});
+  }
+  return found;
+}
 async function collectJsonLd(source){
   const response = await fetch(source.url, {headers:{'user-agent':'Rheinplan weekly event collector/1.0 (+calendar source link)'}});
   if(!response.ok) throw new Error(`${response.status} ${source.url}`);
@@ -93,15 +106,19 @@ async function collectTicketmaster(){
     }
   } return found;
 }
-const structuredSources=sources.filter(source=>!['heidelberg-calendar','karlstorkino'].includes(source.kind));
-const settled = await Promise.allSettled([...structuredSources.map(collectJsonLd), ...sources.filter(source=>source.kind==='heidelberg-calendar').map(collectHeidelbergCalendar), ...sources.filter(source=>source.kind==='karlstorkino').map(collectKarlstorkino)]);
+const structuredSources=sources.filter(source=>!['heidelberg-calendar','karlstorkino','sap-arena'].includes(source.kind));
+const settled = await Promise.allSettled([...structuredSources.map(collectJsonLd), ...sources.filter(source=>source.kind==='heidelberg-calendar').map(collectHeidelbergCalendar), ...sources.filter(source=>source.kind==='karlstorkino').map(collectKarlstorkino), ...sources.filter(source=>source.kind==='sap-arena').map(collectSapArena)]);
 for(const result of settled) if(result.status==='rejected') console.warn(`Source skipped: ${result.reason.message}`);
 const publicEvents = settled.flatMap(result => result.status==='fulfilled' ? result.value : []);
 const imported = [...publicEvents, ...(await collectTicketmaster())];
 const ids = new Set(data.events.map(event=>event.id));
 const eventKey = event => `${event.city}|${event.title.trim().toLowerCase()}|${event.start}`;
 const eventKeys = new Set(data.events.map(eventKey));
-for(const event of imported) if(!ids.has(event.id) && !eventKeys.has(eventKey(event))) { data.events.push(event); ids.add(event.id); eventKeys.add(eventKey(event)) }
+const existingById = new Map(data.events.map(event=>[event.id,event]));
+for(const event of imported) {
+  if(existingById.has(event.id)) Object.assign(existingById.get(event.id),event);
+  else if(!eventKeys.has(eventKey(event))) { data.events.push(event); ids.add(event.id); eventKeys.add(eventKey(event)); existingById.set(event.id,event); }
+}
 data.events = data.events.filter(event => new Date(event.end) >= start && new Date(event.start) <= end).sort((a,b)=>new Date(a.start)-new Date(b.start));
 data.generatedAt = new Date().toISOString(); data.window = {start:start.toISOString().slice(0,10),end:end.toISOString().slice(0,10)};
 await writeFile(new URL('../events.json', import.meta.url), `${JSON.stringify(data,null,2)}\n`);

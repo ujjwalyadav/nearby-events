@@ -14,6 +14,13 @@
   {"name":"DAI Heidelberg conversation clubs","url":"https://dai-heidelberg.de/en/language-school/lifelong-learners/conversation-clubs-de-en-es-it/","city":"heidelberg"},
   {"name":"Studierendenwerk Heidelberg language café","url":"https://www.stw.uni-heidelberg.de/veranstaltung/international-language-cafe/","city":"heidelberg"},
   {"name":"Café Tostado Heidelberg","url":"https://www.mgh-heidelberg.de/veranstaltungen/regemaesige-veranstaltungen/cafe-tostado/","city":"heidelberg"},
+  {"name":"halle02 Heidelberg programme","url":"https://www.halle02.de/programm/","city":"heidelberg"},
+  {"name":"Heidelberg City Library","url":"https://www.heidelberg.de/stadtbuecherei/startseite/aktuelles%2Bund%2Bveranstaltungen.html","city":"heidelberg"},
   {"name":"Rosengarten Mannheim","url":"https://www.rosengarten-mannheim.de/veranstaltungen","city":"mannheim"},
-  {"name":"Maimarktgelände Mannheim","url":"https://www.maimarktgelaende-mannheim.de/fuer-besucher/veranstaltungen","city":"mannheim"}
+  {"name":"Maimarktgelände Mannheim","url":"https://www.maimarktgelaende-mannheim.de/fuer-besucher/veranstaltungen","city":"mannheim"},
+  {"name":"University of Mannheim events","url":"https://www.uni-mannheim.de/newsroom/events/","city":"mannheim"},
+  {"name":"MZES Mannheim events","url":"https://www.mzes.uni-mannheim.de/en/news/events","city":"mannheim"},
+  {"name":"Mannheim City Library events","url":"https://www.mannheim.de/de/bildung-staerken/stadtbibliothek/veranstaltungen","city":"mannheim"},
+  {"name":"Mannheim University of Music events","url":"https://www.muho-mannheim.de/oeffentliche-veranstaltungen/kalender","city":"mannheim"},
+  {"name":"SAP Arena sports, concerts & shows","url":"https://saparena.de/events/alle-events","city":"mannheim","kind":"sap-arena"}
 ]

@@ -31,6 +31,10 @@ Add those as GitHub Actions secrets to enable them. Official city/venue source U
 
 Recurring language/community sources include DAI Heidelberg Conversation Clubs, Studierendenwerk Heidelberg's International Language Café, Café Tostado, and Mannheim library's Café Colibri. The app expands a listed recurrence into each date in the active two-month window and keeps the organiser link on every card.
 
+## Coverage and density
+
+The source list also covers university talks and workshops, library/book programmes, music-school performances, halle02 nightlife, and SAP Arena sports, concerts and shows. Event types are grouped into Film, Talks & books, Sport, Nightlife, and the existing cultural categories. The calendar intentionally caps the month grid at three chips per day and gives the remaining count as a single `+ more` control; use the agenda view or a category filter when you want the complete list for a day.
+
 ## Important scope
 
 No aggregator can promise *every* local event: organisers can update, cancel, or omit events, and Instagram does not offer a public general-event search. The UI therefore says "listings" rather than claiming complete coverage, always exposes source links, and marks recurring dates that still require confirmation.
