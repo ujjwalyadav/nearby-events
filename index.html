@@ -63,9 +63,16 @@
     <style>
       .mobile-side-fold { display: contents; }
       .brand-logo { width:30px; height:30px; object-fit:contain; border-radius:50%; background:var(--paper); }
+      .locale-switch { display:flex; border:1px solid var(--line); border-radius:99px; overflow:hidden; }
+      .locale-switch button { border:0; background:transparent; min-width:31px; min-height:25px; padding:3px 6px; cursor:pointer; font:10px var(--mono); color:var(--muted); }
+      .locale-switch button.active { background:var(--ink); color:#fff; }
+      .date-shortcuts { display:flex; gap:6px; }
+      .date-shortcuts button { border:1px solid #b9c5be; border-radius:99px; background:#fff; padding:7px 10px; cursor:pointer; white-space:nowrap; color:var(--ink); font:500 12px var(--sans); }
+      .date-shortcuts button.active { border-color:var(--ink); background:var(--ink); color:#fff; }
       .mobile-side-fold > summary { display: none; }
       @media (max-width: 800px) {
         .calendar-layout { display:flex; flex-direction:column; }
+        .locale-switch button { min-width:34px; min-height:29px; }
         .side-panel { order:-1; padding:0; border:0; border-bottom:1px solid var(--line); background:var(--cream); }
         .mobile-side-fold { display:block; border-bottom:1px solid var(--line); }
         .mobile-side-fold:last-of-type { border-bottom:0; }
@@ -91,7 +98,7 @@
     <div class="grain"></div>
     <header class="site-header">
       <a class="brand" href="#top" aria-label="Rheinplan home"><img class="brand-logo" src="event icon.png" alt="" /><span>rheinplan</span></a>
-      <div class="header-meta"><span class="live-dot"></span><span id="refresh-label">Daily refresh ready</span></div>
+      <div class="header-meta"><span class="live-dot"></span><span id="refresh-label">Daily refresh ready</span><div class="locale-switch" aria-label="Interface language"><button data-ui-lang="en">EN</button><button data-ui-lang="de">DE</button></div></div>
     </header>
 
     <main id="top">
@@ -115,6 +122,7 @@
 
       <section class="utility-row">
         <div class="filter-wrap">
+          <div class="date-shortcuts" aria-label="Quick date filters"><button data-quick-date="today">Today</button><button data-quick-date="tomorrow">Tomorrow</button><button data-quick-date="weekend">This weekend</button></div>
           <button class="filter-button active" data-category="all">Everything</button>
           <button class="filter-button" data-category="music">Music</button>
           <button class="filter-button" data-category="culture">Culture</button>

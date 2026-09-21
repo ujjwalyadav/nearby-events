@@ -173,8 +173,20 @@ async function collectTicketmaster(){
   } return found;
 }
 const structuredSources=sources.filter(source=>!['heidelberg-calendar','mannheim-calendar','karlstorkino','sap-arena','planken'].includes(source.kind));
-const settled = await Promise.allSettled([...structuredSources.map(collectJsonLd), ...sources.filter(source=>source.kind==='heidelberg-calendar').map(collectHeidelbergCalendar), ...sources.filter(source=>source.kind==='mannheim-calendar').map(collectMannheimCalendar), ...sources.filter(source=>source.kind==='karlstorkino').map(collectKarlstorkino), ...sources.filter(source=>source.kind==='sap-arena').map(collectSapArena), ...sources.filter(source=>source.kind==='planken').map(collectPlanken)]);
-for(const result of settled) if(result.status==='rejected') console.warn(`Source skipped: ${result.reason.message}`);
+const sourceTasks=[
+  ...structuredSources.map(source=>({source,run:()=>collectJsonLd(source)})),
+  ...sources.filter(source=>source.kind==='heidelberg-calendar').map(source=>({source,run:()=>collectHeidelbergCalendar(source)})),
+  ...sources.filter(source=>source.kind==='mannheim-calendar').map(source=>({source,run:()=>collectMannheimCalendar(source)})),
+  ...sources.filter(source=>source.kind==='karlstorkino').map(source=>({source,run:()=>collectKarlstorkino(source)})),
+  ...sources.filter(source=>source.kind==='sap-arena').map(source=>({source,run:()=>collectSapArena(source)})),
+  ...sources.filter(source=>source.kind==='planken').map(source=>({source,run:()=>collectPlanken(source)}))
+];
+const settled = await Promise.allSettled(sourceTasks.map(task=>task.run()));
+for(const [index,result] of settled.entries()) if(result.status==='rejected') console.warn(`Source skipped: ${sourceTasks[index].source.name}: ${result.reason.message}`);
+const successfulSources=new Set(settled.flatMap((result,index)=>result.status==='fulfilled'?[sourceTasks[index].source.name]:[]));
+const managedSources=new Set(successfulSources);
+if(successfulSources.has('Mannheim.de official event calendar')) managedSources.add('City of Mannheim');
+if(successfulSources.has('Heidelberg official event calendar')) managedSources.add('City of Heidelberg');
 const publicEvents = settled.flatMap(result => result.status==='fulfilled' ? result.value : []);
 const imported = [...publicEvents, ...(await collectTicketmaster())];
 const normalisedTitle = value => String(value||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,' ').trim();
@@ -186,8 +198,7 @@ const sourcePriority = event => {
   if(/ticketmaster/i.test(event.sourceName||'')) return 55;
   return event.sourceIsGeneral ? 50 : 85;
 };
-const refreshedIds=new Set(imported.map(event=>event.id));
-const candidates=[...data.events.filter(event=>!refreshedIds.has(event.id)),...imported].filter(event=>new Date(event.end)>=start&&new Date(event.start)<=end).sort((left,right)=>sourcePriority(right)-sourcePriority(left));
+const candidates=[...data.events.filter(event=>!managedSources.has(event.sourceName)),...imported].filter(event=>new Date(event.end)>=start&&new Date(event.start)<=end).sort((left,right)=>sourcePriority(right)-sourcePriority(left));
 const byId=new Map();
 for(const event of candidates) if(!byId.has(event.id)) byId.set(event.id,event);
 const uniqueByEvent=new Map();
