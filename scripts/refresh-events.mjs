@@ -31,7 +31,7 @@ function eventFromLd(item, source){
   const rawAge=String(item.typicalAgeRange || item.contentRating || '');
   const age=rawAge.match(/(?:fsk\s*)?(\d{1,2})\s*\+?/i)?.[1];
   const language=typeof item.inLanguage==='string' ? item.inLanguage : item.inLanguage?.name;
-  return { id: `auto-${city}-${slug(item.name)}-${toLocal(starts).slice(0,10)}`, title: item.name.trim(), city, category: categoryFor(`${item.name} ${item.description||''}`), start:toLocal(starts), end:toLocal(ends), venue:place, description:stripHtml(item.description||`Event listed by ${source.name}.`).slice(0,400), source:item.url || source.url, sourceName:source.name, language, ageMin:age?Number(age):undefined, ageLabel:age?`${age}+`:undefined, priceType:numericPrice===0?'free':numericPrice!==null?'paid':undefined, priceText:numericPrice===0?'Free admission':numericPrice!==null?`${offer.priceCurrency||'€'} ${offer.price}`:undefined };
+  return { id: `auto-${city}-${slug(item.name)}-${toLocal(starts).slice(0,10)}`, title: item.name.trim(), city, category: categoryFor(`${item.name} ${item.description||''}`), start:toLocal(starts), end:toLocal(ends), venue:place, description:stripHtml(item.description||`Event listed by ${source.name}.`).slice(0,400), source:item.url || source.url, sourceName:source.name, sourceIsGeneral:!item.url, language, ageMin:age?Number(age):undefined, ageLabel:age?`${age}+`:undefined, priceType:numericPrice===0?'free':numericPrice!==null?'paid':undefined, priceText:numericPrice===0?'Free admission':numericPrice!==null?`${offer.priceCurrency||'€'} ${offer.price}`:undefined };
 }
 function germanDate(value){
   const match = String(value || '').match(/(\d{2})\.(\d{2})\.(\d{4})/); if(!match) return null;
@@ -56,7 +56,7 @@ async function collectHeidelbergCalendar(source){
     for(const row of rows){
       const day=germanDate(row.von); if(!day || !row.titel) continue;
       const clock=germanTimes(row.zeit), category=Array.isArray(row.kategorie) ? row.kategorie.map(item=>item.name).join(' ') : (row.kat||[]).join(' ');
-      found.push({id:`heidelberg-${row.id}`,title:stripHtml(row.titel),city:'heidelberg',category:categoryFor(`${category} ${row.titel}`),start:`${day}T${clock.start}`,end:`${day}T${clock.end}`,allDay:clock.allDay||undefined,venue:row.location || 'Venue to be confirmed',description:stripHtml(row.beschreibung || `Official Heidelberg calendar listing from ${row.org || 'the organiser'}.`).slice(0,400),source:row.link_url || source.url,sourceName:source.name,officialEventId:String(row.id)});
+      found.push({id:`heidelberg-${row.id}`,title:stripHtml(row.titel),city:'heidelberg',category:categoryFor(`${category} ${row.titel}`),start:`${day}T${clock.start}`,end:`${day}T${clock.end}`,allDay:clock.allDay||undefined,venue:row.location || 'Venue to be confirmed',description:stripHtml(row.beschreibung || `Official Heidelberg calendar listing from ${row.org || 'the organiser'}.`).slice(0,400),source:row.link_url || source.url,sourceName:source.name,sourceIsGeneral:!row.link_url,officialEventId:String(row.id)});
     }
     if(rows.length<100) break;
   }

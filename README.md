@@ -23,7 +23,7 @@ The refresh script preserves reviewed listings and uses optional, authorised int
 - `TICKETMASTER_API_KEY`: searches the Discovery API within 30 km of Heidelberg and Mannheim.
 - `INSTAGRAM_ACCESS_TOKEN`: reserved for a connected account's approved Meta Graph API feed. The script deliberately does **not** scrape Instagram pages.
 
-Add those as GitHub Actions secrets to enable them. Official city/venue source URLs live in `sources.json`. Heidelberg's main Veranstaltungskalender has a public JSON endpoint; Mannheim.de's official event calendar exposes a public, date-filtered paginated listing. The refresh job queries both for the current 60-day range and keeps the original event page on every imported item. Visit Mannheim and Rausgegangen Mannheim are included as additional public discovery sources; other venue sites are collected through public JSON-LD Event entries.
+Add those as GitHub Actions secrets to enable them. Official city/venue source URLs live in `sources.json`. Heidelberg's main Veranstaltungskalender has a public JSON endpoint; Mannheim.de's official event calendar exposes a public, date-filtered paginated listing. The refresh job queries both for the current 60-day range and keeps the event-specific organiser/detail link whenever the source supplies one. When no individual public page exists, the app explicitly labels the link as a source calendar. Visit Mannheim and Rausgegangen Mannheim are included as additional public discovery sources; other venue sites are collected through public JSON-LD Event entries.
 
 ## Cinema and recurring events
 
