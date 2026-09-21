@@ -12,6 +12,53 @@
     <style>
       .utility-actions{display:flex;align-items:center;gap:14px}.advanced-toggle{border:1px solid #b9c5be;background:transparent;border-radius:99px;padding:7px 10px;cursor:pointer;color:var(--ink);font:500 12px var(--sans);white-space:nowrap}.advanced-toggle span{font:15px var(--mono);vertical-align:-1px}.advanced-filters{padding:13px 44px;display:flex;gap:14px 20px;align-items:center;flex-wrap:wrap;border-bottom:1px solid var(--line);background:#f0f0e9;font-size:12px}.advanced-filters label{display:flex;gap:7px;align-items:center;white-space:nowrap}.advanced-filters select,.advanced-filters input[type="date"],.advanced-filters input[type="time"]{border:1px solid #b9c5be;background:#fff;padding:5px;font:12px var(--sans);color:var(--ink)}.advanced-filters p{margin:0 0 0 auto;color:var(--muted);font-size:11px}.filter-divider{width:1px;height:26px;background:var(--line)}.dialog-actions{display:flex;gap:8px;flex-wrap:wrap}.ics-button,.plan-button{border:1px solid var(--ink);background:transparent;color:var(--ink);padding:10px 13px;cursor:pointer;font:600 12px var(--sans);border-radius:3px}.plan-button.is-saved{background:var(--ink);color:#fff}.plan-actions{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}.plain-button{border:0;background:transparent;color:var(--muted);font:12px var(--sans);text-decoration:underline;cursor:pointer}.saved-date{margin:12px 0 5px;font:500 11px var(--mono);color:var(--muted)}.saved-event{display:block;width:100%;padding:7px 0;border:0;border-top:1px solid var(--line);background:transparent;text-align:left;cursor:pointer;color:var(--ink);font:12px var(--sans)}.saved-event strong{display:block}.saved-event span{color:var(--muted);font-size:11px}.event-chip{border-left:4px solid transparent}.event-chip.city-heidelberg{border-left-color:#789517}.event-chip.city-mannheim{border-left-color:#cc716a}.event-chip.category-music,.agenda-item.category-music{background:#d7c7ef}.event-chip.category-culture,.agenda-item.category-culture{background:#a8d5df}.event-chip.category-film,.agenda-item.category-film{background:#f5c065}.event-chip.category-learning,.agenda-item.category-learning{background:#d8ed77}.event-chip.category-food,.agenda-item.category-food{background:#f4c7a2}.event-chip.category-outdoors,.agenda-item.category-outdoors{background:#b9dfb1}.event-chip.category-sports,.agenda-item.category-sports{background:#b7c9ed}.event-chip.category-nightlife,.agenda-item.category-nightlife{background:#edaed1}.event-chip.category-community,.agenda-item.category-community{background:#f3dca2}@media(max-width:800px){.utility-actions{width:100%;justify-content:space-between}.advanced-filters{padding:13px 20px;align-items:flex-start;flex-direction:column;gap:10px}.advanced-filters p{margin:0}.filter-divider{display:none}}
     </style>
+    <style>
+      @media (max-width: 800px) {
+        html { -webkit-text-size-adjust: 100%; }
+        button, input, select, a { touch-action: manipulation; }
+        .site-header { position:sticky; top:0; z-index:20; height:62px; padding:0 max(16px, env(safe-area-inset-right)) 0 max(16px, env(safe-area-inset-left)); background:rgba(248,247,242,.96); backdrop-filter:blur(12px); }
+        .header-meta { font-size:10px; }
+        .hero { padding:38px 20px 30px; }
+        .hero h1 { font-size:clamp(43px,15vw,66px); }
+        .intro { font-size:15px; }
+        .controls { gap:12px; padding-bottom:15px; }
+        .city-switch { max-width:calc(100vw - 88px); overflow-x:auto; -webkit-overflow-scrolling:touch; }
+        .city-button { min-height:42px; flex:0 0 auto; }
+        .icon-button { width:44px; height:42px; }
+        .utility-row { gap:11px; padding-top:11px; padding-bottom:11px; }
+        .filter-wrap { width:calc(100% + 40px); margin:0 -20px; padding:0 20px 3px; gap:8px; scroll-snap-type:x proximity; -webkit-overflow-scrolling:touch; }
+        .filter-button { min-height:36px; scroll-snap-align:start; }
+        .utility-actions { gap:9px; }
+        .advanced-toggle { min-height:36px; }
+        .search { min-height:36px; }
+        .advanced-filters { display:grid; grid-template-columns:1fr 1fr; width:100%; }
+        .advanced-filters label { min-width:0; white-space:normal; flex-direction:column; align-items:flex-start; gap:4px; }
+        .advanced-filters label:first-child { grid-column:span 2; flex-direction:row; align-items:center; }
+        .advanced-filters select, .advanced-filters input[type="date"], .advanced-filters input[type="time"] { width:100%; min-height:36px; }
+        .advanced-filters p { grid-column:span 2; }
+        .calendar-panel { padding:25px 0 42px; }
+        .calendar-head { padding:0 20px; margin-bottom:18px; align-items:flex-end; }
+        .calendar-head h2 { font-size:22px; }
+        .event-count { max-width:105px; text-align:right; line-height:1.35; }
+        .month-block { overflow-x:auto; padding:0 20px 3px; -webkit-overflow-scrolling:touch; scrollbar-width:thin; }
+        .month-label { min-width:630px; }
+        .weekday-row, .day-grid { min-width:630px; }
+        .day { min-height:112px; padding:7px; }
+        .event-chip { min-height:25px; padding:5px 6px; font-size:10px; }
+        .more-events { min-height:28px; padding:6px 3px; }
+        .agenda-view { padding:0 20px; }
+        .agenda-day { grid-template-columns:76px 1fr; padding:13px 0; }
+        .agenda-item { min-height:58px; padding:10px; }
+        .agenda-item strong { font-size:13px; }
+        .side-panel { padding:26px 20px calc(28px + env(safe-area-inset-bottom)); }
+        .side-section { margin-bottom:22px; padding-bottom:22px; }
+        .event-dialog { position:fixed; inset:auto 0 0; width:100%; max-width:none; max-height:min(82dvh,720px); overflow:auto; border-width:1px 0 0; border-radius:16px 16px 0 0; padding:28px 20px calc(24px + env(safe-area-inset-bottom)); box-shadow:0 -8px 30px rgba(19,42,37,.2); }
+        .event-dialog h2 { font-size:28px; }
+        .dialog-actions { position:sticky; bottom:-25px; padding:12px 0 calc(1px + env(safe-area-inset-bottom)); background:var(--paper); }
+        .source-link, .ics-button, .plan-button { min-height:42px; flex:1 1 150px; text-align:center; }
+        .footer-note { padding-bottom:calc(25px + env(safe-area-inset-bottom)); }
+      }
+    </style>
   </head>
   <body>
     <div class="grain"></div>
