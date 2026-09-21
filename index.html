@@ -103,9 +103,9 @@
 
     <main id="top">
       <section class="hero">
-        <p class="eyebrow">Rhein-neckar culture, in one clear view</p>
-        <h1>Make room for<br /><em>good plans.</em></h1>
-        <p class="intro">A two-month event calendar for Heidelberg and Mannheim. See overlaps before you commit, then choose the night that feels right.</p>
+        <p class="eyebrow" data-i18n="hero-kicker">Rhein-neckar culture, in one clear view</p>
+        <h1 data-i18n="hero-title">Make room for<br /><em>good plans.</em></h1>
+        <p class="intro" data-i18n="hero-intro">A two-month event calendar for Heidelberg and Mannheim. See overlaps before you commit, then choose the night that feels right.</p>
       </section>
 
       <section class="controls" aria-label="Calendar controls">
@@ -137,16 +137,16 @@
         <div class="utility-actions"><button id="advanced-toggle" class="advanced-toggle" aria-expanded="false">Refine results <span>+</span></button><label class="search"><span>⌕</span><input id="search-input" type="search" placeholder="Search events" /></label></div>
       </section>
       <section id="advanced-filters" class="advanced-filters hidden" aria-label="More filters">
-        <label><input id="free-filter" type="checkbox" /> Free only</label>
-        <label>Language <select id="language-filter"><option value="all">Any language</option><option>English</option><option>German</option><option>Original language</option><option>Multilingual</option></select></label>
-        <label>Age <select id="age-filter"><option value="all">Any age</option><option value="0">All ages / no restriction</option><option value="16">Suitable for 16+</option><option value="18">18+</option></select></label>
+        <label><input id="free-filter" type="checkbox" /> <span data-i18n="free-only">Free only</span></label>
+        <label><span data-i18n="language-label">Language</span> <select id="language-filter"><option value="all" data-i18n="any-language">Any language</option><option data-i18n="english">English</option><option data-i18n="german">German</option><option data-i18n="original-language">Original language</option><option data-i18n="multilingual">Multilingual</option></select></label>
+        <label><span data-i18n="age-label">Age</span> <select id="age-filter"><option value="all" data-i18n="any-age">Any age</option><option value="0" data-i18n="all-ages">All ages / no restriction</option><option value="16" data-i18n="age-16">Suitable for 16+</option><option value="18" data-i18n="age-18">18+</option></select></label>
         <span class="filter-divider" aria-hidden="true"></span>
-        <label>From <input id="date-from-filter" type="date" /></label>
-        <label>To <input id="date-to-filter" type="date" /></label>
-        <label>Day <select id="weekday-filter"><option value="all">Any day</option><option value="1">Monday</option><option value="2">Tuesday</option><option value="3">Wednesday</option><option value="4">Thursday</option><option value="5">Friday</option><option value="6">Saturday</option><option value="0">Sunday</option></select></label>
-        <label>After <input id="time-from-filter" type="time" /></label>
-        <label>Before <input id="time-to-filter" type="time" /></label>
-        <p>Only organiser-published details are used. Unknown details are never guessed.</p>
+        <label><span data-i18n="from">From</span> <input id="date-from-filter" type="date" /></label>
+        <label><span data-i18n="to">To</span> <input id="date-to-filter" type="date" /></label>
+        <label><span data-i18n="day">Day</span> <select id="weekday-filter"><option value="all" data-i18n="any-day">Any day</option><option value="1" data-i18n="monday">Monday</option><option value="2" data-i18n="tuesday">Tuesday</option><option value="3" data-i18n="wednesday">Wednesday</option><option value="4" data-i18n="thursday">Thursday</option><option value="5" data-i18n="friday">Friday</option><option value="6" data-i18n="saturday">Saturday</option><option value="0" data-i18n="sunday">Sunday</option></select></label>
+        <label><span data-i18n="after">After</span> <input id="time-from-filter" type="time" /></label>
+        <label><span data-i18n="before">Before</span> <input id="time-to-filter" type="time" /></label>
+        <p data-i18n="filter-note">Only organiser-published details are used. Unknown details are never guessed.</p>
       </section>
 
       <section class="calendar-layout">
@@ -160,29 +160,29 @@
         </div>
         <aside class="side-panel">
           <details class="mobile-side-fold" open>
-            <summary>On repeat <span id="recurring-count-mobile">All series</span></summary>
+            <summary><span data-i18n="on-repeat">On repeat</span> <span id="recurring-count-mobile">All series</span></summary>
           <div class="side-section recurring-section">
             <div class="side-heading"><p class="eyebrow">On repeat</p><span id="recurring-count">↻</span></div>
             <div id="recurring-list" class="recurring-list"></div>
           </div>
           </details>
           <details class="mobile-side-fold" open>
-            <summary>My plan <span id="saved-count-mobile">0</span></summary>
+            <summary><span data-i18n="my-plan">My plan</span> <span id="saved-count-mobile">0</span></summary>
           <div class="side-section">
-            <div class="side-heading"><p class="eyebrow">My plan</p><span id="saved-count" class="count-badge">0</span></div>
-            <div class="plan-actions"><p class="small-copy">Saved in this browser.</p><span><button id="download-saved" class="plain-button" hidden>Download .ics</button><button id="clear-saved" class="plain-button">Clear</button></span></div>
+            <div class="side-heading"><p class="eyebrow" data-i18n="my-plan">My plan</p><span id="saved-count" class="count-badge">0</span></div>
+            <div class="plan-actions"><p class="small-copy" data-i18n="saved-browser">Saved in this browser.</p><span><button id="download-saved" class="plain-button" hidden data-i18n="download-ics">Download .ics</button><button id="clear-saved" class="plain-button" data-i18n="clear">Clear</button></span></div>
             <div id="saved-list"></div>
           </div>
           </details>
           <div class="source-note">
             <span class="live-dot"></span>
-            <p><strong>Source-aware.</strong> Every listing links back to the organiser. Reviewed and refreshed daily.</p>
+            <p data-i18n="source-note"><strong>Source-aware.</strong> Every listing links back to the organiser. Reviewed and refreshed daily.</p>
           </div>
         </aside>
       </section>
 
       <section class="footer-note">
-        <p>Results are collected from official city and venue calendars. Social listings are included only where a public, authorised feed is connected.</p>
+        <p data-i18n="footer-note">Results are collected from official city and venue calendars. Social listings are included only where a public, authorised feed is connected.</p>
         <button id="sources-button">About sources & refresh</button>
       </section>
     </main>
