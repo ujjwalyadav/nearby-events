@@ -1,9 +1,9 @@
-name: Refresh Rheinplan events
+name: Refresh Rheinplan events (daily)
 
 on:
   schedule:
-    # 08:15 CEST (UTC+2); adjust to 07:15 UTC after the autumn clock change if desired.
-    - cron: '15 6 * * 1'
+    # 07:15 UTC daily (08:15 CET / 09:15 CEST)
+    - cron: '15 7 * * *'
   workflow_dispatch:
 
 permissions:
@@ -31,7 +31,7 @@ jobs:
           TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'chore: weekly event refresh'
+          commit_message: 'chore: daily event refresh'
           file_pattern: events.json
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

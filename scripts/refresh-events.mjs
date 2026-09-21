@@ -1,5 +1,5 @@
 /*
- * Weekly collector for Rheinplan.
+ * Daily collector for Rheinplan.
  * It only accepts public JSON-LD Event data and the authorised Ticketmaster API.
  * Human-reviewed seed entries stay in place; the collector adds new listings.
  */
@@ -26,7 +26,12 @@ function eventFromLd(item, source){
   if(Number.isNaN(+starts) || starts > end || ends < start) return null;
   const place = typeof item.location === 'object' ? (item.location.name || item.location.address?.addressLocality || '') : (item.location || 'Venue to be confirmed');
   const city = cityFor(`${place} ${item.name}`, source.city);
-  return { id: `auto-${city}-${slug(item.name)}-${toLocal(starts).slice(0,10)}`, title: item.name.trim(), city, category: categoryFor(`${item.name} ${item.description||''}`), start:toLocal(starts), end:toLocal(ends), venue:place, description:stripHtml(item.description||`Event listed by ${source.name}.`).slice(0,400), source:item.url || source.url, sourceName:source.name };
+  const offer=Array.isArray(item.offers) ? item.offers.find(value=>value?.price!==undefined) : item.offers;
+  const numericPrice=offer?.price===undefined ? null : Number(String(offer.price).replace(',','.'));
+  const rawAge=String(item.typicalAgeRange || item.contentRating || '');
+  const age=rawAge.match(/(?:fsk\s*)?(\d{1,2})\s*\+?/i)?.[1];
+  const language=typeof item.inLanguage==='string' ? item.inLanguage : item.inLanguage?.name;
+  return { id: `auto-${city}-${slug(item.name)}-${toLocal(starts).slice(0,10)}`, title: item.name.trim(), city, category: categoryFor(`${item.name} ${item.description||''}`), start:toLocal(starts), end:toLocal(ends), venue:place, description:stripHtml(item.description||`Event listed by ${source.name}.`).slice(0,400), source:item.url || source.url, sourceName:source.name, language, ageMin:age?Number(age):undefined, ageLabel:age?`${age}+`:undefined, priceType:numericPrice===0?'free':numericPrice!==null?'paid':undefined, priceText:numericPrice===0?'Free admission':numericPrice!==null?`${offer.priceCurrency||'€'} ${offer.price}`:undefined };
 }
 function germanDate(value){
   const match = String(value || '').match(/(\d{2})\.(\d{2})\.(\d{4})/); if(!match) return null;
@@ -57,6 +62,39 @@ async function collectHeidelbergCalendar(source){
   }
   return found;
 }
+async function collectMannheimCalendar(source){
+  const deDate=value=>`${String(value.getDate()).padStart(2,'0')}.${String(value.getMonth()+1).padStart(2,'0')}.${value.getFullYear()}`;
+  const pageUrl=page=>{const url=new URL(source.url);url.search=new URLSearchParams({date_from:deDate(start),date_to:deDate(end),page:String(page)});return url};
+  const parsePage=html=>{
+    const found=[];
+    const cards=html.split(/<li class=["']teaser-list__item["'][^>]*>/i).slice(1);
+    for(const card of cards){
+      const titleLink=card.match(/<h3>\s*<a[^>]+href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/i);
+      const date=card.match(/icon-calendar[\s\S]*?<\/svg>\s*([^<]+)/i)?.[1]?.trim();
+      if(!titleLink || !date) continue;
+      const day=germanDate(date); if(!day) continue;
+      const clock=card.match(/icon-clock[\s\S]*?<\/svg>\s*([^<]+)/i)?.[1]?.trim();
+      const time=clock&&/^\d{1,2}:\d{2}$/.test(clock)?clock:'00:00';
+      const begins=new Date(`${day}T${time.padStart(5,'0')}`); if(begins<start||begins>end) continue;
+      const title=stripHtml(titleLink[2]), venue=stripHtml(card.match(/class=["']organization["'][^>]*>([\s\S]*?)<\/span>/i)?.[1]||'Mannheim venue'), description=stripHtml(card.match(/class=["']teaser__text["'][^>]*>([\s\S]*?)<\/div>/i)?.[1]||`Official Mannheim calendar listing at ${venue}.`);
+      found.push({id:`mannheim-calendar-${slug(title)}-${day}-${time.replace(':','')}`,title,city:'mannheim',category:categoryFor(`${title} ${description}`),start:toLocal(begins),end:clock?toLocal(new Date(+begins+120*60*1000)):`${day}T23:59`,allDay:!clock||undefined,approximateEnd:!!clock,venue,description:description.slice(0,400),source:new URL(titleLink[1],source.url).href,sourceName:source.name});
+    }
+    return found;
+  };
+  const firstResponse=await fetch(pageUrl(0),{headers:{'user-agent':'Rheinplan daily event collector/1.0 (+calendar source link)'}});
+  if(!firstResponse.ok) throw new Error(`${firstResponse.status} Mannheim calendar`);
+  const firstHtml=await firstResponse.text(), found=parsePage(firstHtml);
+  const total=Number(firstHtml.match(/Ergebnisse\s+\d+\s*-\s*\d+\s+von\s+(\d+)/i)?.[1]||0), pages=Math.min(Math.ceil(total/10),source.maxPages||250);
+  for(let offset=1;offset<pages;offset+=4){
+    const batch=await Promise.all(Array.from({length:Math.min(4,pages-offset)},async(_,index)=>{
+      const response=await fetch(pageUrl(offset+index),{headers:{'user-agent':'Rheinplan daily event collector/1.0 (+calendar source link)'}});
+      if(!response.ok) throw new Error(`${response.status} Mannheim calendar page ${offset+index}`);
+      return parsePage(await response.text());
+    }));
+    found.push(...batch.flat());
+  }
+  return found;
+}
 async function collectKarlstorkino(source){
   const response=await fetch(source.url,{headers:{'user-agent':'Rheinplan weekly event collector/1.0 (+calendar source link)'}});
   if(!response.ok) throw new Error(`${response.status} Karlstorkino`);
@@ -84,6 +122,34 @@ async function collectSapArena(source){
   }
   return found;
 }
+function germanWordDate(day, month, year) {
+  const months={januar:0,februar:1,maerz:2,märz:2,april:3,mai:4,juni:5,juli:6,august:7,september:8,oktober:9,november:10,dezember:11};
+  const index=months[String(month).toLowerCase()]; if(index===undefined) return null;
+  let numericYear=Number(year||start.getFullYear());
+  let date=new Date(numericYear,index,Number(day),12);
+  if(!year && date<new Date(start.getFullYear(),start.getMonth()-1,1)) date=new Date(++numericYear,index,Number(day),12);
+  return date;
+}
+async function collectPlanken(source){
+  const response=await fetch(source.url,{headers:{'user-agent':'Rheinplan daily event collector/1.0 (+calendar source link)'}});
+  if(!response.ok) throw new Error(`${response.status} Planken Lichtspiele`);
+  const html=await response.text(), found=[], seen=new Set();
+  for(const anchor of html.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)){
+    const text=stripHtml(anchor[2]);
+    if(!/special event|\blive aus\b|nur am|kino\s*&\s*kuchen|sneak/i.test(text)) continue;
+    const title=text.replace(/\s*(?:special event|live aus|nur am|kino\s*&\s*kuchen|sneak)[\s\S]*$/i,'').trim();
+    if(!title) continue;
+    const dates=/((?:montag|dienstag|mittwoch|donnerstag|freitag|samstag|sonntag)\s*,?\s*)?(\d{1,2})\.\s*(januar|februar|m(?:ä|ae)rz|april|mai|juni|juli|august|september|oktober|november|dezember)(?:\s*(\d{4}))?\s*(?:um\s*)?(\d{1,2})[.:](\d{2})/gi;
+    for(const match of text.matchAll(dates)){
+      const date=germanWordDate(match[2],match[3],match[4]); if(!date) continue;
+      const begins=new Date(date.getFullYear(),date.getMonth(),date.getDate(),Number(match[5]),Number(match[6]));
+      if(begins<start || begins>end) continue;
+      const id=`planken-${dateKey(begins)}-${match[5]}${match[6]}-${slug(title)}`; if(seen.has(id)) continue; seen.add(id);
+      found.push({id,title,city:'mannheim',category:'film',start:toLocal(begins),end:toLocal(new Date(+begins+120*60*1000)),approximateEnd:true,venue:'Planken Lichtspiele Mannheim',description:'Promoted special screening from the official Planken Lichtspiele programme. The end is estimated only for overlap planning.',source:new URL(anchor[1],source.url).href,sourceName:source.name});
+    }
+  }
+  return found;
+}
 async function collectJsonLd(source){
   const response = await fetch(source.url, {headers:{'user-agent':'Rheinplan weekly event collector/1.0 (+calendar source link)'}});
   if(!response.ok) throw new Error(`${response.status} ${source.url}`);
@@ -106,8 +172,8 @@ async function collectTicketmaster(){
     }
   } return found;
 }
-const structuredSources=sources.filter(source=>!['heidelberg-calendar','karlstorkino','sap-arena'].includes(source.kind));
-const settled = await Promise.allSettled([...structuredSources.map(collectJsonLd), ...sources.filter(source=>source.kind==='heidelberg-calendar').map(collectHeidelbergCalendar), ...sources.filter(source=>source.kind==='karlstorkino').map(collectKarlstorkino), ...sources.filter(source=>source.kind==='sap-arena').map(collectSapArena)]);
+const structuredSources=sources.filter(source=>!['heidelberg-calendar','mannheim-calendar','karlstorkino','sap-arena','planken'].includes(source.kind));
+const settled = await Promise.allSettled([...structuredSources.map(collectJsonLd), ...sources.filter(source=>source.kind==='heidelberg-calendar').map(collectHeidelbergCalendar), ...sources.filter(source=>source.kind==='mannheim-calendar').map(collectMannheimCalendar), ...sources.filter(source=>source.kind==='karlstorkino').map(collectKarlstorkino), ...sources.filter(source=>source.kind==='sap-arena').map(collectSapArena), ...sources.filter(source=>source.kind==='planken').map(collectPlanken)]);
 for(const result of settled) if(result.status==='rejected') console.warn(`Source skipped: ${result.reason.message}`);
 const publicEvents = settled.flatMap(result => result.status==='fulfilled' ? result.value : []);
 const imported = [...publicEvents, ...(await collectTicketmaster())];
