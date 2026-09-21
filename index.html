@@ -59,6 +59,31 @@
         .footer-note { padding-bottom:calc(25px + env(safe-area-inset-bottom)); }
       }
     </style>
+    <style>
+      .mobile-side-fold { display: contents; }
+      .mobile-side-fold > summary { display: none; }
+      @media (max-width: 800px) {
+        .calendar-layout { display:flex; flex-direction:column; }
+        .side-panel { order:-1; padding:0; border:0; border-bottom:1px solid var(--line); background:var(--cream); }
+        .mobile-side-fold { display:block; border-bottom:1px solid var(--line); }
+        .mobile-side-fold:last-of-type { border-bottom:0; }
+        .mobile-side-fold > summary { min-height:52px; display:flex; align-items:center; justify-content:space-between; padding:0 20px; cursor:pointer; list-style:none; font:600 12px var(--sans); color:var(--ink); }
+        .mobile-side-fold > summary::-webkit-details-marker { display:none; }
+        .mobile-side-fold > summary::after { content:'+'; font:18px var(--mono); color:var(--muted); }
+        .mobile-side-fold[open] > summary::after { content:'–'; }
+        .mobile-side-fold > summary span { font:10px var(--mono); color:var(--muted); margin-left:auto; margin-right:10px; }
+        .mobile-side-fold .side-section { margin:0; padding:0 20px 20px; border:0; }
+        .mobile-side-fold .side-heading { display:none; }
+        .side-panel .source-note { display:none; }
+        .agenda-view { width:100%; padding:0 20px; }
+        .agenda-day { grid-template-columns:1fr; gap:8px; width:100%; }
+        .agenda-date { padding:0 2px; font-size:12px; }
+        .agenda-item { width:100%; flex-direction:column; align-items:flex-start; gap:5px; }
+        .agenda-item > span { min-width:0; width:100%; }
+        .agenda-item strong, .agenda-item span small { white-space:normal; overflow:visible; text-overflow:clip; }
+        .agenda-item > small { align-self:flex-start; white-space:normal; }
+      }
+    </style>
   </head>
   <body>
     <div class="grain"></div>
@@ -124,15 +149,21 @@
           <div id="agenda-view" class="agenda-view hidden"></div>
         </div>
         <aside class="side-panel">
+          <details class="mobile-side-fold" open>
+            <summary>On repeat <span id="recurring-count-mobile">All series</span></summary>
           <div class="side-section recurring-section">
             <div class="side-heading"><p class="eyebrow">On repeat</p><span id="recurring-count">↻</span></div>
             <div id="recurring-list" class="recurring-list"></div>
           </div>
+          </details>
+          <details class="mobile-side-fold" open>
+            <summary>My plan <span id="saved-count-mobile">0</span></summary>
           <div class="side-section">
             <div class="side-heading"><p class="eyebrow">My plan</p><span id="saved-count" class="count-badge">0</span></div>
             <div class="plan-actions"><p class="small-copy">Saved in this browser.</p><span><button id="download-saved" class="plain-button" hidden>Download .ics</button><button id="clear-saved" class="plain-button">Clear</button></span></div>
             <div id="saved-list"></div>
           </div>
+          </details>
           <div class="source-note">
             <span class="live-dot"></span>
             <p><strong>Source-aware.</strong> Every listing links back to the organiser. Reviewed and refreshed daily.</p>
