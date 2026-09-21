@@ -177,15 +177,22 @@ const settled = await Promise.allSettled([...structuredSources.map(collectJsonLd
 for(const result of settled) if(result.status==='rejected') console.warn(`Source skipped: ${result.reason.message}`);
 const publicEvents = settled.flatMap(result => result.status==='fulfilled' ? result.value : []);
 const imported = [...publicEvents, ...(await collectTicketmaster())];
-const ids = new Set(data.events.map(event=>event.id));
-const eventKey = event => `${event.city}|${event.title.trim().toLowerCase()}|${event.start}`;
-const eventKeys = new Set(data.events.map(eventKey));
-const existingById = new Map(data.events.map(event=>[event.id,event]));
-for(const event of imported) {
-  if(existingById.has(event.id)) Object.assign(existingById.get(event.id),event);
-  else if(!eventKeys.has(eventKey(event))) { data.events.push(event); ids.add(event.id); eventKeys.add(eventKey(event)); existingById.set(event.id,event); }
-}
-data.events = data.events.filter(event => new Date(event.end) >= start && new Date(event.start) <= end).sort((a,b)=>new Date(a.start)-new Date(b.start));
+const normalisedTitle = value => String(value||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,' ').trim();
+const eventKey = event => `${event.city}|${normalisedTitle(event.title)}|${event.start.slice(0,16)}`;
+const sourcePriority = event => {
+  if(/official event calendar/i.test(event.sourceName||'')) return 100;
+  if(/visit mannheim/i.test(event.sourceName||'')) return 70;
+  if(/rausgegangen/i.test(event.sourceName||'')) return 60;
+  if(/ticketmaster/i.test(event.sourceName||'')) return 55;
+  return event.sourceIsGeneral ? 50 : 85;
+};
+const refreshedIds=new Set(imported.map(event=>event.id));
+const candidates=[...data.events.filter(event=>!refreshedIds.has(event.id)),...imported].filter(event=>new Date(event.end)>=start&&new Date(event.start)<=end).sort((left,right)=>sourcePriority(right)-sourcePriority(left));
+const byId=new Map();
+for(const event of candidates) if(!byId.has(event.id)) byId.set(event.id,event);
+const uniqueByEvent=new Map();
+for(const event of byId.values()) if(!uniqueByEvent.has(eventKey(event))) uniqueByEvent.set(eventKey(event),event);
+data.events=[...uniqueByEvent.values()].sort((a,b)=>new Date(a.start)-new Date(b.start));
 data.generatedAt = new Date().toISOString(); data.window = {start:start.toISOString().slice(0,10),end:end.toISOString().slice(0,10)};
 await writeFile(new URL('../events.json', import.meta.url), `${JSON.stringify(data,null,2)}\n`);
 console.log(`Saved ${data.events.length} current listings (${imported.length} imported candidates).`);
