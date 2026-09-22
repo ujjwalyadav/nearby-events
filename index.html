@@ -69,6 +69,16 @@
       .date-shortcuts { display:flex; gap:6px; }
       .date-shortcuts button { border:1px solid #b9c5be; border-radius:99px; background:#fff; padding:7px 10px; cursor:pointer; white-space:nowrap; color:var(--ink); font:500 12px var(--sans); }
       .date-shortcuts button.active { border-color:var(--ink); background:var(--ink); color:#fff; }
+      .search-area { position:relative; display:flex; align-items:center; }
+      .clear-search { position:absolute; right:0; border:0; background:transparent; color:var(--muted); cursor:pointer; font:11px var(--sans); padding:5px; }
+      .search-area:has(.clear-search:not([hidden])) .search input { padding-right:37px; }
+      .search-suggestions { position:absolute; z-index:30; right:0; top:calc(100% + 8px); width:min(390px,calc(100vw - 32px)); max-height:320px; overflow:auto; background:#fff; border:1px solid var(--ink); border-radius:6px; box-shadow:5px 5px 0 rgba(19,42,37,.18); }
+      .search-suggestions:empty { display:none; }
+      .search-suggestion { display:flex; flex-direction:column; width:100%; border:0; border-bottom:1px solid var(--line); background:#fff; padding:10px 12px; text-align:left; cursor:pointer; color:var(--ink); font:12px var(--sans); }
+      .search-suggestion:last-child { border-bottom:0; }
+      .search-suggestion:hover, .search-suggestion:focus { background:var(--cream); outline:0; }
+      .search-suggestion strong { font-size:13px; }
+      .search-suggestion span { margin-top:2px; color:var(--muted); font:10px var(--mono); }
       .mobile-side-fold > summary { display: none; }
       @media (max-width: 800px) {
         .calendar-layout { display:flex; flex-direction:column; }
@@ -134,7 +144,7 @@
           <button class="filter-button" data-category="nightlife">Nightlife</button>
           <button class="filter-button" data-category="community">Community</button>
         </div>
-        <div class="utility-actions"><button id="advanced-toggle" class="advanced-toggle" aria-expanded="false">Refine results <span>+</span></button><label class="search"><span>⌕</span><input id="search-input" type="search" placeholder="Search events" /></label></div>
+        <div class="utility-actions"><button id="advanced-toggle" class="advanced-toggle" aria-expanded="false">Refine results <span>+</span></button><div class="search-area"><label class="search"><span>⌕</span><input id="search-input" type="search" autocomplete="off" placeholder="Search events" aria-controls="search-suggestions" /></label><button id="clear-search" class="clear-search" type="button" hidden data-i18n="clear">Clear</button><div id="search-suggestions" class="search-suggestions" role="listbox"></div></div></div>
       </section>
       <section id="advanced-filters" class="advanced-filters hidden" aria-label="More filters">
         <label><input id="free-filter" type="checkbox" /> <span data-i18n="free-only">Free only</span></label>
