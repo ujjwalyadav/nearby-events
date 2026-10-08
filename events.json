@@ -1,782 +1,10 @@
 {
-  "generatedAt": "2026-10-07T14:39:31.456Z",
+  "generatedAt": "2026-10-08T14:38:20.191Z",
   "window": {
-    "start": "2026-10-07",
-    "end": "2026-12-06"
+    "start": "2026-10-08",
+    "end": "2026-12-07"
   },
   "events": [
-    {
-      "id": "heidelberg-29888572",
-      "title": "Regelmäßige Meditation, mittwochs",
-      "city": "heidelberg",
-      "category": "community",
-      "start": "2026-10-07T00:00",
-      "end": "2026-10-07T23:59",
-      "allDay": true,
-      "venue": "Buddhistisches Zentrum Heidelberg",
-      "description": "Adresse: Blumenstr. 49 69115&nbsp;Heidelberg Kontakt: Tel:&nbsp;+49 151 27563280 E-Mail:&nbsp;heidelberg@diamondway-center.org",
-      "source": "https://www.diamantweg-buddhismus.de/heidelberg",
-      "sourceName": "Heidelberg official event calendar",
-      "sourceIsGeneral": false,
-      "officialEventId": "29888572"
-    },
-    {
-      "id": "heidelberg-29714980",
-      "title": "William Kentridge – Skulpturen",
-      "city": "heidelberg",
-      "category": "community",
-      "start": "2026-10-07T09:00",
-      "end": "2026-10-07T19:00",
-      "venue": "Skulpturenpark Heidelberg",
-      "description": "Der Skulpturenpark Heidelberg pr&auml;sentiert im Sommer 2026 eine Ausstellung mit sieben gro&szlig;formatigen Skulpturen des s&uuml;dafrikanischen K&uuml;nstlers William Kentridge auf dem Gel&auml;nde der Orthop&auml;dischen Universit&auml;tsklinik Heidelberg im Dialog mit der Dauerausstellung des Skulpturenparks. Gezeigt werden zwei farbig gefasste Skulpturen aus Aluminium und Stahl der Serie Pa",
-      "source": "https://www.heidelberg.de/HD/Leben/veranstaltungskalender.html",
-      "sourceName": "Heidelberg official event calendar",
-      "sourceIsGeneral": true,
-      "officialEventId": "29714980"
-    },
-    {
-      "id": "mannheim-calendar-crime-die-technik-des-verbrechens-2026-10-07-0900",
-      "title": "CRIME – Die Technik des Verbrechens",
-      "city": "mannheim",
-      "category": "culture",
-      "start": "2026-10-07T09:00",
-      "end": "2026-10-07T11:00",
-      "approximateEnd": true,
-      "venue": "TECHNOSEUM",
-      "description": "Kriminalität ist überall – das ist bei dieser Ausstellung Programm: Die Schau besteht aus zehn Stationen, die über das gesamte Haus und sechs Stockwerke verteilt sind.",
-      "source": "https://www.mannheim.de/de/veranstaltung/crime-die-technik-des-verbrechens-88",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "mannheim-calendar-alexander-tillegreen-stucke-fur-werke-2026-10-07-1000",
-      "title": "Alexander Tillegreen - Stücke für Werke",
-      "city": "mannheim",
-      "category": "culture",
-      "start": "2026-10-07T10:00",
-      "end": "2026-10-07T12:00",
-      "approximateEnd": true,
-      "venue": "Kunsthalle Mannheim",
-      "description": "Die Ausstellung Stücke für Werke des dänischen Künstlers und Komponisten Alexander Brix Tillegreen (geb.",
-      "source": "https://www.mannheim.de/de/veranstaltung/alexander-tillegreen-stuecke-fuer-werke-154",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "mannheim-calendar-schamanen-sibiriens-zwischen-den-welten-2026-10-07-1000",
-      "title": "Schamanen Sibiriens - Zwischen den Welten",
-      "city": "mannheim",
-      "category": "culture",
-      "start": "2026-10-07T10:00",
-      "end": "2026-10-07T12:00",
-      "approximateEnd": true,
-      "venue": "Reiss-Engelhorn-Museen (rem)",
-      "description": "Die Ausstellung lädt Sie auf eine faszinierende Reise zu den Ursprüngen und Wandlungen schamanischer Praktiken ein.",
-      "source": "https://www.mannheim.de/de/veranstaltung/schamanen-sibiriens-zwischen-den-welten-13",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "mannheim-calendar-von-durer-bis-piranesi-druckgrafik-aus-der-mannheimer-sammlung-anton-von-klein-1746-1810-2026-10-07-1000",
-      "title": "Von Dürer bis Piranesi – Druckgrafik aus der Mannheimer Sammlung Anton von Klein (1746 – 1810)",
-      "city": "mannheim",
-      "category": "learning",
-      "start": "2026-10-07T10:00",
-      "end": "2026-10-07T12:00",
-      "approximateEnd": true,
-      "venue": "Kunsthalle Mannheim",
-      "description": "Mit feinem Gespür nutzte Anton von Klein, Professor für „schöne Wissenschaften“ am Hof des Kurfürsten Karl Theodor, Bilder, um Wissen anschaulich zu vermitteln.",
-      "source": "https://www.mannheim.de/de/veranstaltung/von-duerer-bis-piranesi-druckgrafik-aus-der-mannheimer-sammlung-anton-von-klein-1746-1810-63",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "mannheim-calendar-musikwelten-2026-10-07-1000",
-      "title": "MusikWelten",
-      "city": "mannheim",
-      "category": "music",
-      "start": "2026-10-07T10:00",
-      "end": "2026-10-07T12:00",
-      "approximateEnd": true,
-      "venue": "Reiss-Engelhorn-Museen (rem)",
-      "description": "Von altamerikanischen Pfeifgefäßen über Feuertanzmasken aus Papua-Neuguinea bis hin zu einem komplett analogen Tonstudio aus den 1980er Jahren – die atmosphärische Ausstellung \"MusikWelten\" schafft",
-      "source": "https://www.mannheim.de/de/veranstaltung/musikwelten-93",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "mannheim-calendar-versunkene-geschichte-archaologie-an-rhein-und-neckar-2026-10-07-1000",
-      "title": "Versunkene Geschichte - Archäologie an Rhein und Neckar",
-      "city": "mannheim",
-      "category": "culture",
-      "start": "2026-10-07T10:00",
-      "end": "2026-10-07T12:00",
-      "approximateEnd": true,
-      "venue": "Reiss-Engelhorn-Museen (rem)",
-      "description": "In der Ausstellung \"Versunkene Geschichte. Archäologie an Rhein und Neckar\" laden die Reiss-Engelhorn-Museen zu einer Zeitreise von der Steinzeit bis ins frühe Mittelalter ein.",
-      "source": "https://www.mannheim.de/de/veranstaltung/versunkene-geschichte-archaeologie-an-rhein-und-neckar-126",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "mannheim-calendar-radikal-real-nouveau-realisme-und-die-kunst-der-1960er-jahre-2026-10-07-1000",
-      "title": "RADIKAL. REAL. Nouveau Réalisme und die Kunst der 1960er Jahre",
-      "city": "mannheim",
-      "category": "culture",
-      "start": "2026-10-07T10:00",
-      "end": "2026-10-07T12:00",
-      "approximateEnd": true,
-      "venue": "Kunsthalle Mannheim",
-      "description": "Die Kunsthalle Mannheim widmet dem Nouveau Réalisme und seinem Umfeld die größte Sonderausstellung in Deutschland seit mehr als fünfzehn Jahren.",
-      "source": "https://www.mannheim.de/de/veranstaltung/radikal-real-nouveau-realisme-und-die-kunst-der-1960er-jahre-81",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "mannheim-calendar-agypten-land-der-unsterblichkeit-2026-10-07-1000",
-      "title": "Ägypten - Land der Unsterblichkeit",
-      "city": "mannheim",
-      "category": "culture",
-      "start": "2026-10-07T10:00",
-      "end": "2026-10-07T12:00",
-      "approximateEnd": true,
-      "venue": "Reiss-Engelhorn-Museen (rem)",
-      "description": "Die Ausstellung findet im Museum Weltkulturen (D5) statt.",
-      "source": "https://www.mannheim.de/de/veranstaltung/aegypten-land-der-unsterblichkeit-128",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "mannheim-calendar-mondeis-4-2026-10-07-1000",
-      "title": "Mondeis (4+)",
-      "city": "mannheim",
-      "category": "community",
-      "start": "2026-10-07T10:00",
-      "end": "2026-10-07T12:00",
-      "approximateEnd": true,
-      "venue": "Junges Nationaltheater Mannheim",
-      "description": "Es ist Sommer, mitten in der Nacht. Keine kann schlafen. Es ist so heiß. Plopp. Plopp. Plopp. Was ist das für ein Geräusch? Wolf steht auf dem Balkon und sieht zum Himmel hinauf.",
-      "source": "https://www.mannheim.de/de/veranstaltung/mondeis-4-3",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "mannheim-calendar-rudiger-bertram-robin-the-hood-wie-klaut-man-eine-stadt-2026-10-07-1000",
-      "title": "Rüdiger Bertram: Robin the hood – wie klaut man eine Stadt?",
-      "city": "mannheim",
-      "category": "community",
-      "start": "2026-10-07T10:00",
-      "end": "2026-10-07T12:00",
-      "approximateEnd": true,
-      "venue": "Stadtbibliothek Mannheim - Kinder- und Jugendbibliothek",
-      "description": "Robin, ein junger Meisterdieb, tappt in die Falle eines Geheimdienstes und soll gemeinsam mit Agentin Mary eine Schneekugel stehlen, in der ein gefährlicher Virus verborgen ist.",
-      "source": "https://www.mannheim.de/de/veranstaltung/ruediger-bertram-robin-the-hood-wie-klaut-man-eine-stadt",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "mannheim-calendar-smartphone-sprechstunde-fur-altere-in-seckenheim-2026-10-07-1000",
-      "title": "Smartphone-Sprechstunde für Ältere in Seckenheim",
-      "city": "mannheim",
-      "category": "culture",
-      "start": "2026-10-07T10:00",
-      "end": "2026-10-07T12:00",
-      "approximateEnd": true,
-      "venue": "Stadtbibliothek Mannheim - Zweigstelle Seckenheim",
-      "description": "Andrea Hegen und Manfred Schillinger helfen dabei, das Smartphone zu benutzen.",
-      "source": "https://www.mannheim.de/de/veranstaltung/smartphone-sprechstunde-fuer-aeltere-in-seckenheim",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "mannheim-calendar-mannheimer-book-slam-battle-2027-2026-10-07-1000",
-      "title": "Mannheimer Book-Slam*-Battle 2027",
-      "city": "mannheim",
-      "category": "learning",
-      "start": "2026-10-07T10:00",
-      "end": "2026-10-07T12:00",
-      "approximateEnd": true,
-      "venue": "Stadtbibliothek Mannheim - Kinder- und Jugendbibliothek",
-      "description": "Was ist ein Book Slam Battle?3-5 Schüler*innen entwickeln zusammen eine 3-minütige Werbedarstellung für ein Buch und präsentieren dies auf der Bühne.",
-      "source": "https://www.mannheim.de/de/veranstaltung/mannheimer-book-slam-battle-2027",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "mannheim-calendar-studio-rasa-smite-amp-raitis-smits-2026-10-07-1000",
-      "title": "STUDIO: Rasa Smite &amp; Raitis Smits",
-      "city": "mannheim",
-      "category": "community",
-      "start": "2026-10-07T10:00",
-      "end": "2026-10-07T12:00",
-      "approximateEnd": true,
-      "venue": "Kunsthalle Mannheim",
-      "description": "Können Blüten die Welt anders wahrnehmen als wir? Und was verrät ihr Blick über unsere Zukunft?",
-      "source": "https://www.mannheim.de/de/veranstaltung/studio-rasa-smite-raitis-smits-28",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "mannheim-calendar-exklusiv-rendezvous-mit-pinguin-2026-10-07-1045",
-      "title": "Exklusiv: Rendezvous mit Pinguin!",
-      "city": "mannheim",
-      "category": "community",
-      "start": "2026-10-07T10:45",
-      "end": "2026-10-07T12:45",
-      "approximateEnd": true,
-      "venue": "Luisenpark",
-      "description": "Wer sein Herz an die putzigen Humboldt-Pinguine verloren hat, für den ist diese exklusive und sehr besondere Tierbegegnung sicher ein schönes Erlebnis.&nbsp;",
-      "source": "https://www.mannheim.de/de/veranstaltung/exklusiv-rendezvous-mit-pinguin",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "mannheim-calendar-exklusiv-rendezvous-mit-schlange-2026-10-07-1045",
-      "title": "Exklusiv: Rendezvous mit Schlange!",
-      "city": "mannheim",
-      "category": "community",
-      "start": "2026-10-07T10:45",
-      "end": "2026-10-07T12:45",
-      "approximateEnd": true,
-      "venue": "Luisenpark",
-      "description": "Lust auf mehr Reptilien in eurem Leben?",
-      "source": "https://www.mannheim.de/de/veranstaltung/exklusiv-rendezvous-mit-schlange",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "heidelberg-30889374",
-      "title": "Dogs will be Dogs - Ndayé Kouagou",
-      "city": "heidelberg",
-      "category": "culture",
-      "start": "2026-10-07T11:00",
-      "end": "2026-10-07T18:00",
-      "venue": "Heidelberger Kunstverein",
-      "description": "&bdquo;Ist es besser, von einer Person gehasst zu werden oder von dreien?&ldquo; Was auf den ersten Blick wie ein pr&auml;gnanter Social-Media-Hook klingt, entpuppt sich in Nday&eacute; Kouagous Neuproduktion Heaven&rsquo;s Truth als ungesch&ouml;nte Analyse einer Gegenwart, in der ethische und moralische Verantwortung dem Ringen um soziales Kapital geopfert werden. In der Hallenarchitektur des He",
-      "source": "http://www.hdkv.de",
-      "sourceName": "Heidelberg official event calendar",
-      "sourceIsGeneral": false,
-      "officialEventId": "30889374"
-    },
-    {
-      "id": "mannheim-calendar-konstantin-voit-mannheimer-kunstpreis-der-heinrich-vetter-stiftung-2026-10-07-1100",
-      "title": "Konstantin Voit - Mannheimer Kunstpreis der Heinrich-Vetter-Stiftung",
-      "city": "mannheim",
-      "category": "culture",
-      "start": "2026-10-07T11:00",
-      "end": "2026-10-07T13:00",
-      "approximateEnd": true,
-      "venue": "Port25",
-      "description": "Konstantin Voit ist Preisträger des „Mannheimer Kunstpreis der Heinrich-Vetter-Stiftung“, der 2026 in der Sparte Malerei ausgeschrieben war, und mit dem neben dem Preisgeld auch eine Ausstellung im",
-      "source": "https://www.mannheim.de/de/veranstaltung/konstantin-voit-mannheimer-kunstpreis-der-heinrich-vetter-stiftung-46",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "mannheim-calendar-vorlesestunde-fur-erwachsene-2026-10-07-1100",
-      "title": "Vorlesestunde für Erwachsene",
-      "city": "mannheim",
-      "category": "community",
-      "start": "2026-10-07T11:00",
-      "end": "2026-10-07T13:00",
-      "approximateEnd": true,
-      "venue": "Stadtbibliothek Mannheim - Zentralbibliothek im Stadthaus N1",
-      "description": "Wann hat Ihnen das letzte Mal jemand vorgelesen? Vielleicht fällt es Ihnen schwer, sich zu konzentrieren oder selbst zu lesen.",
-      "source": "https://www.mannheim.de/de/veranstaltung/vorlesestunde-fuer-erwachsene-4",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "mannheim-calendar-off-foto-zwischenfestival-2026-10-07-1100",
-      "title": "OFF//FOTO ZWISCHENfestival",
-      "city": "mannheim",
-      "category": "community",
-      "start": "2026-10-07T11:00",
-      "end": "2026-10-07T13:00",
-      "approximateEnd": true,
-      "venue": "Port25",
-      "description": "Kuratierte Räume für die regionale Fotoszene",
-      "source": "https://www.mannheim.de/de/veranstaltung/offfoto-zwischenfestival-3",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "heidelberg-30539007",
-      "title": "Heidelberg und die USA - Geschichte und Gegenwart der transatlantischen Beziehungen",
-      "city": "heidelberg",
-      "category": "culture",
-      "start": "2026-10-07T13:00",
-      "end": "2026-10-07T18:00",
-      "venue": "Mark Twain Center",
-      "description": "Die multimediale Ausstellung &bdquo;Heidelberg und die USA &ndash; Geschichte und Gegenwart der transatlantischen Beziehungen&ldquo; l&auml;sst auf 900 Quadratmetern Geschichte lebendig werden. Sie zeigt am Beispiel Heidelbergs, wie sich die historisch enge Verbindung zwischen Deutschen und US-Amerikanern entwickelt hat, mit allen H&ouml;hen und Tiefen dieser Beziehung. Heidelberg stand seit dem E",
-      "source": "http://www.mark-twain-center.com",
-      "sourceName": "Heidelberg official event calendar",
-      "sourceIsGeneral": false,
-      "officialEventId": "30539007"
-    },
-    {
-      "id": "mannheim-calendar-oktobermess-2026-10-07-1300",
-      "title": "Oktobermess",
-      "city": "mannheim",
-      "category": "community",
-      "start": "2026-10-07T13:00",
-      "end": "2026-10-07T15:00",
-      "approximateEnd": true,
-      "venue": "Neuer Messplatz",
-      "description": "Größtes Volksfest der Region",
-      "source": "https://www.mannheim.de/de/veranstaltung/oktobermess-10",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "heidelberg-29953058",
-      "title": "Immersive Textiles - Naga Design aus Nordostindien",
-      "city": "heidelberg",
-      "category": "culture",
-      "start": "2026-10-07T14:00",
-      "end": "2026-10-07T18:00",
-      "venue": "Völkerkundemuseum Heidelberg",
-      "description": "Die Textilien der Naga aus Nordostindien z&auml;hlen zu den eindrucksvollsten textilen Gestaltungssystemen der Welt. Ihre kraftvollen geometrischen Muster und intensiven Farben sind weit mehr als &auml;sthetische Elemente: Sie fungieren als &bdquo;soziale Haut&ldquo;, in der sich Herkunft, Status und pers&ouml;nliche Geschichte einschreiben. &Uuml;ber Generationen hinweg bildeten diese Stoffe eine",
-      "source": "https://www.vkm-vpst.de/naga/",
-      "sourceName": "Heidelberg official event calendar",
-      "sourceIsGeneral": false,
-      "officialEventId": "29953058"
-    },
-    {
-      "id": "heidelberg-29939819",
-      "title": "Let´s Play! Der spielende Mensch zwischen Kultur und KI",
-      "city": "heidelberg",
-      "category": "culture",
-      "start": "2026-10-07T14:00",
-      "end": "2026-10-07T18:00",
-      "venue": "Völkerkundemuseum Heidelberg",
-      "description": "Warum spielen Menschen? Seit Jahrtausenden treten wir im Spiel gegeneinander an, vertrauen auf Gl&uuml;ck, schl&uuml;pfen in andere Rollen oder verlieren uns f&uuml;r einen Moment in einer eigenen Welt aus Regeln und Fantasie. Spielen verbindet Menschen &uuml;ber Kulturen und Altersgrenzen hinweg &ndash; vom Brettspiel bis zum digitalen Multiplayer-Game. Die Ausstellung LET&rsquo;S PLAY! l&auml;dt",
-      "source": "https://www.vkm-vpst.de/play/",
-      "sourceName": "Heidelberg official event calendar",
-      "sourceIsGeneral": false,
-      "officialEventId": "29939819"
-    },
-    {
-      "id": "heidelberg-29947836",
-      "title": "Mensch oder Objekt? Human Remains zwischen Forschung, Erinnerung und Verantwortung",
-      "city": "heidelberg",
-      "category": "culture",
-      "start": "2026-10-07T14:00",
-      "end": "2026-10-07T18:00",
-      "venue": "Völkerkundemuseum Heidelberg",
-      "description": "Menschliche &Uuml;berreste sind zugleich Forschungsobjekte, Zeugnisse vergangener Lebenswelten, Tr&auml;ger individueller Geschichten und kultureller Bedeutung. Doch wie sollen Museen und Wissenschaft heute mit ihnen umgehen? Im Rahmen eines Kooperationsprojekts mit der Universit&auml;t Heidelberg nimmt die Ausstellung &bdquo;Mensch oder Objekt?&ldquo; diese Frage zum Ausgangspunkt und beleuchtet ",
-      "source": "https://www.vkm-vpst.de/mensch-oder-objekt/",
-      "sourceName": "Heidelberg official event calendar",
-      "sourceIsGeneral": false,
-      "officialEventId": "29947836"
-    },
-    {
-      "id": "mannheim-calendar-hartmut-kiewert-zusammenkunft-der-spezies-2026-10-07-1400",
-      "title": "Hartmut Kiewert - ZUsammenKUNFT DER SPEZIES",
-      "city": "mannheim",
-      "category": "culture",
-      "start": "2026-10-07T14:00",
-      "end": "2026-10-07T16:00",
-      "approximateEnd": true,
-      "venue": "Mannheimer Kunstverein e.V.",
-      "description": "Kunst kann helfen, unsere Welt besser zu verstehen. Besonders die figurative Malerei zeigt, wie wir Menschen Dinge sehen und erleben.",
-      "source": "https://www.mannheim.de/de/veranstaltung/hartmut-kiewert-zusammenkunft-der-spezies-18",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "mannheim-calendar-ein-sternbild-fur-flappi-2026-10-07-1400",
-      "title": "Ein Sternbild für Flappi",
-      "city": "mannheim",
-      "category": "community",
-      "start": "2026-10-07T14:00",
-      "end": "2026-10-07T16:00",
-      "approximateEnd": true,
-      "venue": "Planetarium Mannheim",
-      "description": "Flappi ist eine kleine neugierige Fledermaus, die sich nachts gerne Fragen über den Himmel stellt.",
-      "source": "https://www.mannheim.de/de/veranstaltung/ein-sternbild-fuer-flappi-5",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "mannheim-calendar-jugend-workshop-theatergruppe-k5-2026-10-07-1400",
-      "title": "Jugend-Workshop: Theatergruppe K5",
-      "city": "mannheim",
-      "category": "learning",
-      "start": "2026-10-07T14:00",
-      "end": "2026-10-07T16:00",
-      "approximateEnd": true,
-      "venue": "zeitraumexit",
-      "description": "In dem wöchentlichen Theaterworkshop-Format für Jugendliche zwischen 11 und 15 Jahren experimentieren und forschen wir mit künstlerischen Mitteln aus Theater und Performancekunst und schaffen Raum,",
-      "source": "https://www.mannheim.de/de/veranstaltung/jugend-workshop-theatergruppe-k5",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "mannheim-calendar-3-rheinauer-seniorentag-2026-10-07-1400",
-      "title": "3. Rheinauer Seniorentag",
-      "city": "mannheim",
-      "category": "culture",
-      "start": "2026-10-07T14:00",
-      "end": "2026-10-07T16:00",
-      "approximateEnd": true,
-      "venue": "Bürgersaal im Nachbarschaftshaus Rheinau",
-      "description": "Am 07. Oktober laden das MaQua Quartiermanagement Rheinau und das AWO Ballett wieder herzlich zum Rheinauer Seniorentag ein.",
-      "source": "https://www.mannheim.de/de/veranstaltung/3-rheinauer-seniorentag",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "heidelberg-28591360",
-      "title": "Apfelsammeln auf der Streuobstwiese",
-      "city": "heidelberg",
-      "category": "community",
-      "start": "2026-10-07T14:30",
-      "end": "2026-10-07T16:30",
-      "venue": "Theaterstraße",
-      "description": "Streuobstwiesen sind ein wertvoller, aber bedrohter Lebensraum und geh&ouml;ren zu den artenreichsten Biotopen Mitteleuropas. Als Bindeglied zwischen Wald und Feld, Wildnis und Kulturlandschaft zeigen sie, dass vom Menschen gepr&auml;gte Landschaften von gro&szlig;em Nutzen f&uuml;r die heimische Flora und Fauna sein k&ouml;nnen. Um diese besondere Kulturlandschaft zu bewahren, pflegt die Stadt He",
-      "source": "http://www.natuerlich.heidelberg.de/",
-      "sourceName": "Heidelberg official event calendar",
-      "sourceIsGeneral": false,
-      "officialEventId": "28591360"
-    },
-    {
-      "id": "mannheim-calendar-miteuchmittwoch-2026-10-07-1500",
-      "title": "Miteuchmittwoch",
-      "city": "mannheim",
-      "category": "community",
-      "start": "2026-10-07T15:00",
-      "end": "2026-10-07T17:00",
-      "approximateEnd": true,
-      "venue": "Theaterhaus G7",
-      "description": "Open House Miteuchmittwoch Das Open House-Format für eine bessere Wochenmitte",
-      "source": "https://www.mannheim.de/de/veranstaltung/miteuchmittwoch-1",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "mannheim-calendar-zeitreise-vom-urknall-zum-menschen-2026-10-07-1515",
-      "title": "Zeitreise - Vom Urknall zum Menschen",
-      "city": "mannheim",
-      "category": "community",
-      "start": "2026-10-07T15:15",
-      "end": "2026-10-07T17:15",
-      "approximateEnd": true,
-      "venue": "Planetarium Mannheim",
-      "description": "Wie ist das Weltall entstanden? Woher kommen die Sterne und Planeten? Was hat sich auf der Erde abgespielt?",
-      "source": "https://www.mannheim.de/de/veranstaltung/zeitreise-vom-urknall-zum-menschen-3",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "mannheim-calendar-ausgebucht-lego-labor-2026-10-07-1530",
-      "title": "+++AUSGEBUCHT+++ LEGO®-Labor",
-      "city": "mannheim",
-      "category": "learning",
-      "start": "2026-10-07T15:30",
-      "end": "2026-10-07T17:30",
-      "approximateEnd": true,
-      "venue": "Stadtbibliothek Mannheim - Zweigstelle Herzogenried",
-      "description": "Das LEGO-Labor ist ein kreatives Mitmachangebot für alle, die gerne bauen, ausprobieren und eigene Ideen entwickeln.",
-      "source": "https://www.mannheim.de/de/veranstaltung/ausgebucht-legor-labor",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "heidelberg-30613857",
-      "title": "Deutsch-spanische Geschichtenzeit: Märchen / Cuento de hadas",
-      "city": "heidelberg",
-      "category": "community",
-      "start": "2026-10-07T16:00",
-      "end": "2026-10-07T16:00",
-      "venue": "Stadtbücherei Heidelberg - Kinderbücherei",
-      "description": "Muttersprachler lesen und erz&auml;hlen Geschichten und M&auml;rchen sowohl in ihrer Sprache als auch in deutscher Sprache. &nbsp; Kinderb&uuml;cherei, Eintritt frei, ohne Anmeldung",
-      "source": "https://www.heidelberg.de/stadtbuecherei/startseite.html",
-      "sourceName": "Heidelberg official event calendar",
-      "sourceIsGeneral": false,
-      "officialEventId": "30613857"
-    },
-    {
-      "id": "mannheim-calendar-kreativzeit-im-n-bibliothekslabor-2026-10-07-1600",
-      "title": "Kreativzeit im N³-Bibliothekslabor",
-      "city": "mannheim",
-      "category": "community",
-      "start": "2026-10-07T16:00",
-      "end": "2026-10-07T18:00",
-      "approximateEnd": true,
-      "venue": "Stadtbibliothek Mannheim - Dalberghaus N3, 4 | N³-Bibliothekslabor",
-      "description": "Im Bibliothekslabor wird getüftelt, gestaltet und frei experimentiert – mal analog, mal digital, oft eine Mischung aus beidem.",
-      "source": "https://www.mannheim.de/de/veranstaltung/kreativzeit-im-n3-bibliothekslabor",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "heidelberg-30714753",
-      "title": "Kostenlose Ausstellungsführung",
-      "city": "heidelberg",
-      "category": "culture",
-      "start": "2026-10-07T17:00",
-      "end": "2026-10-07T18:00",
-      "venue": "Heidelberger Kunstverein",
-      "description": "Mit Lisann Lechtermann. Die Teilnahme ist kostenlos und ohne Anmeldung m&ouml;glich.Zur Ausstellung:Kann man einer Figur die Empathie versagen, deren Racheakt sich gegen eine Gemeinschaft richtet, die sie zeitlebens ausgeschlossen hat?&nbsp;Nday&eacute; Kouagous Neuproduktion Heaven&rsquo;s Truth entpuppt sich als ungesch&ouml;nte Analyse einer Gegenwart, in der ethische und moralische Verantwortu",
-      "source": "http://hdkv@hdkv.de",
-      "sourceName": "Heidelberg official event calendar",
-      "sourceIsGeneral": false,
-      "officialEventId": "30714753"
-    },
-    {
-      "id": "heidelberg-30971600",
-      "title": "Medikamentöse Therapie bei Brustkrebs: Was gibt es Neues? Neue Medikamente und innovative Behandlungsmöglichkeiten",
-      "city": "heidelberg",
-      "category": "community",
-      "start": "2026-10-07T17:00",
-      "end": "2026-10-07T18:30",
-      "venue": "Universitätsklinikum Heidelberg - Hörsaal der Frauenklinik",
-      "description": "Lassen Sie uns gemeinsam Pink tragen, Wissen teilen und Leben retten! Das UKHD, das NCT Heidelberg und das Brustzentrum Bergstra&szlig;e am KKB b&uuml;ndeln im Oktober ihre Aktivit&auml;ten zur Aufkl&auml;rung &uuml;ber Brustkrebs. Unter der symbolischen Schirmherrschaft Ihrer Majest&auml;t K&ouml;nigin Silvia von Schweden informiert die Kampagne &bdquo;Pinktober &ndash; Gemeinsam gegen Brustkrebs",
-      "source": "https://www.pink-gegen-krebs.de/informationsveranstaltung/informationsveranstaltungen",
-      "sourceName": "Heidelberg official event calendar",
-      "sourceIsGeneral": false,
-      "officialEventId": "30971600"
-    },
-    {
-      "id": "heidelberg-29535754",
-      "title": "Quiet Reading Community",
-      "city": "heidelberg",
-      "category": "learning",
-      "start": "2026-10-07T17:00",
-      "end": "2026-10-07T17:00",
-      "venue": "Stadtbücherei Heidelberg - Kleiner Saal (1. OG)",
-      "description": "Lesen braucht manchmal vor allem eins: Zeit und einen guten Ort. Die &ldquo;Quiet Reading Community&rdquo; der Stadtb&uuml;cherei Heidelberg bietet genau das &ndash; gemeinsames Lesen, jede:r f&uuml;r sich, in entspannter Atmosph&auml;re.Zu Beginn gibt es eine stille Lesezeit von etwa 60 Minuten: ankommen, Buch aufschlagen und abtauchen &ndash; ohne Handy, ohne Smalltalk, ohne Ablenkung. Im Anschl",
-      "source": "https://www.heidelberg.de/HD/Leben/veranstaltungskalender.html",
-      "sourceName": "Heidelberg official event calendar",
-      "sourceIsGeneral": true,
-      "officialEventId": "29535754"
-    },
-    {
-      "id": "mannheim-calendar-kreativtheke-stricken-und-hakeln-2026-10-07-1700",
-      "title": "Kreativtheke: Stricken und häkeln",
-      "city": "mannheim",
-      "category": "community",
-      "start": "2026-10-07T17:00",
-      "end": "2026-10-07T19:00",
-      "approximateEnd": true,
-      "venue": "Stadtbibliothek Mannheim - Zentralbibliothek im Stadthaus N1",
-      "description": "Wolltest du schon immer mal Stricken oder Häkeln, bist aber nie dazu gekommen? Komm vorbei und probiere es einfach aus.",
-      "source": "https://www.mannheim.de/de/veranstaltung/kreativtheke-stricken-und-haekeln",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "mannheim-calendar-judische-gemeinde-quot-bibas-murdered-for-being-jewish-quot-2026-10-07-1700",
-      "title": "Jüdische Gemeinde: &quot;Bibas: Murdered for Being Jewish&quot;",
-      "city": "mannheim",
-      "category": "community",
-      "start": "2026-10-07T17:00",
-      "end": "2026-10-07T19:00",
-      "approximateEnd": true,
-      "venue": "Cinema Quadrat",
-      "description": "Der 7. Oktober: Brutaler Angriff der Hamas auf jüdische Zivilpersonen. Familie Bibas wurde zum Symbol für die Grausamkeit des Terrorangriffs. BIBAS: MURDERED FOR BEING JEWISH",
-      "source": "https://www.mannheim.de/de/veranstaltung/juedische-gemeinde-bibas-murdered-for-being-jewish",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "heidelberg-30970553",
-      "title": "Wie nachhaltig ist Heidelberg? Beteiligung zum Nachhaltigkeitsbericht",
-      "city": "heidelberg",
-      "category": "community",
-      "start": "2026-10-07T17:30",
-      "end": "2026-10-07T20:00",
-      "venue": "B³ - Bürgerhaus Bahnstadt",
-      "description": "Die Stadt Heidelberg l&auml;dt zu einer Informations- und Beteiligungsveranstaltung im Rahmen der ersten Fortschreibung des Nachhaltigkeitsberichts ein. Im Mittelpunkt der &ouml;ffentlichen Veranstaltung stehen die ersten Zwischenergebnisse der Fortschreibung des Nachhaltigkeitsberichts: Wie hat sich beispielsweise die wirtschaftliche Situation in Heidelberg entwickelt? Was hat sich beim Thema Woh",
-      "source": "http://www.heidelberg.de/STEK2035",
-      "sourceName": "Heidelberg official event calendar",
-      "sourceIsGeneral": false,
-      "officialEventId": "30970553"
-    },
-    {
-      "id": "heidelberg-30539255",
-      "title": "AROMEN DES FRANZÖSISCHEN KINOS / LE COQ",
-      "city": "heidelberg",
-      "category": "film",
-      "start": "2026-10-07T18:00",
-      "end": "2026-10-07T18:00",
-      "venue": "Le Coq",
-      "description": "Licht aus, Vorhang auf: Le Coq verwandelt sich in eine Filmkulisse zwischen Nouvelle Vague und Am&eacute;lie &ndash; jeder Gang eine neue Einstellung. Licht aus, Vorhang auf &ndash; nur dass hier niemand eine Leinwand braucht. Le Coq ist seit Jahrzehnten Heidelbergs kleines franz&ouml;sisches Refugium, aktuell gef&uuml;hrt von Luisa und Felix Niebel, die der Tradition ihren eigenen, jungen Blick g",
-      "source": "https://www.restaurantfestivalheidelberg.de/",
-      "sourceName": "Heidelberg official event calendar",
-      "sourceIsGeneral": false,
-      "officialEventId": "30539255"
-    },
-    {
-      "id": "heidelberg-30972355",
-      "title": "Photovoltaik, Wärmepumpe & Energiemanagementsystem Heartbeat AI: Wie die eigene Energiewende gelingt",
-      "city": "heidelberg",
-      "category": "culture",
-      "start": "2026-10-07T18:00",
-      "end": "2026-10-07T20:00",
-      "venue": "Showroom 1KOMMA5° Heidelberg",
-      "description": "Steigende Energiepreise, neue gesetzliche Rahmenbedingungen und zahlreiche technische M&ouml;glichkeiten stellen viele Hausbesitzer vor wichtige Fragen - Bei unserem kostenfreien Informationsabend im Showroom Heidelberg erhalten Sie einen verst&auml;ndlichen und praxisnahen Einblick in die M&ouml;glichkeiten der modernen Energieversorgung. Die Schwerpunkte des Abends: Photovoltaik &amp; Stromspeic",
-      "source": "http://1K5-heidelberg.de",
-      "sourceName": "Heidelberg official event calendar",
-      "sourceIsGeneral": false,
-      "officialEventId": "30972355"
-    },
-    {
-      "id": "mannheim-calendar-fische-die-ubers-wasser-laufen-aphorismen-2026-10-07-1800",
-      "title": "Fische, die übers Wasser laufen. Aphorismen",
-      "city": "mannheim",
-      "category": "sports",
-      "start": "2026-10-07T18:00",
-      "end": "2026-10-07T20:00",
-      "approximateEnd": true,
-      "venue": "Marchivum",
-      "description": "Buchvorstellung | Das Buch versammelt mehr als 1000 Aphorismen des Autors, die sich der Suche nach Sinn und Sein widmen.",
-      "source": "https://www.mannheim.de/de/veranstaltung/fische-die-uebers-wasser-laufen-aphorismen",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "mannheim-calendar-als-wir-lasen-2026-10-07-1800",
-      "title": "Als wir lasen",
-      "city": "mannheim",
-      "category": "learning",
-      "start": "2026-10-07T18:00",
-      "end": "2026-10-07T20:00",
-      "approximateEnd": true,
-      "venue": "Theaterhaus G7",
-      "description": "Leseaktion | Beim Miteuchmittwoch Bring your own book",
-      "source": "https://www.mannheim.de/de/veranstaltung/als-wir-lasen-1",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "mannheim-calendar-offene-schreibwerkstatt-creative-writing-2026-10-07-1800",
-      "title": "Offene Schreibwerkstatt - Creative Writing",
-      "city": "mannheim",
-      "category": "learning",
-      "start": "2026-10-07T18:00",
-      "end": "2026-10-07T20:00",
-      "approximateEnd": true,
-      "venue": "Stadtbibliothek Mannheim - Dalberghaus N3, 4 | Dalbergsaal",
-      "description": "Die Stadtbibliothek Mannheim bietet allen Schreibinteressierten unter professioneller Leitung von Christine Weiner, einer Autorin und früheren Literaturagentin, eine offene Schreibwerkstatt an.&amp;nbs",
-      "source": "https://www.mannheim.de/de/veranstaltung/offene-schreibwerkstatt-creative-writing",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "mannheim-calendar-theater-sneak-2026-10-07-1830",
-      "title": "Theater-Sneak",
-      "city": "mannheim",
-      "category": "culture",
-      "start": "2026-10-07T18:30",
-      "end": "2026-10-07T20:30",
-      "approximateEnd": true,
-      "venue": "Nationaltheater Mannheim - Altes Kino Franklin",
-      "description": "Unsere beliebte Theater-Sneak ist zurück. Wir zeigen Ihnen eine Probe oder Vorstellung und verraten erst kurz vorher, um welche Sparte und welches Stück es sich handelt.",
-      "source": "https://www.mannheim.de/de/veranstaltung/theater-sneak-0",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "heidelberg-30968856",
-      "title": "Funeral Casino Blues",
-      "city": "heidelberg",
-      "category": "film",
-      "start": "2026-10-07T19:00",
-      "end": "2026-10-07T19:00",
-      "venue": "Karlstorkino",
-      "description": "Deutschland, Thailand 2025 | Regie: Roderick Warich | 153 min. | Jutamat Lamoon, Wason Dokkathum, Jutarat Burinok | Thai Original mit deutschen Untertiteln | FSK: 12. &nbsp; Jen lebt in Bangkok &ndash; zwischen der Rezeption eines Apartmenthauses und den Hotelzimmern fremder M&auml;nner. Was sie verkauft, ist Zeit, N&auml;he, manchmal nur einen Moment. Als ein Treffen eskaliert, greift Wason ein &",
-      "source": "https://www.karlstorkino.de/programm/funeral-casino-blues",
-      "sourceName": "Heidelberg official event calendar",
-      "sourceIsGeneral": false,
-      "officialEventId": "30968856"
-    },
-    {
-      "id": "mannheim-calendar-true-crime-impro-2026-10-07-1900",
-      "title": "True Crime Impro",
-      "city": "mannheim",
-      "category": "culture",
-      "start": "2026-10-07T19:00",
-      "end": "2026-10-07T21:00",
-      "approximateEnd": true,
-      "venue": "TECHNOSEUM",
-      "description": "Theater: True Crime Impro",
-      "source": "https://www.mannheim.de/de/veranstaltung/true-crime-impro",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "mannheim-calendar-freier-tanz-im-delta-xv-vierter-abend-2026-10-07-1900",
-      "title": "Freier Tanz im Delta XV: Vierter Abend",
-      "city": "mannheim",
-      "category": "culture",
-      "start": "2026-10-07T19:00",
-      "end": "2026-10-07T21:00",
-      "approximateEnd": true,
-      "venue": "Theater Felina-Areal",
-      "description": "Neue Choreographien von &amp; mit Antonia Arnold, Clara Baumann, Georgia Begbie, Urte Daugirdaite, Paloma Galiana Moscardo, Catherine Guerin,, Veronika Kornová, Carla Torrisi, Michel Ateba (Afrik-u",
-      "source": "https://www.mannheim.de/de/veranstaltung/freier-tanz-im-delta-xv-vierter-abend",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "mannheim-calendar-kunst-und-religion-mit-pfarrer-peter-annweiler-2026-10-07-1900",
-      "title": "Kunst und Religion mit Pfarrer Peter Annweiler",
-      "city": "mannheim",
-      "category": "community",
-      "start": "2026-10-07T19:00",
-      "end": "2026-10-07T21:00",
-      "approximateEnd": true,
-      "venue": "Kunsthalle Mannheim",
-      "description": "Hat die zeitgenössische Kunst noch (oder schon wieder) irgendwelche relevanten Berührungspunkte mit religiösen Fragestellungen? Gibt es Themen, die sowohl künstlerische als auch religiöse bzw.",
-      "source": "https://www.mannheim.de/de/veranstaltung/kunst-und-religion-mit-pfarrer-peter-annweiler",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "mannheim-calendar-unendliche-weiten-astronomie-fur-einsteiger-2026-10-07-1930",
-      "title": "Unendliche Weiten - Astronomie für Einsteiger",
-      "city": "mannheim",
-      "category": "community",
-      "start": "2026-10-07T19:30",
-      "end": "2026-10-07T21:30",
-      "approximateEnd": true,
-      "venue": "Planetarium Mannheim",
-      "description": "Einmal von der Erde aus durch unser Sonnensystem reisen? Die Schönheit der Planeten und Galaxien genießen? Lehnen Sie sich bequem zurück und entdecken Sie die „Unendlichen Weiten“ des Weltalls.",
-      "source": "https://www.mannheim.de/de/veranstaltung/unendliche-weiten-astronomie-fuer-einsteiger-8",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "mannheim-calendar-faire-woche-quot-of-mud-and-blood-kongo-im-rausch-der-hoffnung-quot-2026-10-07-1930",
-      "title": "Faire Woche: &quot;Of Mud and Blood: Kongo – Im Rausch der Hoffnung&quot;",
-      "city": "mannheim",
-      "category": "film",
-      "start": "2026-10-07T19:30",
-      "end": "2026-10-07T21:30",
-      "approximateEnd": true,
-      "venue": "Cinema Quadrat",
-      "description": "Im Rahmen der Fairen Woche läuft der Dokumentarfilm über den Abbau von Coltan-Erz im Kongo.",
-      "source": "https://www.mannheim.de/de/veranstaltung/faire-woche-of-mud-and-blood-kongo-im-rausch-der-hoffnung",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "sap-arena-chl-adler-mannheim-vs-gks-tychy-2026-10-07-1930",
-      "title": "CHL: Adler Mannheim vs. GKS Tychy",
-      "city": "mannheim",
-      "category": "sports",
-      "start": "2026-10-07T19:30",
-      "end": "2026-10-07T22:00",
-      "approximateEnd": true,
-      "venue": "SAP Arena Mannheim",
-      "description": "Adler Mannheim at SAP Arena. The advertised start time is exact; the end is estimated only for overlap planning.",
-      "source": "https://saparena.de/events/chl-adler-mannheim-vs-gks-tychy-2498",
-      "sourceName": "SAP Arena sports, concerts & shows"
-    },
-    {
-      "id": "mannheim-calendar-prof-dr-volker-busch-zuversicht-2026-10-07-2000",
-      "title": "Prof. Dr. Volker Busch - ZUVERSICHT",
-      "city": "mannheim",
-      "category": "community",
-      "start": "2026-10-07T20:00",
-      "end": "2026-10-07T22:00",
-      "approximateEnd": true,
-      "venue": "Capitol Casino",
-      "description": "Reizüberflutung, schlechte Nachrichten und düstere Prognosen, wohin man schaut. Das kann schnell verunsichern: Was kommt da alles auf uns zu?",
-      "source": "https://www.mannheim.de/de/veranstaltung/prof-dr-volker-busch-zuversicht",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "mannheim-calendar-filipe-moreno-solo-konzert-2026-10-07-2000",
-      "title": "Filipe Moreno (Solo-Konzert)",
-      "city": "mannheim",
-      "category": "community",
-      "start": "2026-10-07T20:00",
-      "end": "2026-10-07T22:00",
-      "approximateEnd": true,
-      "venue": "Kazzwoo - Jazz Café Bar",
-      "description": "- english below german -",
-      "source": "https://www.mannheim.de/de/veranstaltung/filipe-moreno-solo-konzert",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "heidelberg-30869304",
-      "title": "Tango Argentino - Anfängerkurs",
-      "city": "heidelberg",
-      "category": "culture",
-      "start": "2026-10-07T20:30",
-      "end": "2026-10-07T21:45",
-      "venue": "Alter Karlstorbahnhof",
-      "description": "Du hast Lust, in eine faszinierende Welt voller Bewegung, Begegnungen und Musik einzutauchen? Dann bist Du bei uns genau richtig! Gemeinsam lernen wir den Argentinischen Tango in entspannter, offener und herzlicher Atmosph&auml;re kennen. Wir entdecken zusammen, wie die Umarmung, die Improvisation und die nonverbale Kommunikation eine tiefe Verbindung im Tanzpaar schaffen. Grundelemente des Tango ",
-      "source": "https://www.tangodeseos.de/tanzen-lernen/neu-im-tango/",
-      "sourceName": "Heidelberg official event calendar",
-      "sourceIsGeneral": false,
-      "officialEventId": "30869304"
-    },
     {
       "id": "heidelberg-30864300",
       "title": "Au bonheur des vivants - Eröffnung der französischen Woche mit der Compagnie Les âmes nocturnes",
@@ -1190,6 +418,19 @@
       "sourceName": "Mannheim.de official event calendar"
     },
     {
+      "id": "mannheim-calendar-nachbarschafts-cleanup-putz-den-dalberg-raus-dalbergplatz-2026-10-08-1600",
+      "title": "Nachbarschafts-CleanUp / Putz den Dalberg raus! (Dalbergplatz)",
+      "city": "mannheim",
+      "category": "community",
+      "start": "2026-10-08T16:00",
+      "end": "2026-10-08T18:00",
+      "approximateEnd": true,
+      "venue": "Mannheim venue",
+      "description": "Organisation: StadtbibliothekTreffpunkt: Dalbergplatz",
+      "source": "https://www.mannheim.de/de/veranstaltung/nachbarschafts-cleanup-putz-den-dalberg-raus-dalbergplatz",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
       "id": "mannheim-calendar-schachabend-2026-10-08-1700",
       "title": "Schachabend",
       "city": "mannheim",
@@ -1538,21 +779,6 @@
       "sourceName": "Heidelberg official event calendar",
       "sourceIsGeneral": true,
       "officialEventId": "30891560"
-    },
-    {
-      "id": "heidelberg-30973751",
-      "title": "15. Poetischer Abend: „Glück“",
-      "city": "heidelberg",
-      "category": "learning",
-      "start": "2026-10-09T00:00",
-      "end": "2026-10-09T23:59",
-      "allDay": true,
-      "venue": "Venue to be confirmed",
-      "description": "Texte zum Thema \"Gl&uuml;ck\" aus verschiedenen Herkunftsl&auml;ndern Am Freitag, den 9. Oktober, 19:00 Uhr plant der Kulturkreis Emmertsgrund-Boxberg im Treff 22 (Emmertsgrundpassage 22) den 15. Poetischen Abend mit dem Thema \"Gl&uuml;ck\". Ziel des Poetischen Abends ist es Gleichgesinnte aus vielen Herkunftsl&auml;ndern zusammenzubringen, die Texte zum Thema (eigene oder fremde) in ihrer Mutterspr",
-      "source": "https://em-box-info.de/2026/09/22/poetischer-abend-zum-thema-glueck/",
-      "sourceName": "Heidelberg official event calendar",
-      "sourceIsGeneral": false,
-      "officialEventId": "30973751"
     },
     {
       "id": "heidelberg-29714982",
@@ -2111,19 +1337,6 @@
       "sourceName": "Mannheim.de official event calendar"
     },
     {
-      "id": "mannheim-calendar-classic-meets-digital-spielen-und-zukunft-erleben-2026-10-09-1800",
-      "title": "Classic meets digital – Spielen und Zukunft erleben",
-      "city": "mannheim",
-      "category": "community",
-      "start": "2026-10-09T18:00",
-      "end": "2026-10-09T20:00",
-      "approximateEnd": true,
-      "venue": "Stadtbibliothek Mannheim - Zentralbibliothek im Stadthaus N1",
-      "description": "Von Brettspielen mit Zukunftsszenarien bis hin zur Gamingstation mit VR-Brille: In Kooperation mit dem SpieleMA e.V.",
-      "source": "https://www.mannheim.de/de/veranstaltung/classic-meets-digital-spielen-und-zukunft-erleben",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
       "id": "mannheim-calendar-rollenspieltreff-in-der-neckarstadt-west-2026-10-09-1800",
       "title": "Rollenspieltreff in der Neckarstadt-West",
       "city": "mannheim",
@@ -2160,6 +1373,19 @@
       "venue": "Forum Franklin",
       "description": "Franklin spricht: Miteinander ins Gespräch kommen",
       "source": "https://www.mannheim.de/de/veranstaltung/franklin-spricht",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-abgesagt-classic-meets-digital-spielen-und-zukunft-erleben-2026-10-09-1800",
+      "title": "+++ABGESAGT+++Classic meets digital – Spielen und Zukunft erleben",
+      "city": "mannheim",
+      "category": "community",
+      "start": "2026-10-09T18:00",
+      "end": "2026-10-09T20:00",
+      "approximateEnd": true,
+      "venue": "Stadtbibliothek Mannheim - Zentralbibliothek im Stadthaus N1",
+      "description": "Von Brettspielen mit Zukunftsszenarien bis hin zur Gamingstation mit VR-Brille: In Kooperation mit dem SpieleMA e.V.",
+      "source": "https://www.mannheim.de/de/veranstaltung/abgesagtclassic-meets-digital-spielen-und-zukunft-erleben",
       "sourceName": "Mannheim.de official event calendar"
     },
     {
@@ -2281,20 +1507,6 @@
       "sourceName": "Heidelberg official event calendar",
       "sourceIsGeneral": false,
       "officialEventId": "30890600"
-    },
-    {
-      "id": "heidelberg-30943853",
-      "title": "Le Parfum des Chansons",
-      "city": "heidelberg",
-      "category": "music",
-      "start": "2026-10-09T20:00",
-      "end": "2026-10-09T22:00",
-      "venue": "Wolfsbrunnen",
-      "description": "Official Heidelberg calendar listing from Französische Woche.",
-      "source": "http://www.moitie-moitie.de",
-      "sourceName": "Heidelberg official event calendar",
-      "sourceIsGeneral": false,
-      "officialEventId": "30943853"
     },
     {
       "id": "mannheim-calendar-maite-itoiz-amp-john-kelly-best-of-20-years-anniversary-tour-2026-2026-10-09-2000",
@@ -2493,19 +1705,6 @@
       "officialEventId": "30968874"
     },
     {
-      "id": "mannheim-calendar-beehoover-sludge-doom-van-groover-stoner-rock-2026-10-09-2100",
-      "title": "BEEHOOVER (Sludge/Doom) // VAN GROOVER (Stoner Rock)",
-      "city": "mannheim",
-      "category": "community",
-      "start": "2026-10-09T21:00",
-      "end": "2026-10-09T23:00",
-      "approximateEnd": true,
-      "venue": "Geschichtswerkstatt Altes Volksbad",
-      "description": "BEEHOOVER (Sludge/Doom) // VAN GROOVER (Stoner Rock)",
-      "source": "https://www.mannheim.de/de/veranstaltung/beehoover-sludgedoom-van-groover-stoner-rock",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
       "id": "mannheim-calendar-pink-floyd-dark-side-of-the-moon-2026-10-09-2100",
       "title": "Pink Floyd - Dark Side of the Moon",
       "city": "mannheim",
@@ -2516,6 +1715,19 @@
       "venue": "Planetarium Mannheim",
       "description": "„Dark Side of the Moon“ ist das erfolgreichste Album der Rockgruppe Pink Floyd, das zu einem Klassiker der populären Musik wurde. Erschienen im Jahr 1973, kommen u.a.",
       "source": "https://www.mannheim.de/de/veranstaltung/pink-floyd-dark-side-of-the-moon-3",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-beehoover-abgesagt-van-groover-stoner-rock-new-force-heavy-stoner-2026-10-09-2100",
+      "title": "BEEHOOVER (abgesagt) // VAN GROOVER (Stoner Rock) // NEW FORCE (Heavy Stoner)",
+      "city": "mannheim",
+      "category": "community",
+      "start": "2026-10-09T21:00",
+      "end": "2026-10-09T23:00",
+      "approximateEnd": true,
+      "venue": "Geschichtswerkstatt Altes Volksbad",
+      "description": "BEEHOOVER (abgesagt) // VAN GROOVER (Stoner Rock) // NEW FORCE (Heavy Stoner)",
+      "source": "https://www.mannheim.de/de/veranstaltung/beehoover-abgesagt-van-groover-stoner-rock-new-force-heavy-stoner",
       "sourceName": "Mannheim.de official event calendar"
     },
     {
@@ -2584,7 +1796,7 @@
       "sourceName": "Mannheim.de official event calendar"
     },
     {
-      "id": "heidelberg-30919950",
+      "id": "heidelberg-30919951",
       "title": "Musik zur Marktzeit",
       "city": "heidelberg",
       "category": "music",
@@ -2596,7 +1808,7 @@
       "source": "http://www.friedensgemeinde-handschuhsheim.de/konzerte",
       "sourceName": "Heidelberg official event calendar",
       "sourceIsGeneral": false,
-      "officialEventId": "30919950"
+      "officialEventId": "30919951"
     },
     {
       "id": "heidelberg-29714983",
@@ -2746,20 +1958,6 @@
       "sourceName": "Heidelberg official event calendar",
       "sourceIsGeneral": false,
       "officialEventId": "28591363"
-    },
-    {
-      "id": "heidelberg-30362909",
-      "title": "Werkstatt.Theater 2026",
-      "city": "heidelberg",
-      "category": "culture",
-      "start": "2026-10-10T10:00",
-      "end": "2026-10-10T18:30",
-      "venue": "St. Raphael Gymnasium",
-      "description": "Werkstatt.Theater 2026 Erleben. Ausprobieren. Eintauchen. Werkstatt.Theater&nbsp;&ndash; zwei Tage, um ins Spiel zu kommen, den eigenen Ausdruck zu entdecken und gemeinsam Theater zu erleben.Ein Wochenende voller Bewegung, Begegnung und neuer Impulse &ndash; sowohl f&uuml;r alle Interessierten als auch f&uuml;r diejenigen, die in Schulen, Bildungs- und Kultureinrichtungen sowie allen Bereichen der",
-      "source": "https://www.theaterberatung-bw.de/",
-      "sourceName": "Heidelberg official event calendar",
-      "sourceIsGeneral": false,
-      "officialEventId": "30362909"
     },
     {
       "id": "heidelberg-30894002",
@@ -3933,20 +3131,6 @@
       "officialEventId": "30262950"
     },
     {
-      "id": "heidelberg-30362910",
-      "title": "Werkstatt.Theater 2026",
-      "city": "heidelberg",
-      "category": "culture",
-      "start": "2026-10-11T10:00",
-      "end": "2026-10-11T14:00",
-      "venue": "St. Raphael Gymnasium",
-      "description": "Werkstatt.Theater 2026 Erleben. Ausprobieren. Eintauchen. Werkstatt.Theater&nbsp;&ndash; zwei Tage, um ins Spiel zu kommen, den eigenen Ausdruck zu entdecken und gemeinsam Theater zu erleben.Ein Wochenende voller Bewegung, Begegnung und neuer Impulse &ndash; sowohl f&uuml;r alle Interessierten als auch f&uuml;r diejenigen, die in Schulen, Bildungs- und Kultureinrichtungen sowie allen Bereichen der",
-      "source": "https://www.theaterberatung-bw.de/",
-      "sourceName": "Heidelberg official event calendar",
-      "sourceIsGeneral": false,
-      "officialEventId": "30362910"
-    },
-    {
       "id": "mannheim-calendar-alexander-tillegreen-stucke-fur-werke-2026-10-11-1000",
       "title": "Alexander Tillegreen - Stücke für Werke",
       "city": "mannheim",
@@ -4074,6 +3258,19 @@
       "venue": "Kunsthalle Mannheim",
       "description": "Können Blüten die Welt anders wahrnehmen als wir? Und was verrät ihr Blick über unsere Zukunft?",
       "source": "https://www.mannheim.de/de/veranstaltung/studio-rasa-smite-raitis-smits-32",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-herbst-cleanup-am-stotzweiher-nabu-mannheim-2026-10-11-1000",
+      "title": "Herbst-Cleanup am Stotzweiher (NABU Mannheim)",
+      "city": "mannheim",
+      "category": "culture",
+      "start": "2026-10-11T10:00",
+      "end": "2026-10-11T12:00",
+      "approximateEnd": true,
+      "venue": "Mannheim venue",
+      "description": "Organisation: NABU Mannheim - Martin HasselTreffpunkt: Eisenbahnstr. 7, 68199 Mannheim-Neckarau",
+      "source": "https://www.mannheim.de/de/veranstaltung/herbst-cleanup-am-stotzweiher-nabu-mannheim",
       "sourceName": "Mannheim.de official event calendar"
     },
     {
@@ -4264,6 +3461,32 @@
       "venue": "Kapuzinerplanken",
       "description": "Vive la France! Französischer Markt bringt französisches Lebensgefühl nach Mannheim",
       "source": "https://www.mannheim.de/de/veranstaltung/franzoesischer-markt",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-besichtigung-der-sternwarte-2026-10-11-1100",
+      "title": "Besichtigung der Sternwarte",
+      "city": "mannheim",
+      "category": "culture",
+      "start": "2026-10-11T11:00",
+      "end": "2026-10-11T13:00",
+      "approximateEnd": true,
+      "venue": "Alte Sternwarte Mannheim",
+      "description": "Heute bieten wir \"Kurz-Führungen\" und \"Lang-Führungen\" an. Kurzführungen um 11:00, 11:20 und 11:40 , Dauer ca. 35 min. Langführungen um 12:00 und 12:30, Dauer ca. 70 min.",
+      "source": "https://www.mannheim.de/de/veranstaltung/besichtigung-der-sternwarte",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-fuhrungen-auf-dem-museumsschiff-2026-10-11-1100",
+      "title": "Führungen auf dem Museumsschiff",
+      "city": "mannheim",
+      "category": "culture",
+      "start": "2026-10-11T11:00",
+      "end": "2026-10-11T13:00",
+      "approximateEnd": true,
+      "venue": "Museumsschiff Mannheim",
+      "description": "Um 11 Uhr und 12 Uhr bieten wir geführte Rundgänge über das Schiff samt Maschinenraum.",
+      "source": "https://www.mannheim.de/de/veranstaltung/fuehrungen-auf-dem-museumsschiff",
       "sourceName": "Mannheim.de official event calendar"
     },
     {
@@ -4775,6 +3998,20 @@
       "sourceName": "Mannheim.de official event calendar"
     },
     {
+      "id": "heidelberg-30976268",
+      "title": "Stalin, der Weizen und ich - eine ukrainische Kindheit",
+      "city": "heidelberg",
+      "category": "learning",
+      "start": "2026-10-11T18:30",
+      "end": "2026-10-11T20:30",
+      "venue": "HeidelBERG-Café",
+      "description": "In ihrem Buch &bdquo;Stalin, der Weizen und ich &ndash; Eine ukrainische Kindheit&ldquo; (original: Quand Staline nous affamait &ndash; R&eacute;cit d&rsquo;un survivant ukrainien&ldquo;) erz&auml;hlt die Autorin Catherine Koleda die Geschichte ihres Vaters. Es ist ein unglaubliches, oft ersch&uuml;tterndes und dann wieder fast m&auml;rchenhaft anmutendes Abenteuer einer langen Flucht aus der Ukra",
+      "source": "https://heidelbergcafe.de/veranstaltungen.php",
+      "sourceName": "Heidelberg official event calendar",
+      "sourceIsGeneral": false,
+      "officialEventId": "30976268"
+    },
+    {
       "id": "mannheim-calendar-the-kings-amp-queens-of-musical-die-gro-ten-royals-der-musicalwelt-2026-10-11-1900",
       "title": "The KINGS &amp; QUEENS of Musical - Die größten Royals der Musicalwelt",
       "city": "mannheim",
@@ -5026,6 +4263,20 @@
       "sourceName": "Heidelberg official event calendar",
       "sourceIsGeneral": false,
       "officialEventId": "30589071"
+    },
+    {
+      "id": "heidelberg-30976251",
+      "title": "Wespen- und Hornissenschutz",
+      "city": "heidelberg",
+      "category": "learning",
+      "start": "2026-10-12T19:00",
+      "end": "2026-10-12T21:00",
+      "venue": "CoMakingSpace",
+      "description": "N&auml;chste Woche zu Gast im CoMakingSpace: Wespen und Hornissen - die ungeliebten N&uuml;tzlinge Das Leben ist ungerecht, vor allem, wenn du eine Wespe bist. Denn: alle hassen dich. In unserem Vortrag zeigen wir euch, dass unterschiedliche Wespenarten sehr unterschiedliche Eigenschaften haben und man gar nicht alle pauschal zu hassen braucht, dass Wespen nicht nur nerven, sondern uns allen n&uum",
+      "source": "https://www.heidelberg.de/HD/Leben/veranstaltungskalender.html",
+      "sourceName": "Heidelberg official event calendar",
+      "sourceIsGeneral": true,
+      "officialEventId": "30976251"
     },
     {
       "id": "mannheim-calendar-rhythmus-spuren-2026-10-12-1900",
@@ -5621,20 +4872,6 @@
       "description": "Wir lachen ohne Grund ! Wir lachen in der Gemeinschaft, den Lachen steckt an ! Wir lachen kostenlos ohne Anmeldung ! ... lachclubmannheim@aol.com",
       "source": "https://www.mannheim.de/de/veranstaltung/lach-yoga-4",
       "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "heidelberg-28079519",
-      "title": "Waves of Eternity - Energiearbeit im Spiel mit sichtbaren und unsichtbaren Wesenheiten",
-      "city": "heidelberg",
-      "category": "sports",
-      "start": "2026-10-13T19:30",
-      "end": "2026-10-13T22:30",
-      "venue": "YouMeUnity Heidelberg",
-      "description": "Waves of Eternity: dein Weg, mit Energie zu spielen &nbsp; Eine der kraftvollsten Weisen, sich mit sich selbst und anderen zu verbinden, ist die Begegnung auf energetischer Ebene. Da kann es dann schon mal sein, dass man gemeinsam in die Erinnerung an ein anderes Leben katapultiert wird oder f&uuml;r einen Moment in der Zeitlosigkeit versinkt. Egal, wie sehr du in der Welt der Energien bereits zu ",
-      "source": "https://youmeunity.com/bewusste-beruehrung/waves-of-eternity/",
-      "sourceName": "Heidelberg official event calendar",
-      "sourceIsGeneral": false,
-      "officialEventId": "28079519"
     },
     {
       "id": "mannheim-calendar-aktionstage-gegen-armut-quot-dirty-dancing-quot-2026-10-13-1930",
@@ -6369,20 +5606,6 @@
       "officialEventId": "30945154"
     },
     {
-      "id": "heidelberg-30689405",
-      "title": "Heidelberger Unternehmerinnen e.V.: Verbinden und Vernetzen",
-      "city": "heidelberg",
-      "category": "community",
-      "start": "2026-10-14T19:00",
-      "end": "2026-10-14T21:00",
-      "venue": "Tink Tank - Coworking Campbell",
-      "description": "Die Heidelberger Unternehmerinnen sind bald 25 Jahre aktiv - ein Abend als Auftakt zum kommenden Jubil&auml;umsjahr 2027. Im Fokus: Ein Blick zur&uuml;ck und in die Zukunft von allen Teilnehmenden an diesem Abend. Komm und lerne andere noch besser kennen! G&auml;ste sind herzlich willkommen! ORT: Tink Tank Coworking Campbell, Eingang Emil-Gumbel-Str.1, 69126 Heidelberg, Einlass ab 18:30 Uhr KOSTEN",
-      "source": "https://www.heidelberger-unternehmerinnen.de/",
-      "sourceName": "Heidelberg official event calendar",
-      "sourceIsGeneral": false,
-      "officialEventId": "30689405"
-    },
-    {
       "id": "heidelberg-30591353",
       "title": "Math Mysteries: Das Pentagramm",
       "city": "heidelberg",
@@ -6883,6 +6106,19 @@
       "venue": "Port25",
       "description": "Kuratierte Räume für die regionale Fotoszene",
       "source": "https://www.mannheim.de/de/veranstaltung/offfoto-zwischenfestival-9",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-welt-im-glas-auf-dem-marktplatz-2026-10-15-1130",
+      "title": "„Welt im Glas“ auf dem Marktplatz",
+      "city": "mannheim",
+      "category": "music",
+      "start": "2026-10-15T11:30",
+      "end": "2026-10-15T13:30",
+      "approximateEnd": true,
+      "venue": "Mannheim venue",
+      "description": "Internationale Speisen, vielfältige Getränke und Musik – dazu lädt „Welt im Glas“ am Donnerstag, 15. Oktober, auf den Mannheimer Marktplatz (G1) ein.",
+      "source": "https://www.mannheim.de/de/veranstaltungs/reihe/welt-im-glas-auf-dem-marktplatz",
       "sourceName": "Mannheim.de official event calendar"
     },
     {
@@ -7393,19 +6629,6 @@
       "sourceName": "Mannheim.de official event calendar"
     },
     {
-      "id": "mannheim-calendar-bilderbuchkino-vom-gespenst-das-nicht-allein-sein-wollte-2026-10-16-1000",
-      "title": "Bilderbuchkino „Vom Gespenst, das nicht allein sein wollte“",
-      "city": "mannheim",
-      "category": "film",
-      "start": "2026-10-16T10:00",
-      "end": "2026-10-16T12:00",
-      "approximateEnd": true,
-      "venue": "Stadtbibliothek Mannheim Zweigstelle Herzogenried",
-      "description": "Anstatt im Schloss herum zu spuken und andere zu erschrecken, fürchtet sich das kleine Gespenst selbst mächtig schnell – ganz besonders vor dem Alleinsein.",
-      "source": "https://www.mannheim.de/de/veranstaltung/bilderbuchkino-vom-gespenst-das-nicht-allein-sein-wollte",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
       "id": "mannheim-calendar-mannheimer-book-slam-battle-2027-2026-10-16-1000",
       "title": "Mannheimer Book-Slam*-Battle 2027",
       "city": "mannheim",
@@ -7458,6 +6681,19 @@
       "sourceName": "Mannheim.de official event calendar"
     },
     {
+      "id": "mannheim-calendar-bucherspa-2026-10-16-1000",
+      "title": "Bücherspaß",
+      "city": "mannheim",
+      "category": "community",
+      "start": "2026-10-16T10:00",
+      "end": "2026-10-16T12:00",
+      "approximateEnd": true,
+      "venue": "Stadtbibliothek Mannheim - Dalberghaus N3, 4 | Kinder- und Jugendbibliothek",
+      "description": "Für die Kleinsten wird eine Geschichte spielerisch vorgelesen.1 bis 3 Jahre (mit Eltern)",
+      "source": "https://www.mannheim.de/de/veranstaltung/buecherspass-2",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
       "id": "mannheim-calendar-smartphone-sprechstunde-fur-altere-in-neckarau-2026-10-16-1000",
       "title": "Smartphone-Sprechstunde für Ältere in Neckarau",
       "city": "mannheim",
@@ -7471,16 +6707,16 @@
       "sourceName": "Mannheim.de official event calendar"
     },
     {
-      "id": "mannheim-calendar-bucherspa-2026-10-16-1000",
-      "title": "Bücherspaß",
+      "id": "mannheim-calendar-ausgebucht-bilderbuchkino-vom-gespenst-das-nicht-allein-sein-wollte-2026-10-16-1000",
+      "title": "+++AUSGEBUCHT+++Bilderbuchkino „Vom Gespenst, das nicht allein sein wollte“",
       "city": "mannheim",
-      "category": "community",
+      "category": "film",
       "start": "2026-10-16T10:00",
       "end": "2026-10-16T12:00",
       "approximateEnd": true,
-      "venue": "Stadtbibliothek Mannheim - Dalberghaus N3, 4 | Kinder- und Jugendbibliothek",
-      "description": "Für die Kleinsten wird eine Geschichte spielerisch vorgelesen.1 bis 3 Jahre (mit Eltern)",
-      "source": "https://www.mannheim.de/de/veranstaltung/buecherspass-2",
+      "venue": "Stadtbibliothek Mannheim Zweigstelle Herzogenried",
+      "description": "Anstatt im Schloss herum zu spuken und andere zu erschrecken, fürchtet sich das kleine Gespenst selbst mächtig schnell – ganz besonders vor dem Alleinsein.",
+      "source": "https://www.mannheim.de/de/veranstaltung/ausgebuchtbilderbuchkino-vom-gespenst-das-nicht-allein-sein-wollte",
       "sourceName": "Mannheim.de official event calendar"
     },
     {
@@ -7735,20 +6971,6 @@
       "sourceName": "Heidelberg official event calendar",
       "sourceIsGeneral": false,
       "officialEventId": "30973402"
-    },
-    {
-      "id": "heidelberg-30894504",
-      "title": "English Café: Sprachtreffen",
-      "city": "heidelberg",
-      "category": "community",
-      "start": "2026-10-16T16:30",
-      "end": "2026-10-16T17:45",
-      "venue": "Venue to be confirmed",
-      "description": "Du m&ouml;chtest Dein Englisch &ouml;fter aktiv nutzen und suchst ein lockeres Sprachtreffen in Heidelberg? Im English Caf&eacute; kannst Du in geselliger Runde und lockerer Atmosph&auml;re Englisch sprechen.Im Mittelpunkt stehen echte Gespr&auml;che, Freude am Austausch und viel aktive Sprachpraxis. Auf Wunsch sorgen Spiele und Gespr&auml;chsimpulse f&uuml;r zus&auml;tzliche Abwechslung, nat&uuml",
-      "source": "https://go-for-english.de/angebot/english-cafe/",
-      "sourceName": "Heidelberg official event calendar",
-      "sourceIsGeneral": false,
-      "officialEventId": "30894504"
     },
     {
       "id": "heidelberg-30947053",
@@ -8255,19 +7477,6 @@
       "sourceName": "Mannheim.de official event calendar"
     },
     {
-      "id": "mannheim-calendar-live-at-fermac-039-s-ben-eadair-2026-10-16-2100",
-      "title": "Live at Fermac&#039;s: BEN EADAIR",
-      "city": "mannheim",
-      "category": "music",
-      "start": "2026-10-16T21:00",
-      "end": "2026-10-16T23:00",
-      "approximateEnd": true,
-      "venue": "Fermac&#039;s Irish Pub &amp; Restaurant",
-      "description": "? LIVE MUSIC AT FERMAC'S: Fr. 16.10. mit BEN EADAIR ?",
-      "source": "https://www.mannheim.de/de/veranstaltung/live-at-fermacs-ben-eadair",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
       "id": "mannheim-calendar-space-tour-2026-10-16-2100",
       "title": "Space Tour",
       "city": "mannheim",
@@ -8278,6 +7487,19 @@
       "venue": "Planetarium Mannheim",
       "description": "Kommen Sie mit auf eine Reise in die Tiefen des Universums und besuchen Sie die schönsten Orte des Weltalls!",
       "source": "https://www.mannheim.de/de/veranstaltung/space-tour",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-live-at-fermac-039-s-ben-eadair-2026-10-16-2100",
+      "title": "Live at Fermac&#039;s: BEN EADAIR",
+      "city": "mannheim",
+      "category": "music",
+      "start": "2026-10-16T21:00",
+      "end": "2026-10-16T23:00",
+      "approximateEnd": true,
+      "venue": "Fermac&#039;s Irish Pub &amp; Restaurant",
+      "description": "? LIVE MUSIC AT FERMAC'S: Fr. 16.10. mit BEN EADAIR ?",
+      "source": "https://www.mannheim.de/de/veranstaltung/live-at-fermacs-ben-eadair",
       "sourceName": "Mannheim.de official event calendar"
     },
     {
@@ -8719,7 +7941,7 @@
       "officialEventId": "30974757"
     },
     {
-      "id": "heidelberg-30869750",
+      "id": "heidelberg-30869601",
       "title": "Flohmarkt",
       "city": "heidelberg",
       "category": "community",
@@ -8730,7 +7952,7 @@
       "source": "https://www.heidelberg.de/HD/Leben/veranstaltungskalender.html",
       "sourceName": "Heidelberg official event calendar",
       "sourceIsGeneral": true,
-      "officialEventId": "30869750"
+      "officialEventId": "30869601"
     },
     {
       "id": "heidelberg-30918801",
@@ -8824,6 +8046,20 @@
       "description": "Mit feinem Gespür nutzte Anton von Klein, Professor für „schöne Wissenschaften“ am Hof des Kurfürsten Karl Theodor, Bilder, um Wissen anschaulich zu vermitteln.",
       "source": "https://www.mannheim.de/de/veranstaltung/ueberblicksfuehrung-von-duerer-bis-piranesi-5",
       "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "heidelberg-30976255",
+      "title": "Alles wild gesammelt - Sammeln als globales Phänomen unserer Zeit",
+      "city": "heidelberg",
+      "category": "culture",
+      "start": "2026-10-17T16:00",
+      "end": "2026-10-17T16:00",
+      "venue": "Völkerkundemuseum Heidelberg",
+      "description": "Er&ouml;ffnung der neuen Sonderausstellung Die bekannte Erz&auml;hlung ist einfach: Menschen waren J&auml;ger und Sammler bis Landwirtschaft und sp&auml;ter Industrie diese Lebensweise endg&uuml;ltig verdr&auml;ngten.Doch das Sammeln, Auflesen und Verwerten ist nie verschwunden. Im Gegenteil: Es ist ein globales Ph&auml;nomen unserer Zeit.In einer &Auml;ra vielf&auml;ltiger Krisen und &ouml;kologi",
+      "source": "https://www.vkm-vpst.de/alles-wild-gesammelt/",
+      "sourceName": "Heidelberg official event calendar",
+      "sourceIsGeneral": false,
+      "officialEventId": "30976255"
     },
     {
       "id": "heidelberg-30495903",
@@ -8985,6 +8221,20 @@
       "officialEventId": "30970850"
     },
     {
+      "id": "heidelberg-30976253",
+      "title": "Christl Sittenauer - Komplizin",
+      "city": "heidelberg",
+      "category": "community",
+      "start": "2026-10-17T19:00",
+      "end": "2026-10-17T19:00",
+      "venue": "KULTURFENSTER e.V.",
+      "description": "Komplizin - politisch verziert &ndash; musikalisch serviert Man sagt, dass es ein Dorf braucht, um ein Kind gro&szlig;zuziehen. Um ein Leben zu meistern, braucht es Kompliz*innenschaft. In ihrem zweiten B&uuml;hnenprogramm macht Christl Sittenauer sich auf die Suche nach den Verb&uuml;ndeten in ihrem Alltag. Nach denen, die schon lange da sind, die sie noch braucht, und auch nach denen, auf die si",
+      "source": "https://www.kulturfenster.de/ event-1407",
+      "sourceName": "Heidelberg official event calendar",
+      "sourceIsGeneral": false,
+      "officialEventId": "30976253"
+    },
+    {
       "id": "heidelberg-29785704",
       "title": "European Outdoor Film Tour 26/27",
       "city": "heidelberg",
@@ -8997,20 +8247,6 @@
       "sourceName": "Heidelberg official event calendar",
       "sourceIsGeneral": false,
       "officialEventId": "29785704"
-    },
-    {
-      "id": "heidelberg-30789234",
-      "title": "Sinfoniekonzert",
-      "city": "heidelberg",
-      "category": "music",
-      "start": "2026-10-17T19:00",
-      "end": "2026-10-17T21:00",
-      "venue": "Konzerthaus Stadthalle Heidelberg",
-      "description": "L. v. Beethoven: Ouvert&uuml;re zu Egmont op. 84A. Dvoř&aacute;k: Violinkonzert a-Moll op. 53P. Tchaikovski: Sinfonie Nr. 5 e-Moll op. 64 Collegium Musicum KielVioline: Leo EsselsonDirigent: Daniel Kirchmann Das Collegium Musicum der Christian-Albrechts-Universit&auml;t zu Kiel ist am Samstag, 17. Oktober um 19 Uhr unter der Leitung von Universit&auml;tsmusikdirektor Daniel Kirchmann erstmalig im ",
-      "source": "https://www.unimusik.uni-kiel.de/de",
-      "sourceName": "Heidelberg official event calendar",
-      "sourceIsGeneral": false,
-      "officialEventId": "30789234"
     },
     {
       "id": "heidelberg-29515602",
@@ -9847,6 +9083,34 @@
       "sourceName": "Heidelberg official event calendar",
       "sourceIsGeneral": false,
       "officialEventId": "28591377"
+    },
+    {
+      "id": "heidelberg-30976256",
+      "title": "Mensch oder Objekt?",
+      "city": "heidelberg",
+      "category": "culture",
+      "start": "2026-10-18T14:00",
+      "end": "2026-10-18T14:00",
+      "venue": "Völkerkundemuseum Heidelberg",
+      "description": "Human Remains zwischen Forschung, Erinnerung und Verantwortung Abschlussf&uuml;hrung mit anschlie&szlig;ender Diskussion.",
+      "source": "https://www.vkm-vpst.de/mensch-oder-objekt/",
+      "sourceName": "Heidelberg official event calendar",
+      "sourceIsGeneral": false,
+      "officialEventId": "30976256"
+    },
+    {
+      "id": "heidelberg-30976254",
+      "title": "Alles wild gesammelt - Sammeln als globales Phänomen unserer Zeit",
+      "city": "heidelberg",
+      "category": "culture",
+      "start": "2026-10-18T14:00",
+      "end": "2026-10-18T18:00",
+      "venue": "Völkerkundemuseum Heidelberg",
+      "description": "Die bekannte Erz&auml;hlung ist einfach: Menschen waren J&auml;ger und Sammler bis Landwirtschaft und sp&auml;ter Industrie diese Lebensweise endg&uuml;ltig verdr&auml;ngten.Doch das Sammeln, Auflesen und Verwerten ist nie verschwunden. Im Gegenteil: Es ist ein globales Ph&auml;nomen unserer Zeit.In einer &Auml;ra vielf&auml;ltiger Krisen und &ouml;kologischer Umbr&uuml;che suchen Menschen weiterh",
+      "source": "https://www.vkm-vpst.de/alles-wild-gesammelt/",
+      "sourceName": "Heidelberg official event calendar",
+      "sourceIsGeneral": false,
+      "officialEventId": "30976254"
     },
     {
       "id": "mannheim-calendar-wo-geht-039-s-denn-hier-zur-milchstra-e-2026-10-18-1400",
@@ -11447,7 +10711,7 @@
       "approximateEnd": true,
       "venue": "Theaterhaus G7",
       "description": "Leseaktion | Beim Miteuchmittwoch Bring your own book",
-      "source": "https://www.mannheim.de/de/veranstaltung/als-wir-lasen-2",
+      "source": "https://www.mannheim.de/de/veranstaltung/als-wir-lasen",
       "sourceName": "Mannheim.de official event calendar"
     },
     {
@@ -11546,20 +10810,6 @@
       "description": "Kasimir wird arbeitslos, doch seine Verlobte Karoline will sich davon weder ihren Optimismus noch ihre eigenen beruflichen Ambitionen nehmen lassen. Prompt steht beider Liebe auf dem Prüfstand.",
       "source": "https://www.mannheim.de/de/veranstaltung/kasimir-und-karoline-2",
       "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "heidelberg-30891565",
-      "title": "Helene Bracht: Irma tanzt Lesung & Gespräch",
-      "city": "heidelberg",
-      "category": "learning",
-      "start": "2026-10-21T19:30",
-      "end": "2026-10-21T21:00",
-      "venue": "Buchhandlung WortReich",
-      "description": "Zu Gast im WortReich: Helene Bracht mit \"Irma tanzt\" Im letzten Jahr erschien Helene Brachts erster literarischer Essay Das Lieben danach: ein aussergew&ouml;hnliches Buch, n&uuml;chtern, poetisch und pr&auml;zise in der Sprache.&nbsp;Ein R&uuml;ckblick auf die Kindheit, der seinen Leser:innen viel zum Nachdenken gegeben hat. Irma tanzt: es ist ein ber&uuml;ckendes Bild, das zum Titel von Helene B",
-      "source": "https://wortreich-hd.buchkatalog.de/content/HeleneBracht",
-      "sourceName": "Heidelberg official event calendar",
-      "sourceIsGeneral": false,
-      "officialEventId": "30891565"
     },
     {
       "id": "mannheim-calendar-signale-aus-raum-und-zeit-2026-10-21-1930",
@@ -13924,6 +13174,20 @@
       "officialEventId": "30974772"
     },
     {
+      "id": "heidelberg-30976258",
+      "title": "Das allererste Spiel",
+      "city": "heidelberg",
+      "category": "community",
+      "start": "2026-10-24T18:00",
+      "end": "2026-10-24T18:00",
+      "venue": "Völkerkundemuseum Heidelberg",
+      "description": "Ensemble Divers / Intervention Eine Performance zwischen Bildern, Tat&uuml;-tata, Halleluja und (un)schuldigen Bewegungen. Eine wilde Freude. Jetzt, wo die B&auml;ume endlich selbst sprechen. Keine Angst. Kaiser, wieviel Schritte schenkst du mir.&nbsp;Kein Malen nach Zahlen. Eher ein Zauber. Wir spielen ja nur, das allererste Spiel. &nbsp; Eintritt zum Museumspreis. &nbsp; Mit: Malte Borgfeldt, Ma",
+      "source": "https://www.vkm-vpst.de",
+      "sourceName": "Heidelberg official event calendar",
+      "sourceIsGeneral": false,
+      "officialEventId": "30976258"
+    },
+    {
       "id": "mannheim-calendar-unendliche-weiten-astronomie-fur-einsteiger-2026-10-24-1800",
       "title": "Unendliche Weiten - Astronomie für Einsteiger",
       "city": "mannheim",
@@ -14082,6 +13346,20 @@
       "sourceName": "Heidelberg official event calendar",
       "sourceIsGeneral": false,
       "officialEventId": "30863753"
+    },
+    {
+      "id": "heidelberg-30389315",
+      "title": "Rhein-Neckar Jazz-Orchester",
+      "city": "heidelberg",
+      "category": "music",
+      "start": "2026-10-24T20:00",
+      "end": "2026-10-24T20:00",
+      "venue": "Rudolf-Wild-Halle Kulturzentrum ",
+      "description": "Das Rhein-Neckar Jazz Orchester (RNJO) aus Weinheim blickt auf eine &uuml;ber 30-j&auml;hrige Bandgeschichte zur&uuml;ck und vereint Musiker aus der gesamten Metropolregion Rhein-Neckar. Es spielt in klassischer Big-Band-Besetzung und zeichnet sich stilistisch durch ein stimmiges musikalisches Konzept und ein breites Repertoire aus &ndash; von Swing und Bebop &uuml;ber Funk und Latin bis Fusion un",
+      "source": "https://eppelheim.reservix.de/p/reservix/event/2585015",
+      "sourceName": "Heidelberg official event calendar",
+      "sourceIsGeneral": false,
+      "officialEventId": "30389315"
     },
     {
       "id": "mannheim-calendar-ole-lehmann-war-das-schon-immer-so-laut-hier-2026-10-24-2000",
@@ -14634,6 +13912,20 @@
       "sourceName": "Heidelberg official event calendar",
       "sourceIsGeneral": false,
       "officialEventId": "29610954"
+    },
+    {
+      "id": "heidelberg-30163150",
+      "title": "Esskastanienerlebnis im Heidelberger Stadtwald",
+      "city": "heidelberg",
+      "category": "outdoors",
+      "start": "2026-10-25T12:00",
+      "end": "2026-10-25T17:00",
+      "venue": "Theaterstraße",
+      "description": "Zur Esskastanie &ndash; hier in der Region auch oft Keschde genannte - gibt es viel zu erz&auml;hlen und doch wird sie meist nicht so richtig wahrgenommen. Im Heidelberger Stadtwald finden sich besonders viele Exemplare dieses tollen Baums, der auch f&uuml;r die Zukunft gut gewappnet ist. Bei der Veranstaltung im Heidelberger Stadtwald lernen die Teilnehmenden allerhand Interessantes &uuml;ber die",
+      "source": "https://natuerlich.heidelberg.de/programm/index.php?kathaupt=11&knr=261032&kursname=Esskastanienerlebnis+im+Heidelberger+Stadtwald",
+      "sourceName": "Heidelberg official event calendar",
+      "sourceIsGeneral": false,
+      "officialEventId": "30163150"
     },
     {
       "id": "mannheim-calendar-hartmut-kiewert-zusammenkunft-der-spezies-2026-10-25-1200",
@@ -15666,6 +14958,20 @@
       "sourceName": "Mannheim.de official event calendar"
     },
     {
+      "id": "heidelberg-30976266",
+      "title": "Stone Tape Sonata",
+      "city": "heidelberg",
+      "category": "culture",
+      "start": "2026-10-27T18:00",
+      "end": "2026-10-27T18:00",
+      "venue": "Völkerkundemuseum Heidelberg",
+      "description": "a free-roam*, site-specific theatre experience by Ed Hartland Bestselling true-crime writer John Gaunt doesn&rsquo;t just research his subjects &mdash; he inhabits them. To write his books, he goes and lives in the houses where crimes were committed, believing that walls remember what people forget. However, his latest project is painfully personal: he has moved back into the house where his wife ",
+      "source": "https://www.karlstorbahnhof.de/programm/veranstaltung/stone-tape-sonata/",
+      "sourceName": "Heidelberg official event calendar",
+      "sourceIsGeneral": false,
+      "officialEventId": "30976266"
+    },
+    {
       "id": "mannheim-calendar-cafe-colibri-online-2026-10-27-1800",
       "title": "Café Colibri online",
       "city": "mannheim",
@@ -16237,6 +15543,20 @@
       "officialEventId": "30923101"
     },
     {
+      "id": "heidelberg-30976267",
+      "title": "Stone Tape Sonata",
+      "city": "heidelberg",
+      "category": "culture",
+      "start": "2026-10-28T18:00",
+      "end": "2026-10-28T18:00",
+      "venue": "Völkerkundemuseum Heidelberg",
+      "description": "a free-roam*, site-specific theatre experience by Ed Hartland Bestselling true-crime writer John Gaunt doesn&rsquo;t just research his subjects &mdash; he inhabits them. To write his books, he goes and lives in the houses where crimes were committed, believing that walls remember what people forget. However, his latest project is painfully personal: he has moved back into the house where his wife ",
+      "source": "https://www.karlstorbahnhof.de/programm/veranstaltung/stone-tape-sonata/",
+      "sourceName": "Heidelberg official event calendar",
+      "sourceIsGeneral": false,
+      "officialEventId": "30976267"
+    },
+    {
       "id": "heidelberg-30971604",
       "title": "Was kann ich selbst zusätzlich tun? Sport, Ernährung und unterstützende Maßnahmen bei Brustkrebs",
       "city": "heidelberg",
@@ -16462,7 +15782,7 @@
       "sourceName": "Mannheim.de official event calendar"
     },
     {
-      "id": "heidelberg-30944263",
+      "id": "heidelberg-30944264",
       "title": "Reportage-Workshop",
       "city": "heidelberg",
       "category": "learning",
@@ -16473,7 +15793,7 @@
       "source": "https://www.heidelberg.de/HD/Leben/veranstaltungskalender.html",
       "sourceName": "Heidelberg official event calendar",
       "sourceIsGeneral": true,
-      "officialEventId": "30944263"
+      "officialEventId": "30944264"
     },
     {
       "id": "mannheim-calendar-alexander-tillegreen-stucke-fur-werke-2026-10-29-1000",
@@ -17361,6 +16681,20 @@
       "officialEventId": "28631992"
     },
     {
+      "id": "heidelberg-30976263",
+      "title": "Nepalbasar",
+      "city": "heidelberg",
+      "category": "community",
+      "start": "2026-10-30T14:00",
+      "end": "2026-10-30T18:00",
+      "venue": "Völkerkundemuseum Heidelberg",
+      "description": "Sch&ouml;ne Dinge aus Nepal, Indien und Thailand &nbsp; Sch&ouml;ne Papiere, Filz, Schmuck, Textilien R&auml;ucherwerk, Gew&uuml;rze, Tee, Klangschalen, Zimbeln, Gongs, kleine M&ouml;belst&uuml;cke und vieles mehr. Veranstalter: Tudi Billo&reg; Papers",
+      "source": "https://www.vkm-vpst.de",
+      "sourceName": "Heidelberg official event calendar",
+      "sourceIsGeneral": false,
+      "officialEventId": "30976263"
+    },
+    {
       "id": "mannheim-calendar-ein-sternbild-fur-flappi-2026-10-30-1400",
       "title": "Ein Sternbild für Flappi",
       "city": "mannheim",
@@ -17453,6 +16787,20 @@
       "officialEventId": "28627146"
     },
     {
+      "id": "heidelberg-30974781",
+      "title": "Gruselgarten Heidelberg",
+      "city": "heidelberg",
+      "category": "culture",
+      "start": "2026-10-30T18:00",
+      "end": "2026-10-30T20:00",
+      "venue": "Gruselgarten im Brentanoweg",
+      "description": "Der Gruselgarten in Heidelberg &ouml;ffnet wieder seine Tore - Traust du dich hinein? &nbsp; Seit 100 Jahren steht das Anwesen des Ehepaares M&uuml;ller leer. Es wird von unheimichen Gestalten berichtet - und von Menschen, die verschwinden. &nbsp; Der Grusegarten ist eine immersive Horror-Maze. Altersempfehlung: ab 14 Jahren &nbsp; Eintrittspreise: Eintritt: 4&euro;, Abendticket: 6&euro;(Abendtick",
+      "source": "http://www.gruselgarten-brentanoweg-hd.de",
+      "sourceName": "Heidelberg official event calendar",
+      "sourceIsGeneral": false,
+      "officialEventId": "30974781"
+    },
+    {
       "id": "heidelberg-30974778",
       "title": "Unsere Kinder | Tag des audiovisuellen Erbes",
       "city": "heidelberg",
@@ -17480,6 +16828,20 @@
       "sourceName": "Mannheim.de official event calendar"
     },
     {
+      "id": "heidelberg-30976257",
+      "title": "Haunted Heidelberg - Böse Nachtgeschichten",
+      "city": "heidelberg",
+      "category": "community",
+      "start": "2026-10-30T18:30",
+      "end": "2026-10-30T20:00",
+      "venue": "Altstadt Heidelberg",
+      "description": "Sie kennen das idyllische Heidelberg bei Sonnenschein? Wir erleben die dunklen Seiten der Altstadt! Lauschen Sie bei unserer &bdquo;G&auml;nsehautf&uuml;hrung&ldquo; fesselnden Erz&auml;hlungen &uuml;ber Begr&auml;bnisriten, Nachzehrer, Wiederg&auml;nger und die Geheimnisse des Heiligenbergs. Vorsicht: Nur f&uuml;r Menschen mit guten Nerven, denen ein wenig Grusel nichts ausmacht! Nicht f&uuml;r K",
+      "source": "https://palatina-zeitreisen.de/touren/heidelberg/haunted-heidelberg",
+      "sourceName": "Heidelberg official event calendar",
+      "sourceIsGeneral": false,
+      "officialEventId": "30976257"
+    },
+    {
       "id": "heidelberg-27094974",
       "title": "Musical Dinner Show – Best of Musicals",
       "city": "heidelberg",
@@ -17494,7 +16856,7 @@
       "officialEventId": "27094974"
     },
     {
-      "id": "heidelberg-27065149",
+      "id": "heidelberg-27064899",
       "title": "Musical Dinner Show - 3 Gänge Menü",
       "city": "heidelberg",
       "category": "music",
@@ -17505,7 +16867,7 @@
       "source": "https://www.heidelberg.de/HD/Leben/veranstaltungskalender.html",
       "sourceName": "Heidelberg official event calendar",
       "sourceIsGeneral": true,
-      "officialEventId": "27065149"
+      "officialEventId": "27064899"
     },
     {
       "id": "mannheim-calendar-seom-nepal-2026-10-30-1900",
@@ -17545,20 +16907,6 @@
       "description": "Bei der Werkschau präsentieren die Studentinnen und Studenten der Theaterakademie Mannheim ihre Rollen, Choreographien und Lieder, die sie mit ihren Dozentinnen und Dozenten erarbeitet haben.",
       "source": "https://www.mannheim.de/de/veranstaltung/werkschau-der-theaterakademie-mannheim",
       "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "heidelberg-30790763",
-      "title": "Musik zwischen Mondschein und Dunkelheit",
-      "city": "heidelberg",
-      "category": "music",
-      "start": "2026-10-30T19:30",
-      "end": "2026-10-30T19:30",
-      "venue": "Augustinum Heidelberg",
-      "description": "Klavierabend mit Weronika Chodakowska Der Mondschein und die Dunkelheit der Nacht inspirierten Komponisten seit jeher zu tiefgr&uuml;ndigen Werken mit eindrucksvollen, kreativen Spannungsfeldern. Debussys &bdquo;Clair de lune&ldquo; und Beethovens &bdquo;Mondscheinsonate&ldquo; sind die wohl popul&auml;rsten, aber nicht einzigen Beispiele daf&uuml;r, wie Musik verschiedene Polarit&auml;ten wie Lic",
-      "source": "https://augustinum.de/heidelberg/kultur-und-aktivitaeten/",
-      "sourceName": "Heidelberg official event calendar",
-      "sourceIsGeneral": false,
-      "officialEventId": "30790763"
     },
     {
       "id": "heidelberg-30868205",
@@ -18164,6 +17512,20 @@
       "sourceName": "Mannheim.de official event calendar"
     },
     {
+      "id": "heidelberg-30976265",
+      "title": "Nepalbasar",
+      "city": "heidelberg",
+      "category": "community",
+      "start": "2026-10-31T14:00",
+      "end": "2026-10-31T18:00",
+      "venue": "Völkerkundemuseum Heidelberg",
+      "description": "Sch&ouml;ne Dinge aus Nepal, Indien und Thailand &nbsp; Sch&ouml;ne Papiere, Filz, Schmuck, Textilien R&auml;ucherwerk, Gew&uuml;rze, Tee, Klangschalen, Zimbeln, Gongs, kleine M&ouml;belst&uuml;cke und vieles mehr. Veranstalter: Tudi Billo&reg; Papers",
+      "source": "https://www.vkm-vpst.de",
+      "sourceName": "Heidelberg official event calendar",
+      "sourceIsGeneral": false,
+      "officialEventId": "30976265"
+    },
+    {
       "id": "mannheim-calendar-dinosaurier-die-geschichte-des-uberlebens-2026-10-31-1400",
       "title": "Dinosaurier - Die Geschichte des Überlebens",
       "city": "mannheim",
@@ -18204,19 +17566,6 @@
       "officialEventId": "30974779"
     },
     {
-      "id": "mannheim-calendar-halloween-special-2026-10-31-1500",
-      "title": "Halloween-Special",
-      "city": "mannheim",
-      "category": "community",
-      "start": "2026-10-31T15:00",
-      "end": "2026-10-31T17:00",
-      "approximateEnd": true,
-      "venue": "Opal",
-      "description": "Passend zum schaurigsten Tag im Jahr begleiten wir Juri Tetzlaff und ein kleines Gespenst auf dem Weg zu seinem allerersten Abenteuer durch die Nacht mit flatternden Schatten, geheimnisvollen Klang",
-      "source": "https://www.mannheim.de/de/veranstaltung/halloween-special",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
       "id": "mannheim-calendar-gerd-reutter-vorzeichen-2026-10-31-1500",
       "title": "Gerd Reutter. VORZEICHEN",
       "city": "mannheim",
@@ -18227,6 +17576,19 @@
       "venue": "Atelier Gerd Reutter",
       "description": "2017 erklärt der Physiker Stephen Hawking, er glaube, die Menschheit werde nur noch 600 Jahre überleben, bevor die Erde zu einem „glühenden Feuerball\" werde, der ihr Ende bedeute.",
       "source": "https://www.mannheim.de/de/veranstaltung/gerd-reutter-vorzeichen-20",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-1-familienkonzert-halloween-special-2026-10-31-1500",
+      "title": "1. Familienkonzert: Halloween-Special",
+      "city": "mannheim",
+      "category": "community",
+      "start": "2026-10-31T15:00",
+      "end": "2026-10-31T17:00",
+      "approximateEnd": true,
+      "venue": "Opal",
+      "description": "Passend zum schaurigsten Tag im Jahr begleiten wir Juri Tetzlaff und ein kleines Gespenst auf dem Weg zu seinem allerersten Abenteuer durch die Nacht mit flatternden Schatten, geheimnisvollen Klang",
+      "source": "https://www.mannheim.de/de/veranstaltung/1-familienkonzert-halloween-special",
       "sourceName": "Mannheim.de official event calendar"
     },
     {
@@ -18336,6 +17698,20 @@
       "sourceName": "Mannheim.de official event calendar"
     },
     {
+      "id": "heidelberg-30974782",
+      "title": "Gruselgarten Heidelberg",
+      "city": "heidelberg",
+      "category": "culture",
+      "start": "2026-10-31T18:00",
+      "end": "2026-10-31T22:30",
+      "venue": "Gruselgarten im Brentanoweg",
+      "description": "Der Gruselgarten in Heidelberg &ouml;ffnet wieder seine Tore - Traust du dich hinein? &nbsp; Seit 100 Jahren steht das Anwesen des Ehepaares M&uuml;ller leer. Es wird von unheimichen Gestalten berichtet - und von Menschen, die verschwinden. &nbsp; Der Grusegarten ist eine immersive Horror-Maze. Altersempfehlung: ab 14 Jahren &nbsp; Eintrittspreise: Eintritt: 4&euro;, Abendticket: 6&euro;(Abendtick",
+      "source": "http://www.gruselgarten-brentanoweg-hd.de",
+      "sourceName": "Heidelberg official event calendar",
+      "sourceIsGeneral": false,
+      "officialEventId": "30974782"
+    },
+    {
       "id": "mannheim-calendar-schwanensee-ballet-classique-solenne-2026-10-31-1800",
       "title": "Schwanensee - Ballet Classique Solenne",
       "city": "mannheim",
@@ -18404,7 +17780,7 @@
       "officialEventId": "27094977"
     },
     {
-      "id": "heidelberg-27065154",
+      "id": "heidelberg-27064904",
       "title": "Musical Dinner Show - 3 Gänge Menü",
       "city": "heidelberg",
       "category": "music",
@@ -18415,7 +17791,7 @@
       "source": "https://www.heidelberg.de/HD/Leben/veranstaltungskalender.html",
       "sourceName": "Heidelberg official event calendar",
       "sourceIsGeneral": true,
-      "officialEventId": "27065154"
+      "officialEventId": "27064904"
     },
     {
       "id": "mannheim-calendar-faust-2026-10-31-1900",
@@ -18957,6 +18333,20 @@
       "officialEventId": "30944259"
     },
     {
+      "id": "heidelberg-30976264",
+      "title": "Nepalbasar",
+      "city": "heidelberg",
+      "category": "community",
+      "start": "2026-11-01T11:00",
+      "end": "2026-11-01T18:00",
+      "venue": "Völkerkundemuseum Heidelberg",
+      "description": "Sch&ouml;ne Dinge aus Nepal, Indien und Thailand &nbsp; Sch&ouml;ne Papiere, Filz, Schmuck, Textilien R&auml;ucherwerk, Gew&uuml;rze, Tee, Klangschalen, Zimbeln, Gongs, kleine M&ouml;belst&uuml;cke und vieles mehr. Veranstalter: Tudi Billo&reg; Papers",
+      "source": "https://www.vkm-vpst.de",
+      "sourceName": "Heidelberg official event calendar",
+      "sourceIsGeneral": false,
+      "officialEventId": "30976264"
+    },
+    {
       "id": "heidelberg-30972554",
       "title": "Veganer Mitbring-Brunch",
       "city": "heidelberg",
@@ -19208,20 +18598,6 @@
       "sourceName": "Mannheim.de official event calendar"
     },
     {
-      "id": "heidelberg-30919953",
-      "title": "»Denn sie sollen getröstet werden« - Oratorienkonzert zu Allerheiligen",
-      "city": "heidelberg",
-      "category": "music",
-      "start": "2026-11-01T19:00",
-      "end": "2026-11-01T20:30",
-      "venue": "Jesuitenkirche",
-      "description": "Johannes Brahms: Ein deutsches Requiem, op. 45 Franz Schmidt: Adagio aus der 4. Sinfonie C-Dur Elena Hars&aacute;nyi, Sopran Matthias Horn, Bariton&nbsp; Concerto Camerata Cappella Palatina Heidelberg Leitung: Markus Eichenlaub &nbsp; Eintritt: &euro; 29/26, &euro; 24/21, &euro; 17/15, &euro; 10/7, Karten bei allen Vorverkaufsstellen, im Internet unter www.reservix.de und an der Abendkasse ab 18 U",
-      "source": "http://www.kirchenmusik-jesuitenkirche.de",
-      "sourceName": "Heidelberg official event calendar",
-      "sourceIsGeneral": false,
-      "officialEventId": "30919953"
-    },
-    {
       "id": "heidelberg-28103362",
       "title": "PARSHAD – Live Comedy Tour - Emotional sein Vadder",
       "city": "heidelberg",
@@ -19249,7 +18625,7 @@
       "sourceName": "Mannheim.de official event calendar"
     },
     {
-      "id": "heidelberg-30921201",
+      "id": "heidelberg-30921202",
       "title": "A New World of Peace - A Powerful Vision for Change",
       "city": "heidelberg",
       "category": "community",
@@ -19260,7 +18636,7 @@
       "source": "https://www.meditation-in-heidelberg.de/articles/a-new-world-of-peace-friedenskonzert/",
       "sourceName": "Heidelberg official event calendar",
       "sourceIsGeneral": false,
-      "officialEventId": "30921201"
+      "officialEventId": "30921202"
     },
     {
       "id": "heidelberg-30867055",
@@ -19977,19 +19353,6 @@
       "sourceName": "Mannheim.de official event calendar"
     },
     {
-      "id": "mannheim-calendar-smartphone-sprechstunde-fur-altere-in-seckenheim-2026-11-04-1000",
-      "title": "Smartphone-Sprechstunde für Ältere in Seckenheim",
-      "city": "mannheim",
-      "category": "culture",
-      "start": "2026-11-04T10:00",
-      "end": "2026-11-04T12:00",
-      "approximateEnd": true,
-      "venue": "Stadtbibliothek Mannheim - Zweigstelle Seckenheim",
-      "description": "Andrea Hegen und Manfred Schillinger helfen dabei, das Smartphone zu benutzen.",
-      "source": "https://www.mannheim.de/de/veranstaltung/smartphone-sprechstunde-fuer-aeltere-in-seckenheim",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
       "id": "mannheim-calendar-medien-mit-ausblick-zukunft-zum-ausleihen-2026-11-04-1000",
       "title": "Medien mit Ausblick: Zukunft zum Ausleihen",
       "city": "mannheim",
@@ -20052,6 +19415,19 @@
       "venue": "Marchivum",
       "description": "13 Menschen aus Mannheim und der Region erzählen in lebensgeschichtlichen Interviews von ihren Erinnerungen an die deutsche Teilung, die Friedliche Revolution und die Wiedervereinigung.",
       "source": "https://www.mannheim.de/de/veranstaltung/mannheim-im-gepaeck-26",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-smartphone-sprechstunde-fur-altere-in-seckenheim-2026-11-04-1000",
+      "title": "Smartphone-Sprechstunde für Ältere in Seckenheim",
+      "city": "mannheim",
+      "category": "culture",
+      "start": "2026-11-04T10:00",
+      "end": "2026-11-04T12:00",
+      "approximateEnd": true,
+      "venue": "Stadtbibliothek Mannheim - Zweigstelle Seckenheim",
+      "description": "Andrea Hegen und Manfred Schillinger helfen dabei, das Smartphone zu benutzen.",
+      "source": "https://www.mannheim.de/de/veranstaltung/smartphone-sprechstunde-fuer-aeltere-in-seckenheim",
       "sourceName": "Mannheim.de official event calendar"
     },
     {
@@ -22110,17 +21486,18 @@
       "sourceName": "Mannheim.de official event calendar"
     },
     {
-      "id": "mannheim-calendar-true-collins-2026-11-07-1930",
-      "title": "True Collins",
-      "city": "mannheim",
-      "category": "music",
+      "id": "heidelberg-30974452",
+      "title": "Origin Stories - Konzert der Bläserphilharmonie Rhein-Neckar",
+      "city": "heidelberg",
+      "category": "community",
       "start": "2026-11-07T19:30",
-      "end": "2026-11-07T21:30",
-      "approximateEnd": true,
-      "venue": "Rosengarten",
-      "description": "TRUE COLLINS – DIE GRÖSSTE PHIL COLLINS &amp; GENESIS TRIBUTE SHOW EUROPAS 20 Jahre Leidenschaft für eine musikalische Legende",
-      "source": "https://www.mannheim.de/de/veranstaltung/true-collins",
-      "sourceName": "Mannheim.de official event calendar"
+      "end": "2026-11-07T22:00",
+      "venue": "Augustinum Heidelberg",
+      "description": "Bl&auml;serphilharmonie Rhein-Neckar &ndash; Konzerttournee 2026 Origin Stories Unter dem Titel &bdquo;Origin Stories&ldquo; begibt sich die Bl&auml;serphilharmonie Rhein-Neckar auf eine musikalische Spurensuche zu den Urspr&uuml;ngen ganz unterschiedlicher Geschichten. Rund 50 Musikerinnen und Musiker unter der Leitung von Bernhard Vanecek und Kilian B&ouml;ttger verbinden Werke, die von den Anf&",
+      "source": "https://bruehler-blaeserakademie.de/bprn/",
+      "sourceName": "Heidelberg official event calendar",
+      "sourceIsGeneral": false,
+      "officialEventId": "30974452"
     },
     {
       "id": "mannheim-calendar-mix-039-n-match-der-impro-spieleabend-2026-11-07-1930",
@@ -22175,6 +21552,19 @@
       "sourceName": "Mannheim.de official event calendar"
     },
     {
+      "id": "mannheim-calendar-true-collins-phil-collins-amp-genesis-tribute-show-2026-11-07-1930",
+      "title": "True Collins - Phil Collins &amp; Genesis Tribute Show",
+      "city": "mannheim",
+      "category": "music",
+      "start": "2026-11-07T19:30",
+      "end": "2026-11-07T21:30",
+      "approximateEnd": true,
+      "venue": "Rosengarten",
+      "description": "TRUE COLLINS – DIE GRÖSSTE PHIL COLLINS &amp; GENESIS TRIBUTE SHOW EUROPAS 20 Jahre Leidenschaft für eine musikalische Legende",
+      "source": "https://www.mannheim.de/de/veranstaltung/true-collins-phil-collins-genesis-tribute-show",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
       "id": "heidelberg-29887902",
       "title": "Balla Balla",
       "city": "heidelberg",
@@ -22201,19 +21591,6 @@
       "sourceName": "Heidelberg official event calendar",
       "sourceIsGeneral": false,
       "officialEventId": "30969250"
-    },
-    {
-      "id": "mannheim-calendar-andreas-gabalier-10-jahre-volks-rock-n-roller-unplugged-2026-11-07-2000",
-      "title": "Andreas Gabalier - 10 Jahre Volks-Rock’n‘ Roller Unplugged",
-      "city": "mannheim",
-      "category": "community",
-      "start": "2026-11-07T20:00",
-      "end": "2026-11-07T22:00",
-      "approximateEnd": true,
-      "venue": "Rosengarten",
-      "description": "Zum Unplugged Jubiläum im Herbst 26 auf Tour Zum Greifen nah in den schönsten Konzertsälen Intimes Akustik Live-Setting mit Band und Streichern",
-      "source": "https://www.mannheim.de/de/veranstaltung/andreas-gabalier-10-jahre-volks-rockn-roller-unplugged",
-      "sourceName": "Mannheim.de official event calendar"
     },
     {
       "id": "mannheim-calendar-philipp-leinenbach-unqualifiziert-aber-sexy-2026-11-07-2000",
@@ -22343,6 +21720,19 @@
       "venue": "Nationaltheater Mannheim - Studio Werkhaus",
       "description": "Ein Stadtteil namens Franklin, Quadrate wie in Manhattan, Elvis ist hier aufgetreten, das aktive US-Militärlager, die Coleman-Worksite oder die rollenden Motoren bei John Deere: Wohin man auch scha",
       "source": "https://www.mannheim.de/de/veranstaltung/all-my-life-watching-america-2",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-andreas-gabalier-10-jahre-volks-rock-n-roller-unplugged-2026-11-07-2000",
+      "title": "Andreas Gabalier - 10 Jahre Volks-Rock’n‘ Roller Unplugged",
+      "city": "mannheim",
+      "category": "community",
+      "start": "2026-11-07T20:00",
+      "end": "2026-11-07T22:00",
+      "approximateEnd": true,
+      "venue": "Rosengarten",
+      "description": "Zum Unplugged Jubiläum im Herbst 26 auf Tour Zum Greifen nah in den schönsten Konzertsälen Intimes Akustik Live-Setting mit Band und Streichern",
+      "source": "https://www.mannheim.de/de/veranstaltung/andreas-gabalier-10-jahre-volks-rockn-roller-unplugged",
       "sourceName": "Mannheim.de official event calendar"
     },
     {
@@ -22595,6 +21985,20 @@
       "sourceName": "Heidelberg official event calendar",
       "sourceIsGeneral": false,
       "officialEventId": "30890252"
+    },
+    {
+      "id": "heidelberg-30869001",
+      "title": "Tango Argentino Einsteigerkurs in Heidelberg",
+      "city": "heidelberg",
+      "category": "culture",
+      "start": "2026-11-08T11:00",
+      "end": "2026-11-08T13:30",
+      "venue": "Somerville Heidelberg",
+      "description": "Tango Argentino ausprobieren &ndash; jetzt im neuen Tango Center Heidelberg Seit 1993 steht Intango f&uuml;r Tango Argentino in Heidelberg &ndash; jetzt in unseren neuen R&auml;umen im Heidelberg Innovation Park. Im Einsteiger-Workshop entdeckst du gemeinsames Gehen zur Musik, die Tango-Umarmung und das Zusammenspiel von F&uuml;hren und Folgen. Keine Vorkenntnisse erforderlich. Anmeldung allein od",
+      "source": "https://intango.de/fuer-einsteiger-tabs/ workshop",
+      "sourceName": "Heidelberg official event calendar",
+      "sourceIsGeneral": false,
+      "officialEventId": "30869001"
     },
     {
       "id": "mannheim-calendar-konstantin-voit-mannheimer-kunstpreis-der-heinrich-vetter-stiftung-2026-11-08-1100",
@@ -24340,6 +23744,19 @@
       "sourceName": "Mannheim.de official event calendar"
     },
     {
+      "id": "mannheim-calendar-welt-im-glas-auf-dem-marktplatz-2026-11-12-1130",
+      "title": "„Welt im Glas“ auf dem Marktplatz",
+      "city": "mannheim",
+      "category": "music",
+      "start": "2026-11-12T11:30",
+      "end": "2026-11-12T13:30",
+      "approximateEnd": true,
+      "venue": "Mannheim venue",
+      "description": "Internationale Speisen, vielfältige Getränke und Musik – dazu lädt „Welt im Glas“ am Donnerstag, 15. Oktober, auf den Mannheimer Marktplatz (G1) ein.",
+      "source": "https://www.mannheim.de/de/veranstaltungs/reihe/welt-im-glas-auf-dem-marktplatz",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
       "id": "mannheim-calendar-kunstausstellung-in-between-spaces-zwischenraume-verbinden-2026-11-12-1600",
       "title": "Kunstausstellung „IN BETWEEN SPACES - Zwischenräume. Verbinden.“",
       "city": "mannheim",
@@ -24472,6 +23889,20 @@
       "sourceName": "Heidelberg official event calendar",
       "sourceIsGeneral": true,
       "officialEventId": "28474003"
+    },
+    {
+      "id": "heidelberg-30389316",
+      "title": "360° Deutschland - Live-Reportage mit Peter Gebhard",
+      "city": "heidelberg",
+      "category": "community",
+      "start": "2026-11-12T19:00",
+      "end": "2026-11-12T19:00",
+      "venue": "Rudolf-Wild-Halle Kulturzentrum ",
+      "description": "Kennen wir &uuml;berhaupt unser Land? Bali, Brooklyn und die Seychellen sind den meisten gel&auml;ufiger als die H&ouml;ri, das Bliesgau oder die Oberlausitz. GEO- und National Geographic-Fotograf Peter Gebhard begab sich deshalb mit seinem Oldtimer-Bulli &bdquo;Erwin&ldquo; auf eine au&szlig;ergew&ouml;hnliche Reise: 18.000 Kilometer rund um Deutschland, entlang von K&uuml;sten und Grenzen, durch",
+      "source": "https://eppelheim.reservix.de/p/reservix/event/2585034",
+      "sourceName": "Heidelberg official event calendar",
+      "sourceIsGeneral": false,
+      "officialEventId": "30389316"
     },
     {
       "id": "mannheim-calendar-offentliche-probe-die-unendliche-geschichte-8-2026-11-12-1900",
@@ -24777,19 +24208,6 @@
       "sourceName": "Mannheim.de official event calendar"
     },
     {
-      "id": "mannheim-calendar-entdeckerrallye-durch-die-bibliothek-2026-11-13-1000",
-      "title": "Entdeckerrallye durch die Bibliothek",
-      "city": "mannheim",
-      "category": "community",
-      "start": "2026-11-13T10:00",
-      "end": "2026-11-13T12:00",
-      "approximateEnd": true,
-      "venue": "Stadtbibliothek Mannheim Zweigstelle Herzogenried",
-      "description": "Wir lösen spannende Rätsel rund um Bücher und entdecken dabei die Bibliothek. Bei einer abwechslungsreichen Rallye lernen die Kinder spielerisch die Angebote und Bereiche kennen.",
-      "source": "https://www.mannheim.de/de/veranstaltung/entdeckerrallye-durch-die-bibliothek",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
       "id": "mannheim-calendar-tanz-2026-11-13-1000",
       "title": "Tanz!",
       "city": "mannheim",
@@ -24878,6 +24296,19 @@
       "venue": "Stadtbibliothek Mannheim - Zweigstelle Neckarau",
       "description": "Senioren-Medienmentor Ludwig Poigne hilft dabei, das Smartphone zu benutzen.",
       "source": "https://www.mannheim.de/de/veranstaltung/smartphone-sprechstunde-fuer-aeltere-in-neckarau",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-ausgebucht-entdeckerrallye-durch-die-bibliothek-2026-11-13-1000",
+      "title": "+++AUSGEBUCHT+++Entdeckerrallye durch die Bibliothek",
+      "city": "mannheim",
+      "category": "learning",
+      "start": "2026-11-13T10:00",
+      "end": "2026-11-13T12:00",
+      "approximateEnd": true,
+      "venue": "Stadtbibliothek Mannheim Zweigstelle Herzogenried",
+      "description": "Wir lösen spannende Rätsel rund um Bücher und entdecken dabei die Bibliothek. Bei einer abwechslungsreichen Rallye lernen die Kinder spielerisch die Angebote und Bereiche kennen.",
+      "source": "https://www.mannheim.de/de/veranstaltung/ausgebuchtentdeckerrallye-durch-die-bibliothek",
       "sourceName": "Mannheim.de official event calendar"
     },
     {
@@ -25108,6 +24539,20 @@
       "officialEventId": "28123070"
     },
     {
+      "id": "heidelberg-30868202",
+      "title": "5. “Poetry Slam Allstars” mit Philipp Herold und Gästen",
+      "city": "heidelberg",
+      "category": "learning",
+      "start": "2026-11-13T19:30",
+      "end": "2026-11-13T19:30",
+      "venue": "Stadtbücherei Heidelberg - Hilde-Domin-Saal (1. OG)",
+      "description": "Mit Philipp Herold hat Heidelberg einen der facettenreichsten Slam Poeten seiner Generation hervorgebracht. Zum f&uuml;nften Mal bringt er nun eine Show auf die B&uuml;hne, die in ihrer Form l&auml;ngst &uuml;berf&auml;llig ist. Gemeinsam mit seinen drei hochkar&auml;tigen G&auml;sten pr&auml;sentiert der Moderator des ber&uuml;chtigten Word Up! Poetry Slam in Kooperation mit der Stadtb&uuml;chere",
+      "source": "https://www.heidelberg.de/HD/Leben/veranstaltungskalender.html",
+      "sourceName": "Heidelberg official event calendar",
+      "sourceIsGeneral": true,
+      "officialEventId": "30868202"
+    },
+    {
       "id": "mannheim-calendar-lesung-bei-in-between-spaces-barbara-imgrund-2026-11-13-1930",
       "title": "Lesung bei IN BETWEEN SPACES - Barbara Imgrund",
       "city": "mannheim",
@@ -25237,19 +24682,6 @@
       "venue": "Ella &amp; Louis",
       "description": "Mehr als nur eine Legende: Fred Wesley, der als „Mr.",
       "source": "https://www.mannheim.de/de/veranstaltung/fred-wesley-generations-trio",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "mannheim-calendar-sara-karas-no-wonder-a-woma-2026-11-13-2000",
-      "title": "Sara Karas - No Wonder A Woma",
-      "city": "mannheim",
-      "category": "community",
-      "start": "2026-11-13T20:00",
-      "end": "2026-11-13T22:00",
-      "approximateEnd": true,
-      "venue": "Schatzkistl",
-      "description": "Wonder Woman ist die stärkste Frau der Welt. Aber sind wir mal ehrlich: So besonders ist sie auch nicht. Sie kommt von einer Insel voller Frauen – klar, dass sie naiv optimistisch ist.",
-      "source": "https://www.mannheim.de/de/veranstaltung/sara-karas-no-wonder-a-woma",
       "sourceName": "Mannheim.de official event calendar"
     },
     {
@@ -25594,20 +25026,6 @@
       "sourceName": "Heidelberg official event calendar",
       "sourceIsGeneral": false,
       "officialEventId": "28196542"
-    },
-    {
-      "id": "heidelberg-30495914",
-      "title": "Kasper auf großer Fahrt",
-      "city": "heidelberg",
-      "category": "community",
-      "start": "2026-11-14T14:00",
-      "end": "2026-11-14T15:00",
-      "venue": "Puppentheater Plappermaul",
-      "description": "Interaktives Puppentheater f&uuml;r Klein und Gro&szlig; (ab 4 Jahre) &nbsp; Dauer: ca. 50 Minuten Autorin: Simone Hildenbeutel Spieler: 2 Regie: Simone Hildenbeutel B&uuml;hnenbild: Winfried Hildenbeutel &nbsp; Kasper will Ferien machen. Er setzt sich mit seinem Freund Seppel in ein Boot und steuert nach Afrika. Aber die Reise verl&auml;uft nicht wie geplant. Ein Sturm verschl&auml;gt die beiden ",
-      "source": "https://www.puppentheater-plappermaul.de/",
-      "sourceName": "Heidelberg official event calendar",
-      "sourceIsGeneral": false,
-      "officialEventId": "30495914"
     },
     {
       "id": "mannheim-calendar-mannheim-spielt-2026-11-14-1400",
@@ -26217,20 +25635,6 @@
       "description": "\"Ein Mannheim ohne Amerikanerinnen und Amerikaner ist kaum denkbar.\"",
       "source": "https://www.mannheim.de/de/veranstaltung/maemories-27",
       "sourceName": "Mannheim.de official event calendar"
-    },
-    {
-      "id": "heidelberg-30495917",
-      "title": "Der Hase und der Igel",
-      "city": "heidelberg",
-      "category": "community",
-      "start": "2026-11-15T14:00",
-      "end": "2026-11-15T15:00",
-      "venue": "Puppentheater Plappermaul",
-      "description": "Grimmsches M&auml;rchen f&uuml;r ein respektvolles und tolerantes Miteinander Eine Igelfamilie lebt am Rande eines Feldes. Eines Tages, w&auml;hrend Mama Igel mit dem Baden der Kinder Molly und Max besch&auml;ftigt ist, macht Papa Igel einen Spaziergang &uuml;ber das Feld, um das Gem&uuml;se zu begutachten. Dabei trifft er auf den eingebildeten Hasen Hendrik von Hasenstein. Der Igel gr&uuml;&szlig",
-      "source": "https://www.puppentheater-plappermaul.de/",
-      "sourceName": "Heidelberg official event calendar",
-      "sourceIsGeneral": false,
-      "officialEventId": "30495917"
     },
     {
       "id": "mannheim-calendar-mannheim-spielt-2026-11-15-1400",
@@ -28633,20 +28037,6 @@
       "officialEventId": "30973403"
     },
     {
-      "id": "heidelberg-30894505",
-      "title": "English Café: Sprachtreffen",
-      "city": "heidelberg",
-      "category": "community",
-      "start": "2026-11-20T16:30",
-      "end": "2026-11-20T17:45",
-      "venue": "Venue to be confirmed",
-      "description": "Du m&ouml;chtest Dein Englisch &ouml;fter aktiv nutzen und suchst ein lockeres Sprachtreffen in Heidelberg? Im English Caf&eacute; kannst Du in geselliger Runde und lockerer Atmosph&auml;re Englisch sprechen.Im Mittelpunkt stehen echte Gespr&auml;che, Freude am Austausch und viel aktive Sprachpraxis. Auf Wunsch sorgen Spiele und Gespr&auml;chsimpulse f&uuml;r zus&auml;tzliche Abwechslung, nat&uuml",
-      "source": "https://go-for-english.de/angebot/english-cafe/",
-      "sourceName": "Heidelberg official event calendar",
-      "sourceIsGeneral": false,
-      "officialEventId": "30894505"
-    },
-    {
       "id": "mannheim-calendar-adventslust-2026-11-20-1700",
       "title": "Adventslust",
       "city": "mannheim",
@@ -28700,6 +28090,20 @@
       "sourceName": "Heidelberg official event calendar",
       "sourceIsGeneral": false,
       "officialEventId": "30689410"
+    },
+    {
+      "id": "heidelberg-28096501",
+      "title": "ConsciousTouch - Erlebe die Magie bewusster Berührung",
+      "city": "heidelberg",
+      "category": "nightlife",
+      "start": "2026-11-20T19:30",
+      "end": "2026-11-20T22:30",
+      "venue": "YouMeUnity Heidelberg",
+      "description": "ConsciousTouch - Bewusste Ber&uuml;hrung in Heidelberg 1-2 x im Monat Freitags, alle 2 Monate mit Tempelnacht, und als Specials zu den Festen des keltischen Jahreskreises An Herz, Geist und K&ouml;rper ber&uuml;hrt zu werden, ist eine der urspr&uuml;nglichsten und unmittelbarsten Formen der Zuwendung. Unsere ConsciousTouch-Abende sind sanft, achtsam und sinnlich gehaltene R&auml;ume, die durch wun",
+      "source": "https://youmeunity.com/bewusste-beruehrung/conscioustouch/",
+      "sourceName": "Heidelberg official event calendar",
+      "sourceIsGeneral": false,
+      "officialEventId": "28096501"
     },
     {
       "id": "mannheim-calendar-karaoke-till-death-liveband-karaoke-2026-11-20-1930",
@@ -29934,6 +29338,20 @@
       "sourceName": "Mannheim.de official event calendar"
     },
     {
+      "id": "heidelberg-30495927",
+      "title": "Erdmännchens Abenteuer - Gemeinsam stark!",
+      "city": "heidelberg",
+      "category": "community",
+      "start": "2026-11-22T16:00",
+      "end": "2026-11-22T17:00",
+      "venue": "Puppentheater Plappermaul",
+      "description": "Ein Tag im Leben einer au&szlig;ergew&ouml;hnlichen Erdm&auml;nnchenfamilie. W&auml;hrend die Eltern auf Nahrungssuche gehen, bleiben die Kinder Aki, Suki und Hugo beim Erdm&auml;nnchenbau zur&uuml;ck. Unerm&uuml;dlich graben und aufmerksam auf Gefahren achten ist f&uuml;r das &Uuml;berleben in der W&uuml;ste unabdingbar. Das lernen die Kinder schon von klein an. Kaum sind die Eltern weg, streiten",
+      "source": "https://www.puppentheater-plappermaul.de/",
+      "sourceName": "Heidelberg official event calendar",
+      "sourceIsGeneral": false,
+      "officialEventId": "30495927"
+    },
+    {
       "id": "heidelberg-30867903",
       "title": "Ingrid Noll: Heidelberger Krimifestival",
       "city": "heidelberg",
@@ -31099,20 +30517,6 @@
       "sourceName": "Mannheim.de official event calendar"
     },
     {
-      "id": "heidelberg-28057434",
-      "title": "Yoga Nidra - Glückszustände durch Nichtstun",
-      "city": "heidelberg",
-      "category": "sports",
-      "start": "2026-11-25T18:15",
-      "end": "2026-11-25T20:15",
-      "venue": "YouMeUnity Heidelberg",
-      "description": "Yoga Nidra - Erleuchtungszust&auml;nde durch Nichtstun erleben Yoga Nidra hilft dir, dich zu entspannen. Und zwar auf nat&uuml;rliche Art. Diese tantrische Entspannungstechnik kann tiefe Bewusstseinsebenen ansprechen und sie auch au&szlig;erhalb der Sessions f&uuml;r dich aktivierbar machen. &nbsp; Dadurch, dass du dir erlaubst, dich in eine schlaf&auml;hnliche Ruhe fallen zu lassen, lernst du, mi",
-      "source": "https://youmeunity.com/dance-movement/yoga/yoga-nidra/",
-      "sourceName": "Heidelberg official event calendar",
-      "sourceIsGeneral": false,
-      "officialEventId": "28057434"
-    },
-    {
       "id": "mannheim-calendar-theater-sneak-2026-11-25-1830",
       "title": "Theater-Sneak",
       "city": "mannheim",
@@ -31813,19 +31217,6 @@
       "sourceName": "Mannheim.de official event calendar"
     },
     {
-      "id": "mannheim-calendar-bilderbuchkino-die-geschichte-vom-kleinen-siebenschlafer-der-dem-mond-gute-nacht-sagen-wollte-quot-2026-11-27-1000",
-      "title": "Bilderbuchkino „Die Geschichte vom kleinen Siebenschläfer, der dem Mond Gute Nacht sagen wollte.&quot;",
-      "city": "mannheim",
-      "category": "film",
-      "start": "2026-11-27T10:00",
-      "end": "2026-11-27T12:00",
-      "approximateEnd": true,
-      "venue": "Stadtbibliothek Mannheim Zweigstelle Herzogenried",
-      "description": "Jeden Abend sagt der kleine Siebenschläfer Gute Nacht zu seiner Mama, seinem Papa und zum großen, hellen Mond, der Nacht für Nacht in seine Höhle scheint. Doch der Mond antwortet ihm nie.",
-      "source": "https://www.mannheim.de/de/veranstaltung/bilderbuchkino-die-geschichte-vom-kleinen-siebenschlaefer-der-dem-mond-gute-nacht-sagen-wollte",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
       "id": "mannheim-calendar-polizeifotografie-vor-und-hinter-der-absperrung-2026-11-27-1000",
       "title": "Polizeifotografie – Vor und hinter der Absperrung",
       "city": "mannheim",
@@ -31917,6 +31308,19 @@
       "sourceName": "Mannheim.de official event calendar"
     },
     {
+      "id": "mannheim-calendar-bucherspa-2026-11-27-1000",
+      "title": "Bücherspaß",
+      "city": "mannheim",
+      "category": "community",
+      "start": "2026-11-27T10:00",
+      "end": "2026-11-27T12:00",
+      "approximateEnd": true,
+      "venue": "Stadtbibliothek Mannheim - Dalberghaus N3, 4 | Kinder- und Jugendbibliothek",
+      "description": "Für die Kleinsten wird eine Geschichte spielerisch vorgelesen.1 bis 3 Jahre (mit Eltern)",
+      "source": "https://www.mannheim.de/de/veranstaltung/buecherspass-2",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
       "id": "mannheim-calendar-smartphone-sprechstunde-fur-altere-in-neckarau-2026-11-27-1000",
       "title": "Smartphone-Sprechstunde für Ältere in Neckarau",
       "city": "mannheim",
@@ -31930,16 +31334,16 @@
       "sourceName": "Mannheim.de official event calendar"
     },
     {
-      "id": "mannheim-calendar-bucherspa-2026-11-27-1000",
-      "title": "Bücherspaß",
+      "id": "mannheim-calendar-ausgebucht-bilderbuchkino-die-geschichte-vom-kleinen-siebenschlafer-der-dem-mond-gute-nacht-sagen-wollte-quot-2026-11-27-1000",
+      "title": "+++AUSGEBUCHT+++Bilderbuchkino „Die Geschichte vom kleinen Siebenschläfer, der dem Mond Gute Nacht sagen wollte.&quot;",
       "city": "mannheim",
-      "category": "community",
+      "category": "film",
       "start": "2026-11-27T10:00",
       "end": "2026-11-27T12:00",
       "approximateEnd": true,
-      "venue": "Stadtbibliothek Mannheim - Dalberghaus N3, 4 | Kinder- und Jugendbibliothek",
-      "description": "Für die Kleinsten wird eine Geschichte spielerisch vorgelesen.1 bis 3 Jahre (mit Eltern)",
-      "source": "https://www.mannheim.de/de/veranstaltung/buecherspass-2",
+      "venue": "Stadtbibliothek Mannheim Zweigstelle Herzogenried",
+      "description": "Jeden Abend sagt der kleine Siebenschläfer Gute Nacht zu seiner Mama, seinem Papa und zum großen, hellen Mond, der Nacht für Nacht in seine Höhle scheint. Doch der Mond antwortet ihm nie.",
+      "source": "https://www.mannheim.de/de/veranstaltung/ausgebuchtbilderbuchkino-die-geschichte-vom-kleinen-siebenschlaefer-der-dem-mond-gute-nacht-sagen",
       "sourceName": "Mannheim.de official event calendar"
     },
     {
@@ -32035,6 +31439,20 @@
       "sourceName": "Mannheim.de official event calendar"
     },
     {
+      "id": "heidelberg-28591390",
+      "title": "Kranzbindeabend",
+      "city": "heidelberg",
+      "category": "community",
+      "start": "2026-11-27T18:00",
+      "end": "2026-11-27T21:00",
+      "venue": "Theaterstraße",
+      "description": "Der OGV Handschuhsheim l&auml;dt zu einem gem&uuml;tlichen Kranzbindeabend mit Gl&uuml;hwein und alkoholfreiem Punsch in der Tiefburg ein.Von 18.00 bis 19.30 Uhr f&uuml;r Kinder in Begleitung Erwachsener, ab 19.30 Uhr f&uuml;r Erwachsene. Bitte mitbringen: Gartenschere",
+      "source": "http://www.natuerlich.heidelberg.de/",
+      "sourceName": "Heidelberg official event calendar",
+      "sourceIsGeneral": false,
+      "officialEventId": "28591390"
+    },
+    {
       "id": "heidelberg-29515603",
       "title": "RARITÄTEN WHISKY TASTING mit Whisky Ambassador Tim Scholl",
       "city": "heidelberg",
@@ -32100,20 +31518,6 @@
       "sourceName": "Heidelberg official event calendar",
       "sourceIsGeneral": false,
       "officialEventId": "30973405"
-    },
-    {
-      "id": "heidelberg-28079506",
-      "title": "The Essence of Tantra",
-      "city": "heidelberg",
-      "category": "sports",
-      "start": "2026-11-27T19:30",
-      "end": "2026-11-27T14:00",
-      "venue": "YouMeUnity Heidelberg",
-      "description": "Deine Reise zu Liebe, Ber&uuml;hrung und Freiheit Bist du bereit, ganz in&nbsp;The&nbsp;Essence of Tantra&nbsp;einzutauchen? Dann ist es wahrscheinlich, dass du erleben wirst, wie heilsam und befreiend es ist, zu dir und deinen Bed&uuml;rfnissen zu stehen. Bei uns findest du einen Raum, der es dir erlaubt,&nbsp;vollkommen ehrlich&nbsp;zu dir und anderen zu sein und zu erkennen, wie viel&nbsp;N&aum",
-      "source": "https://youmeunity.com/tantra/tantra-intensiv-wochenende/",
-      "sourceName": "Heidelberg official event calendar",
-      "sourceIsGeneral": false,
-      "officialEventId": "28079506"
     },
     {
       "id": "mannheim-calendar-roberto-capitoni-60-ist-das-neue-40-2026-11-27-2000",
@@ -33139,6 +32543,20 @@
       "sourceName": "Mannheim.de official event calendar"
     },
     {
+      "id": "heidelberg-30495928",
+      "title": "Kasper und die Weihnachtsblume",
+      "city": "heidelberg",
+      "category": "community",
+      "start": "2026-11-29T14:00",
+      "end": "2026-11-29T15:00",
+      "venue": "Puppentheater Plappermaul",
+      "description": "Interaktives Puppentheater mit Weihnachtsliedern f&uuml;r Klein und Gro&szlig; (ab 4 Jahre) &nbsp; Dauer: ca. 45 Minuten Autoren: Simone und Winfried Hildenbeutel Spieler: 2 Regie: Simone Hildenbeutel B&uuml;hnenbild: Winfried Hildenbeutel &nbsp; Es ist kurz vor Weihnachten. Das Christkind ist v&ouml;llig verzweifelt. Der Weihnachtsmann ist krank geworden und liegt mit hohem Fieber im Bett. Wer so",
+      "source": "https://www.puppentheater-plappermaul.de/",
+      "sourceName": "Heidelberg official event calendar",
+      "sourceIsGeneral": false,
+      "officialEventId": "30495928"
+    },
+    {
       "id": "mannheim-calendar-oma-inges-weihnachtsshow-2026-11-29-1400",
       "title": "Oma Inges Weihnachtsshow",
       "city": "mannheim",
@@ -33244,20 +32662,6 @@
       "sourceName": "Mannheim.de official event calendar"
     },
     {
-      "id": "heidelberg-30497509",
-      "title": "Kasper und die Weihnachtsblume",
-      "city": "heidelberg",
-      "category": "community",
-      "start": "2026-11-29T16:00",
-      "end": "2026-11-29T17:00",
-      "venue": "Puppentheater Plappermaul",
-      "description": "Interaktives Puppentheater mit Weihnachtsliedern f&uuml;r Klein und Gro&szlig; (ab 4 Jahre) &nbsp; Dauer: ca. 45 Minuten Autoren: Simone und Winfried Hildenbeutel Spieler: 2 Regie: Simone Hildenbeutel B&uuml;hnenbild: Winfried Hildenbeutel &nbsp; Es ist kurz vor Weihnachten. Das Christkind ist v&ouml;llig verzweifelt. Der Weihnachtsmann ist krank geworden und liegt mit hohem Fieber im Bett. Wer so",
-      "source": "https://www.puppentheater-plappermaul.de/",
-      "sourceName": "Heidelberg official event calendar",
-      "sourceIsGeneral": false,
-      "officialEventId": "30497509"
-    },
-    {
       "id": "mannheim-calendar-offentliche-fuhrung-durch-die-ns-ausstellung-2026-11-29-1600",
       "title": "Öffentliche Führung durch die NS-Ausstellung",
       "city": "mannheim",
@@ -33269,6 +32673,20 @@
       "description": "Führung | Erleben Sie bei einem Rundgang ausgewählte Werke der Ausstellung \"Was hat das mit mir zu tun?\", die Ihnen ein Guide vermittelt.",
       "source": "https://www.mannheim.de/de/veranstaltung/oeffentliche-fuehrung-durch-die-ns-ausstellung-4",
       "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "heidelberg-30976250",
+      "title": "Boom Voyage!",
+      "city": "heidelberg",
+      "category": "community",
+      "start": "2026-11-29T17:00",
+      "end": "2026-11-29T17:00",
+      "venue": "Gemeindehaus an der Friedenskirche",
+      "description": "Von Jazz-Klassikern &uuml;ber Latin und Funk bis Pop La Boom - die Bigband der Friedensgemeinde",
+      "source": "http://www.friedensgemeinde-handschuhsheim.de/konzerte",
+      "sourceName": "Heidelberg official event calendar",
+      "sourceIsGeneral": false,
+      "officialEventId": "30976250"
     },
     {
       "id": "mannheim-calendar-andre-haedicke-dick-im-geschaft-2026-11-29-1700",
@@ -34139,19 +33557,6 @@
       "sourceName": "Mannheim.de official event calendar"
     },
     {
-      "id": "mannheim-calendar-smartphone-sprechstunde-fur-altere-in-seckenheim-2026-12-02-1000",
-      "title": "Smartphone-Sprechstunde für Ältere in Seckenheim",
-      "city": "mannheim",
-      "category": "culture",
-      "start": "2026-12-02T10:00",
-      "end": "2026-12-02T12:00",
-      "approximateEnd": true,
-      "venue": "Stadtbibliothek Mannheim - Zweigstelle Seckenheim",
-      "description": "Andrea Hegen und Manfred Schillinger helfen dabei, das Smartphone zu benutzen.",
-      "source": "https://www.mannheim.de/de/veranstaltung/smartphone-sprechstunde-fuer-aeltere-in-seckenheim",
-      "sourceName": "Mannheim.de official event calendar"
-    },
-    {
       "id": "mannheim-calendar-polizeifotografie-vor-und-hinter-der-absperrung-2026-12-02-1000",
       "title": "Polizeifotografie – Vor und hinter der Absperrung",
       "city": "mannheim",
@@ -34266,6 +33671,19 @@
       "venue": "Marchivum",
       "description": "13 Menschen aus Mannheim und der Region erzählen in lebensgeschichtlichen Interviews von ihren Erinnerungen an die deutsche Teilung, die Friedliche Revolution und die Wiedervereinigung.",
       "source": "https://www.mannheim.de/de/veranstaltung/mannheim-im-gepaeck-50",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-smartphone-sprechstunde-fur-altere-in-seckenheim-2026-12-02-1000",
+      "title": "Smartphone-Sprechstunde für Ältere in Seckenheim",
+      "city": "mannheim",
+      "category": "culture",
+      "start": "2026-12-02T10:00",
+      "end": "2026-12-02T12:00",
+      "approximateEnd": true,
+      "venue": "Stadtbibliothek Mannheim - Zweigstelle Seckenheim",
+      "description": "Andrea Hegen und Manfred Schillinger helfen dabei, das Smartphone zu benutzen.",
+      "source": "https://www.mannheim.de/de/veranstaltung/smartphone-sprechstunde-fuer-aeltere-in-seckenheim",
       "sourceName": "Mannheim.de official event calendar"
     },
     {
@@ -36249,6 +35667,582 @@
       "sourceName": "Heidelberg official event calendar",
       "sourceIsGeneral": false,
       "officialEventId": "30865860"
+    },
+    {
+      "id": "mannheim-calendar-crime-die-technik-des-verbrechens-2026-12-06-0900",
+      "title": "CRIME – Die Technik des Verbrechens",
+      "city": "mannheim",
+      "category": "culture",
+      "start": "2026-12-06T09:00",
+      "end": "2026-12-06T11:00",
+      "approximateEnd": true,
+      "venue": "TECHNOSEUM",
+      "description": "Kriminalität ist überall – das ist bei dieser Ausstellung Programm: Die Schau besteht aus zehn Stationen, die über das gesamte Haus und sechs Stockwerke verteilt sind.",
+      "source": "https://www.mannheim.de/de/veranstaltung/crime-die-technik-des-verbrechens-140",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-alexander-tillegreen-stucke-fur-werke-2026-12-06-1000",
+      "title": "Alexander Tillegreen - Stücke für Werke",
+      "city": "mannheim",
+      "category": "culture",
+      "start": "2026-12-06T10:00",
+      "end": "2026-12-06T12:00",
+      "approximateEnd": true,
+      "venue": "Kunsthalle Mannheim",
+      "description": "Die Ausstellung Stücke für Werke des dänischen Künstlers und Komponisten Alexander Brix Tillegreen (geb.",
+      "source": "https://www.mannheim.de/de/veranstaltung/alexander-tillegreen-stuecke-fuer-werke-206",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-musikwelten-2026-12-06-1000",
+      "title": "MusikWelten",
+      "city": "mannheim",
+      "category": "music",
+      "start": "2026-12-06T10:00",
+      "end": "2026-12-06T12:00",
+      "approximateEnd": true,
+      "venue": "Reiss-Engelhorn-Museen (rem)",
+      "description": "Von altamerikanischen Pfeifgefäßen über Feuertanzmasken aus Papua-Neuguinea bis hin zu einem komplett analogen Tonstudio aus den 1980er Jahren – die atmosphärische Ausstellung \"MusikWelten\" schafft",
+      "source": "https://www.mannheim.de/de/veranstaltung/musikwelten-183",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-schamanen-sibiriens-zwischen-den-welten-2026-12-06-1000",
+      "title": "Schamanen Sibiriens - Zwischen den Welten",
+      "city": "mannheim",
+      "category": "culture",
+      "start": "2026-12-06T10:00",
+      "end": "2026-12-06T12:00",
+      "approximateEnd": true,
+      "venue": "Reiss-Engelhorn-Museen (rem)",
+      "description": "Die Ausstellung lädt Sie auf eine faszinierende Reise zu den Ursprüngen und Wandlungen schamanischer Praktiken ein.",
+      "source": "https://www.mannheim.de/de/veranstaltung/schamanen-sibiriens-zwischen-den-welten-65",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-versunkene-geschichte-archaologie-an-rhein-und-neckar-2026-12-06-1000",
+      "title": "Versunkene Geschichte - Archäologie an Rhein und Neckar",
+      "city": "mannheim",
+      "category": "culture",
+      "start": "2026-12-06T10:00",
+      "end": "2026-12-06T12:00",
+      "approximateEnd": true,
+      "venue": "Reiss-Engelhorn-Museen (rem)",
+      "description": "In der Ausstellung \"Versunkene Geschichte. Archäologie an Rhein und Neckar\" laden die Reiss-Engelhorn-Museen zu einer Zeitreise von der Steinzeit bis ins frühe Mittelalter ein.",
+      "source": "https://www.mannheim.de/de/veranstaltung/versunkene-geschichte-archaeologie-an-rhein-und-neckar-178",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-agypten-land-der-unsterblichkeit-2026-12-06-1000",
+      "title": "Ägypten - Land der Unsterblichkeit",
+      "city": "mannheim",
+      "category": "culture",
+      "start": "2026-12-06T10:00",
+      "end": "2026-12-06T12:00",
+      "approximateEnd": true,
+      "venue": "Reiss-Engelhorn-Museen (rem)",
+      "description": "Die Ausstellung findet im Museum Weltkulturen (D5) statt.",
+      "source": "https://www.mannheim.de/de/veranstaltung/aegypten-land-der-unsterblichkeit-180",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-polizeifotografie-vor-und-hinter-der-absperrung-2026-12-06-1000",
+      "title": "Polizeifotografie – Vor und hinter der Absperrung",
+      "city": "mannheim",
+      "category": "community",
+      "start": "2026-12-06T10:00",
+      "end": "2026-12-06T12:00",
+      "approximateEnd": true,
+      "venue": "Reiss-Engelhorn-Museen (rem)",
+      "description": "Was geschieht vor der Absperrung – und was dahinter? Welche Bilder entstehen dort, wo Öffentlichkeit endet und Einsatz beginnt?",
+      "source": "https://www.mannheim.de/de/veranstaltung/polizeifotografie-vor-und-hinter-der-absperrung-22",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-tanz-2026-12-06-1000",
+      "title": "Tanz!",
+      "city": "mannheim",
+      "category": "culture",
+      "start": "2026-12-06T10:00",
+      "end": "2026-12-06T12:00",
+      "approximateEnd": true,
+      "venue": "Kunsthalle Mannheim",
+      "description": "Seit dem späten 19. Jahrhundert widmen sich Künstler*innen verstärkt der Darstellung des flüchtigen, bewegten Erscheinungsbildes des Tanzes.",
+      "source": "https://www.mannheim.de/de/veranstaltung/tanz-19",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-mannheimer-book-slam-battle-2027-2026-12-06-1000",
+      "title": "Mannheimer Book-Slam*-Battle 2027",
+      "city": "mannheim",
+      "category": "learning",
+      "start": "2026-12-06T10:00",
+      "end": "2026-12-06T12:00",
+      "approximateEnd": true,
+      "venue": "Stadtbibliothek Mannheim - Kinder- und Jugendbibliothek",
+      "description": "Was ist ein Book Slam Battle?3-5 Schüler*innen entwickeln zusammen eine 3-minütige Werbedarstellung für ein Buch und präsentieren dies auf der Bühne.",
+      "source": "https://www.mannheim.de/de/veranstaltung/mannheimer-book-slam-battle-2027",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-briefe-gegen-einsamkeit-aktion-mit-youngcaritas-2026-12-06-1000",
+      "title": "Briefe gegen Einsamkeit - Aktion mit youngcaritas",
+      "city": "mannheim",
+      "category": "community",
+      "start": "2026-12-06T10:00",
+      "end": "2026-12-06T12:00",
+      "approximateEnd": true,
+      "venue": "Stadtbibliothek Mannheim - Zentralbibliothek im Stadthaus N 1",
+      "description": "In der Adventszeit Freude in das Leben älterer Menschen bringen, die wenig Kontakt zur Außenwelt haben und ihnen zeigen, dass sie nicht vergessen sind!",
+      "source": "https://www.mannheim.de/de/veranstaltung/briefe-gegen-einsamkeit-aktion-mit-youngcaritas",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-weihnachtliche-tauschborse-in-der-zentralbibliothek-2026-12-06-1000",
+      "title": "Weihnachtliche Tauschbörse in der Zentralbibliothek",
+      "city": "mannheim",
+      "category": "community",
+      "start": "2026-12-06T10:00",
+      "end": "2026-12-06T12:00",
+      "approximateEnd": true,
+      "venue": "Stadtbibliothek Mannheim - Zentralbibliothek im Stadthaus N1",
+      "description": "Für alle mit festlicher Deko zu Hause, die Jahr für Jahr in der Kiste bleibt, aber eigentlich doch zu schön zum Wegwerfen ist, hat die Stadtbibliothek eine nachhaltige Lösung: eine weihnachtl",
+      "source": "https://www.mannheim.de/de/veranstaltung/weihnachtliche-tauschboerse-in-der-zentralbibliothek-1",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-xhixha-reflections-in-mannheim-2026-12-06-1000",
+      "title": "XHIXHA – Reflections in Mannheim",
+      "city": "mannheim",
+      "category": "community",
+      "start": "2026-12-06T10:00",
+      "end": "2026-12-06T12:00",
+      "approximateEnd": true,
+      "venue": "Reiss-Engelhorn-Museen (rem)",
+      "description": "Technische Präzision, poetische Leichtigkeit und die Verwandlung von Licht, Landschaft und Architektur in lebendige Reflexionsräume: Der international renommierte Bildhauer Helidon Xhixha (*1970 in",
+      "source": "https://www.mannheim.de/de/veranstaltung/xhixha-reflections-in-mannheim-17",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-leonardo-da-vinci-erfindungen-erleben-2026-12-06-1000",
+      "title": "Leonardo da Vinci – Erfindungen erleben",
+      "city": "mannheim",
+      "category": "community",
+      "start": "2026-12-06T10:00",
+      "end": "2026-12-06T12:00",
+      "approximateEnd": true,
+      "venue": "Reiss-Engelhorn-Museen (rem)",
+      "description": "Leonardo da Vinci (1452–1519) war ein berühmter Maler, Universalgelehrter und visionärer Erfinder.",
+      "source": "https://www.mannheim.de/de/veranstaltung/leonardo-da-vinci-erfindungen-erleben-47",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-mannheim-im-gepack-2026-12-06-1000",
+      "title": "Mannheim im Gepäck",
+      "city": "mannheim",
+      "category": "community",
+      "start": "2026-12-06T10:00",
+      "end": "2026-12-06T12:00",
+      "approximateEnd": true,
+      "venue": "Marchivum",
+      "description": "13 Menschen aus Mannheim und der Region erzählen in lebensgeschichtlichen Interviews von ihren Erinnerungen an die deutsche Teilung, die Friedliche Revolution und die Wiedervereinigung.",
+      "source": "https://www.mannheim.de/de/veranstaltung/mannheim-im-gepaeck-54",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-exklusiv-rendezvous-mit-pinguin-2026-12-06-1045",
+      "title": "Exklusiv: Rendezvous mit Pinguin!",
+      "city": "mannheim",
+      "category": "community",
+      "start": "2026-12-06T10:45",
+      "end": "2026-12-06T12:45",
+      "approximateEnd": true,
+      "venue": "Luisenpark",
+      "description": "Wer sein Herz an die putzigen Humboldt-Pinguine verloren hat, für den ist diese exklusive und sehr besondere Tierbegegnung sicher ein schönes Erlebnis.&nbsp;",
+      "source": "https://www.mannheim.de/de/veranstaltung/exklusiv-rendezvous-mit-pinguin",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-exklusiv-rendezvous-mit-schlange-2026-12-06-1045",
+      "title": "Exklusiv: Rendezvous mit Schlange!",
+      "city": "mannheim",
+      "category": "community",
+      "start": "2026-12-06T10:45",
+      "end": "2026-12-06T12:45",
+      "approximateEnd": true,
+      "venue": "Luisenpark",
+      "description": "Lust auf mehr Reptilien in eurem Leben?",
+      "source": "https://www.mannheim.de/de/veranstaltung/exklusiv-rendezvous-mit-schlange",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "heidelberg-30839157",
+      "title": "Malkurs für Kinder",
+      "city": "heidelberg",
+      "category": "community",
+      "start": "2026-12-06T11:00",
+      "end": "2026-12-06T12:00",
+      "venue": "Dezernat  16",
+      "description": "Einmal mit Seifenblasen Farbe aufs Papier bringen? Wild buntes Papier zu einer Collage zusammen kleistern? Oder aus bunten Klecksen lustige Figuren machen? Hier darf sich euer Kind einfach ein bisschen mit Farbe austoben. Zu besonderen Anl&auml;ssen (Nikolaus, Ostern usw.) malen wir einfache Motive, aus denen man dann z. B. Karten basteln kann. Bitte mitbringen: Kleidung, die Farbe abkriegen darf,",
+      "source": "https://doodlejule.de/de/kurse/ kinderkurs",
+      "sourceName": "Heidelberg official event calendar",
+      "sourceIsGeneral": false,
+      "officialEventId": "30839157"
+    },
+    {
+      "id": "heidelberg-30869002",
+      "title": "Tango-Workshop für Einsteiger:innen",
+      "city": "heidelberg",
+      "category": "learning",
+      "start": "2026-12-06T11:00",
+      "end": "2026-12-06T13:30",
+      "venue": "Somerville Heidelberg",
+      "description": "Entdecke die sch&ouml;nste Umarmung des Winters: Tango Argentino &nbsp; Seit 1993 steht Intango f&uuml;r den argentinischen Tango in Heidelberg &ndash; jetzt in unseren neuen R&auml;umen im Heidelberg Innovation Park. Im Einsteiger-Workshop entdeckst du gemeinsames Gehen zur Musik, die Tango-Umarmung und das Zusammenspiel von F&uuml;hren und Folgen. &nbsp; Keine Vorkenntnisse erforderlich. Anmeldu",
+      "source": "https://intango.de/fuer-einsteiger-tabs/ workshop",
+      "sourceName": "Heidelberg official event calendar",
+      "sourceIsGeneral": false,
+      "officialEventId": "30869002"
+    },
+    {
+      "id": "mannheim-calendar-klassische-schlossfuhrung-2026-12-06-1100",
+      "title": "Klassische Schlossführung",
+      "city": "mannheim",
+      "category": "culture",
+      "start": "2026-12-06T11:00",
+      "end": "2026-12-06T13:00",
+      "approximateEnd": true,
+      "venue": "Schloss Mannheim",
+      "description": "Bei der Tour durch das Schlossmuseum im Herzen der Barockresidenz erlebt man das eindrucksvolle Treppenhaus und glanzvoll ausgestattete fürstliche Appartements.",
+      "source": "https://www.mannheim.de/de/veranstaltung/klassische-schlossfuehrung-27",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-deltabeben-2026-12-06-1200",
+      "title": "Deltabeben",
+      "city": "mannheim",
+      "category": "culture",
+      "start": "2026-12-06T12:00",
+      "end": "2026-12-06T14:00",
+      "approximateEnd": true,
+      "venue": "Mannheimer Kunstverein e.V.",
+      "description": "Die Regionale Deltabeben ist ein Gemeinschaftsprojekt der Kunsthalle Mannheim, des Mannheimer Kunstvereins und des PORT25 – Raum für Gegenwartskunst.",
+      "source": "https://www.mannheim.de/de/veranstaltung/deltabeben-7",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-maemories-2026-12-06-1300",
+      "title": "MAEMORIES",
+      "city": "mannheim",
+      "category": "community",
+      "start": "2026-12-06T13:00",
+      "end": "2026-12-06T15:00",
+      "approximateEnd": true,
+      "venue": "House of MAEMORIES",
+      "description": "\"Ein Mannheim ohne Amerikanerinnen und Amerikaner ist kaum denkbar.\"",
+      "source": "https://www.mannheim.de/de/veranstaltung/maemories-30",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-offentliche-fuhrung-durch-maemories-2026-12-06-1400",
+      "title": "Öffentliche Führung durch MAEMORIES",
+      "city": "mannheim",
+      "category": "culture",
+      "start": "2026-12-06T14:00",
+      "end": "2026-12-06T16:00",
+      "approximateEnd": true,
+      "venue": "House of MAEMORIES",
+      "description": "Führung im HOUSE OF MAEMORIES | Erleben Sie bei einem Rundgang die Highlights der Ausstellung \"MAEMORIES\", die Ihnen ein Guide kurzweilig vermittelt.",
+      "source": "https://www.mannheim.de/de/veranstaltung/oeffentliche-fuehrung-durch-maemories-3",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-oma-inges-weihnachtsshow-2026-12-06-1400",
+      "title": "Oma Inges Weihnachtsshow",
+      "city": "mannheim",
+      "category": "community",
+      "start": "2026-12-06T14:00",
+      "end": "2026-12-06T16:00",
+      "approximateEnd": true,
+      "venue": "Rhein Neckar Theater",
+      "description": "Die kultigste Oma aller Zeiten kehrt ins RNT zurück, der Sonntag hat endlich wieder ein Sinn.",
+      "source": "https://www.mannheim.de/de/veranstaltung/oma-inges-weihnachtsshow-0",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-kindertheater-magischer-zirkel-ma-lu-hei-weihnachtszauber-2026-12-06-1400",
+      "title": "Kindertheater: Magischer Zirkel MA-LU-HEI - Weihnachtszauber",
+      "city": "mannheim",
+      "category": "culture",
+      "start": "2026-12-06T14:00",
+      "end": "2026-12-06T16:00",
+      "approximateEnd": true,
+      "venue": "Schatzkistl",
+      "description": "Zauberei im Kistl... Wenn man seinen Augen nicht mehr trauen kann, wenn das Unmögliche möglich erscheint, dann sind die Mitglieder des Ortszirkel MA-LU-HEI e.V.",
+      "source": "https://www.mannheim.de/de/veranstaltung/kindertheater-magischer-zirkel-ma-lu-hei-weihnachtszauber",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "heidelberg-30792355",
+      "title": "Führung durch die Lotte Hofmann-Textilkunstpreisausstellung",
+      "city": "heidelberg",
+      "category": "culture",
+      "start": "2026-12-06T15:00",
+      "end": "2026-12-06T15:00",
+      "venue": "Textilsammlung Max Berk",
+      "description": "Interessante Einblicke und Insiderwissen ietet die Ausstellungskuratorin Dr. Kristine Scherer zu den Ausstellungsobjekten udn Preistr&auml;gerinnen des Lotte Hofmann-Textilkunstpreises 2026. Geb&uuml;hr: 3 Euro zzgl. Museumseintritt",
+      "source": "https://www.heidelberg.de/HD/Leben/veranstaltungskalender.html",
+      "sourceName": "Heidelberg official event calendar",
+      "sourceIsGeneral": true,
+      "officialEventId": "30792355"
+    },
+    {
+      "id": "mannheim-calendar-reise-zum-mond-2026-12-06-1500",
+      "title": "Reise zum Mond",
+      "city": "mannheim",
+      "category": "community",
+      "start": "2026-12-06T15:00",
+      "end": "2026-12-06T17:00",
+      "approximateEnd": true,
+      "venue": "Opal",
+      "description": "Der Krieg ist vorbei. Doch ist Genügsamkeit nicht jedermanns Sache. Die Mitglieder des Kanonenklubs haben ihr neues Ziel schnell am Himmel ausgemacht: den Mond.",
+      "source": "https://www.mannheim.de/de/veranstaltung/reise-zum-mond-5",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-offentliche-fuhrung-durch-die-stadtgeschichtliche-ausstellung-2026-12-06-1500",
+      "title": "Öffentliche Führung durch die Stadtgeschichtliche Ausstellung",
+      "city": "mannheim",
+      "category": "culture",
+      "start": "2026-12-06T15:00",
+      "end": "2026-12-06T17:00",
+      "approximateEnd": true,
+      "venue": "Marchivum",
+      "description": "Führung | Erleben Sie bei einem Rundgang die Highlights der Ausstellung \"Typisch Mannheim\", die Ihnen ein Guide kurzweilig vermittelt.",
+      "source": "https://www.mannheim.de/de/veranstaltung/oeffentliche-fuehrung-durch-die-stadtgeschichtliche-ausstellung-5",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-des-kaisers-neue-kleider-2026-12-06-1500",
+      "title": "Des Kaisers neue Kleider",
+      "city": "mannheim",
+      "category": "community",
+      "start": "2026-12-06T15:00",
+      "end": "2026-12-06T17:00",
+      "approximateEnd": true,
+      "venue": "Oststadt Theater",
+      "description": "für Kinder ab 6 Jahren und die ganze Familie",
+      "source": "https://www.mannheim.de/de/veranstaltung/des-kaisers-neue-kleider-2",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-offentliche-fuhrung-durch-die-ns-ausstellung-2026-12-06-1600",
+      "title": "Öffentliche Führung durch die NS-Ausstellung",
+      "city": "mannheim",
+      "category": "culture",
+      "start": "2026-12-06T16:00",
+      "end": "2026-12-06T18:00",
+      "approximateEnd": true,
+      "venue": "Marchivum",
+      "description": "Führung | Erleben Sie bei einem Rundgang ausgewählte Werke der Ausstellung \"Was hat das mit mir zu tun?\", die Ihnen ein Guide vermittelt.",
+      "source": "https://www.mannheim.de/de/veranstaltung/oeffentliche-fuehrung-durch-die-ns-ausstellung-3",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "sap-arena-hbl-rhein-neckar-lowen-vs-tvb-stuttgart-2026-12-06-1600",
+      "title": "HBL: Rhein-Neckar Löwen vs. TVB Stuttgart",
+      "city": "mannheim",
+      "category": "sports",
+      "start": "2026-12-06T16:00",
+      "end": "2026-12-06T18:30",
+      "approximateEnd": true,
+      "venue": "SAP Arena Mannheim",
+      "description": "Rhein-Neckar Löwen at SAP Arena. The advertised start time is exact; the end is estimated only for overlap planning.",
+      "source": "https://saparena.de/events/hbl-rhein-neckar-loewen-vs-tvb-stuttgart-2508",
+      "sourceName": "SAP Arena sports, concerts & shows"
+    },
+    {
+      "id": "mannheim-calendar-anne-folger-coming-home-for-christmas-2026-12-06-1700",
+      "title": "Anne Folger - Coming home for Christmas",
+      "city": "mannheim",
+      "category": "music",
+      "start": "2026-12-06T17:00",
+      "end": "2026-12-06T19:00",
+      "approximateEnd": true,
+      "venue": "Schatzkistl",
+      "description": "Alle Jahr' rapider kommt der Weihnachtstrubel. Dieser humorvolle und musikalische Polarexpress holt Sie ab in die stimmungsvollste Zeit des Jahres.",
+      "source": "https://www.mannheim.de/de/veranstaltung/anne-folger-coming-home-for-christmas",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-advent-in-der-tiefgarage-2026-12-06-1700",
+      "title": "Advent in der Tiefgarage",
+      "city": "mannheim",
+      "category": "community",
+      "start": "2026-12-06T17:00",
+      "end": "2026-12-06T19:00",
+      "approximateEnd": true,
+      "venue": "Tiefgarage N1 unter dem Stadthaus Mannheim, 2. UG",
+      "description": "Das traditionelle Adventskonzert in der Tiefgarage unterhalb des Mannheimer Stadthauses (N1) hat mittlerweile seinen festen Platz am 2. Adventssonntag.",
+      "source": "https://www.mannheim.de/de/veranstaltung/advent-in-der-tiefgarage-0",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-nikolauskonzert-der-mannheimer-blaserphilharmonie-swinging-santa-claus-mbp-feat-janice-dixon-2026-12-06-1700",
+      "title": "Nikolauskonzert der Mannheimer Bläserphilharmonie - Swinging Santa Claus (MBP feat. Janice Dixon)",
+      "city": "mannheim",
+      "category": "community",
+      "start": "2026-12-06T17:00",
+      "end": "2026-12-06T19:00",
+      "approximateEnd": true,
+      "venue": "Rosengarten",
+      "description": "Die Mannheimer Bläserphilharmonie präsentiert bei ihrem Nikolauskonzert ein amerikanisches Programm mit einem sinfonischen ersten Teil und einem swingenden zweiten Teil voller Weihnachtsklassiker.",
+      "source": "https://www.mannheim.de/de/veranstaltung/nikolauskonzert-der-mannheimer-blaeserphilharmonie-swinging-santa-claus-mbp-feat-janice-dixon",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-die-monnemer-mauer-2026-12-06-1800",
+      "title": "Die Monnemer Mauer",
+      "city": "mannheim",
+      "category": "community",
+      "start": "2026-12-06T18:00",
+      "end": "2026-12-06T20:00",
+      "approximateEnd": true,
+      "venue": "Rhein Neckar Theater",
+      "description": "Wir schreiben das Jahr 1989. Wie wir aus den Geschichtsbüchern wissen, war Mannheim zu diesem Zeitpunkt noch geteilt.",
+      "source": "https://www.mannheim.de/de/veranstaltung/die-monnemer-mauer-0",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-deutsche-staatsphilharmonie-rheinland-pfalz-2-abo-konzert-mannheim-berlioz-beethoven-brahms-2026-12-06-1800",
+      "title": "Deutsche Staatsphilharmonie Rheinland-Pfalz: 2. Abo-Konzert Mannheim - Berlioz, Beethoven, Brahms",
+      "city": "mannheim",
+      "category": "music",
+      "start": "2026-12-06T18:00",
+      "end": "2026-12-06T20:00",
+      "approximateEnd": true,
+      "venue": "Rosengarten",
+      "description": "Der größte Zweifler der Musikgeschichte war vielleicht Brahms. Aber er hatte auch einen besonders schweren Stand. Was sollte schon noch kommen nach Beethovens Tod.",
+      "source": "https://www.mannheim.de/de/veranstaltung/deutsche-staatsphilharmonie-rheinland-pfalz-2-abo-konzert-mannheim-berlioz-beethoven-brahms",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-die-dreigroschenoper-2026-12-06-1800",
+      "title": "Die Dreigroschenoper",
+      "city": "mannheim",
+      "category": "community",
+      "start": "2026-12-06T18:00",
+      "end": "2026-12-06T20:00",
+      "approximateEnd": true,
+      "venue": "Nationaltheater Mannheim - Altes Kino Franklin",
+      "description": "Glamour, Glanz und düstere Sündenstimmung à la »Babylon Berlin«: Bertolt Brechts »Die Dreigroschenoper« wurde zu einem der erfolgreichsten Stücke des 20.",
+      "source": "https://www.mannheim.de/de/veranstaltung/die-dreigroschenoper-0",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-kabarett-dusche-hurra-wir-storen-noch-2026-12-06-1800",
+      "title": "Kabarett Dusche - Hurra, wir stören noch!",
+      "city": "mannheim",
+      "category": "community",
+      "start": "2026-12-06T18:00",
+      "end": "2026-12-06T20:00",
+      "approximateEnd": true,
+      "venue": "Klapsmühl&#039; am Rathaus",
+      "description": "Das 54. Programm mit Josefin Lössl, Wolfgang Schmitter, Hans Georg Sütsch Text und Regie: Wolfgang Marschall",
+      "source": "https://www.mannheim.de/de/veranstaltung/kabarett-dusche-hurra-wir-stoeren-noch-16",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-kurpfalzisches-kammerorchester-3-mannheimer-schlosskonzert-2026-12-06-1800",
+      "title": "Kurpfälzisches Kammerorchester: 3. Mannheimer Schlosskonzert",
+      "city": "mannheim",
+      "category": "music",
+      "start": "2026-12-06T18:00",
+      "end": "2026-12-06T20:00",
+      "approximateEnd": true,
+      "venue": "Schloss Mannheim",
+      "description": "Seit Jahren bereichern die Mannheimer Schlosskonzerte die klassische Musiklandschaft der Region.",
+      "source": "https://www.mannheim.de/de/veranstaltung/kurpfaelzisches-kammerorchester-3-mannheimer-schlosskonzert-0",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-jazzgpt-xmas-special-2026-12-06-1800",
+      "title": "JazzGPT – Xmas Special",
+      "city": "mannheim",
+      "category": "music",
+      "start": "2026-12-06T18:00",
+      "end": "2026-12-06T20:00",
+      "approximateEnd": true,
+      "venue": "Theater oliv",
+      "description": "JazzGPT – Xmas SpecialKonzert",
+      "source": "https://www.mannheim.de/de/veranstaltung/jazzgpt-xmas-special",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-luan-2026-12-06-1900",
+      "title": "Luan",
+      "city": "mannheim",
+      "category": "community",
+      "start": "2026-12-06T19:00",
+      "end": "2026-12-06T21:00",
+      "approximateEnd": true,
+      "venue": "Capitol Mannheim",
+      "description": "Seine Biografie lässt erahnen, dass er sich für sein Live-Programm, die „Luan Comedy Show“, nichts aus den Fingern saugen muss. Denn sein Leben ist sein Programm.",
+      "source": "https://www.mannheim.de/de/veranstaltung/luan",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "heidelberg-28700700",
+      "title": "The Music of Queen Live mit Valentin Findling",
+      "city": "heidelberg",
+      "category": "music",
+      "start": "2026-12-06T20:00",
+      "end": "2026-12-06T20:00",
+      "venue": "Congress Center",
+      "description": "&bdquo;The Music of Queen Live&ldquo; ist weit mehr als ein Tribute &ndash; es ist eine leidenschaftliche, detailverliebte Hommage an eine der gr&ouml;&szlig;ten Rockbands aller Zeiten und z&auml;hlt zu den authentischsten Queen-Tributeshows der Gegenwart. Von G&auml;nsehautmomenten bis zu epischen Hymnen lassen Valentin Findling und seine Live-Band den Mythos Queen eindrucksvoll wieder auferstehe",
+      "source": "https://www.eventim.de/artist/the-music-of-queen-live/",
+      "sourceName": "Heidelberg official event calendar",
+      "sourceIsGeneral": false,
+      "officialEventId": "28700700"
+    },
+    {
+      "id": "mannheim-calendar-creme-de-la-kramer-2026-12-06-2000",
+      "title": "Crème de la Krämer",
+      "city": "mannheim",
+      "category": "community",
+      "start": "2026-12-06T20:00",
+      "end": "2026-12-06T22:00",
+      "approximateEnd": true,
+      "venue": "Oststadt Theater",
+      "description": "DIE One-Woman-Show!",
+      "source": "https://www.mannheim.de/de/veranstaltung/creme-de-la-kraemer",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-soen-reliance-tour-2026-2026-12-06-2000",
+      "title": "SOEN - Reliance Tour 2026",
+      "city": "mannheim",
+      "category": "music",
+      "start": "2026-12-06T20:00",
+      "end": "2026-12-06T22:00",
+      "approximateEnd": true,
+      "venue": "Alte Feuerwache Mannheim",
+      "description": "Die schwedische Band SOEN bringt eine Flutwelle aus emotionaler Kraft und musikalischer Präzision auf die Bühne und verbindet Progressive Metal, Post-Rock-Atmosphäre und melodische Tiefe zu einem g",
+      "source": "https://www.mannheim.de/de/veranstaltung/soen-reliance-tour-2026",
+      "sourceName": "Mannheim.de official event calendar"
+    },
+    {
+      "id": "mannheim-calendar-flamenco-christmas-silke-beck-y-companeros-2026-12-06-2000",
+      "title": "Flamenco Christmas - Silke Beck y Compañeros",
+      "city": "mannheim",
+      "category": "community",
+      "start": "2026-12-06T20:00",
+      "end": "2026-12-06T22:00",
+      "approximateEnd": true,
+      "venue": "Schatzkistl",
+      "description": "Zum Jahresende wird es wieder weihnachtlich auf der Schatzkistl Bühne!",
+      "source": "https://www.mannheim.de/de/veranstaltung/flamenco-christmas-silke-beck-y-companeros",
+      "sourceName": "Mannheim.de official event calendar"
     }
   ]
 }
