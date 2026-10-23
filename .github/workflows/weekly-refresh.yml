@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -29,10 +29,6 @@ jobs:
       - run: node scripts/refresh-events.mjs
         env:
           TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
-      - uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: 'chore: daily event refresh'
-          file_pattern: events.json
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
